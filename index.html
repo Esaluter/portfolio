@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Интерактивная карта-портфолио Евгения">
+  <title>Evgeny • Portfolio & Experiments</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main id="app" class="app" aria-label="Интерактивная карта портфолио" data-i18n-aria="aria.app">
+    <section class="game-shell" id="gameShell">
+      <canvas id="gameCanvas" width="1600" height="900" aria-label="Интерактивная карта" data-i18n-aria="aria.canvas"></canvas>
+
+      <header class="hud" id="hud">
+        <div class="hud-brand">
+          <strong data-i18n="site.title">Evgeny • Portfolio & Experiments</strong>
+        </div>
+        <div class="hud-actions">
+          <button class="hud-button" id="languageToggle" type="button" aria-label="Переключить язык" data-i18n-aria="aria.languageToggle">RU</button>
+          <button class="hud-button hud-button-wide" id="soundToggle" type="button">Звук: выкл</button>
+          <button class="hud-button menu-button" id="menuButton" type="button"><span aria-hidden="true">☰</span> <span data-i18n="hud.menu">Меню</span></button>
+        </div>
+      </header>
+
+      <div class="controls-hint" id="controlsHint">
+        <span data-i18n="controls.move">WASD / ←↑→↓ — идти</span><br>
+        <span data-i18n="controls.click">Клик — идти к точке</span><br>
+        <span data-i18n="controls.interact">E / Enter — открыть</span>
+      </div>
+
+      <div class="interaction-prompt" id="interactionPrompt" hidden>
+        <kbd>E</kbd> <span id="interactionText">Открыть</span>
+      </div>
+
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      <div class="transition-layer" id="transitionLayer" aria-hidden="true"></div>
+
+      <div class="modal-layer menu-layer" id="menuLayer" hidden>
+        <div class="menu-card" role="dialog" aria-modal="true" aria-labelledby="menuTitle">
+          <div class="menu-heading">
+            <div>
+              <p class="eyebrow" data-i18n="menu.eyebrow">Навигация</p>
+              <h2 id="menuTitle" data-i18n="menu.title">Куда отправимся?</h2>
+            </div>
+            <button class="icon-button" id="menuClose" type="button" aria-label="Закрыть меню" data-i18n-aria="aria.menuClose">×</button>
+          </div>
+
+          <nav class="menu-nav" aria-label="Разделы портфолио" data-i18n-aria="aria.menuNav">
+            <button type="button" data-menu-location="analytics" data-i18n="menu.analytics">Analytics</button>
+            <button type="button" data-menu-location="laboratory" data-i18n="menu.experiments">Experiments</button>
+            <button type="button" data-menu-location="about" data-i18n="menu.about">About Me</button>
+            <button type="button" data-menu-location="github" data-i18n="menu.github">GitHub</button>
+            <button type="button" data-menu-location="contacts" data-i18n="menu.contacts">Contacts</button>
+          </nav>
+
+          <div class="menu-settings">
+            <div>
+              <span data-i18n="menu.language">Язык</span>
+              <div class="segmented" aria-label="Язык" data-i18n-aria="aria.languageGroup">
+                <button type="button" data-language="ru">RU</button>
+                <button type="button" data-language="en">EN</button>
+              </div>
+            </div>
+            <div>
+              <span data-i18n="menu.sound">Звук</span>
+              <button class="small-setting-button" id="menuSoundToggle" type="button">Звук: выкл</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-layer" id="externalModal" hidden>
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="externalTitle">
+          <p class="eyebrow" data-i18n="external.eyebrow">Внешняя ссылка</p>
+          <h2 id="externalTitle">Перейти на GitHub?</h2>
+          <p id="externalText">Откроется внешний сайт.</p>
+          <div class="modal-actions">
+            <button class="button button-secondary" id="externalCancel" type="button" data-i18n="external.cancel">Остаться</button>
+            <button class="button" id="externalConfirm" type="button" data-i18n="external.confirm">Перейти</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro-layer" id="introScreen" hidden>
+        <div class="intro-card">
+          <p class="eyebrow" data-i18n="intro.eyebrow">Добро пожаловать</p>
+          <h1 data-i18n="intro.title">Привет, путник!</h1>
+          <p data-i18n="intro.text">Приглашаю тебя немного исследовать этот мир. Используй стрелочки / WASD или просто кликни мышкой.</p>
+          <button class="button intro-button" id="introStart" type="button" data-i18n="intro.start">В путь</button>
+        </div>
+      </div>
+
+      <div class="loading-layer" id="loadingScreen">
+        <div class="loading-card">
+          <div class="loading-compass" aria-hidden="true">✦</div>
+          <p class="eyebrow" data-i18n="loading.eyebrow">Интерактивное портфолио</p>
+          <h1 data-i18n="loading.title">Подготавливаем карту…</h1>
+          <p data-i18n="loading.text">Разворачиваем материк, проверяем мосты и будим путешественника.</p>
+          <div class="loading-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+        </div>
+      </div>
+
+      <div class="fallback" id="fallback" hidden>
+        <div class="fallback-card">
+          <p class="eyebrow" data-i18n="fallback.eyebrow">Запасная навигация</p>
+          <h1 data-i18n="fallback.title">Карта не смогла запуститься</h1>
+          <p data-i18n="fallback.text">Основные разделы всё равно доступны.</p>
+          <nav>
+            <a href="pages/analytics.html?from=analytics" data-i18n="menu.analytics">Аналитика</a>
+            <a href="pages/experiments.html?from=laboratory" data-i18n="menu.experiments">Эксперименты</a>
+            <a href="pages/about.html?from=about" data-i18n="menu.about">Обо мне</a>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" data-i18n="menu.github">GitHub</a>
+            <a href="pages/contacts.html?from=contacts" data-i18n="menu.contacts">Контакты</a>
+          </nav>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <noscript>
+    <div class="noscript">
+      <h1>Для интерактивной карты нужен JavaScript / JavaScript is required for the interactive map</h1>
+      <p><a href="pages/analytics.html">Analytics</a> · <a href="pages/experiments.html">Experiments</a> · <a href="pages/about.html">About Me</a> · <a href="pages/contacts.html">Contacts</a></p>
+    </div>
+  </noscript>
+
+  <script src="js/config.js" defer></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/world.js" defer></script>
+  <script src="js/pathfinding.js" defer></script>
+  <script src="js/audio.js" defer></script>
+  <script src="js/game.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Snake — Laboratory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a id="backLink" class="back-link" href="../">
+      <span aria-hidden="true">←</span>
+      <span data-i18n="backToPortfolio">Back to Portfolio</span>
+    </a>
+
+    <div class="language-switch" role="group" aria-label="Language">
+      <button class="language-button" type="button" data-lang="ru">RU</button>
+      <button class="language-button" type="button" data-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="game-column" aria-labelledby="gameTitle">
+      <div class="title-block">
+        <p class="eyebrow" data-i18n="eyebrow">LABORATORY // MINI EXPERIMENT</p>
+        <h1 id="gameTitle">SNAKE</h1>
+        <p class="subtitle" data-i18n="subtitle">Classic rules. The walls are only portals.</p>
+      </div>
+
+      <div class="score-row" aria-live="polite">
+        <div class="metric-card">
+          <span class="metric-label" data-i18n="score">Score</span>
+          <strong id="scoreValue" class="metric-value">0</strong>
+        </div>
+        <div id="bestCard" class="metric-card">
+          <span class="metric-label" data-i18n="best">Best</span>
+          <strong id="bestValue" class="metric-value">0</strong>
+        </div>
+        <div class="status-card">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="statusText" data-i18n="statusReady">Ready</span>
+        </div>
+      </div>
+
+      <div class="game-frame">
+        <canvas id="gameCanvas" width="600" height="600" aria-label="Snake game field"></canvas>
+
+        <div id="gameOverOverlay" class="game-over-overlay" hidden>
+          <div class="game-over-card">
+            <p class="overlay-kicker" data-i18n="experimentEnded">EXPERIMENT ENDED</p>
+            <h2 data-i18n="gameOver">Game Over</h2>
+            <p class="final-score-line">
+              <span data-i18n="yourScore">Your score</span>
+              <strong id="finalScoreValue">0</strong>
+            </p>
+
+            <form id="scoreForm" class="score-form" novalidate>
+              <label for="playerName" data-i18n="yourName">Your name</label>
+              <input
+                id="playerName"
+                name="playerName"
+                type="text"
+                maxlength="18"
+                autocomplete="nickname"
+                data-i18n-placeholder="namePlaceholder"
+                placeholder="Enter name"
+              >
+              <button id="saveScoreButton" class="button button-primary" type="submit" data-i18n="saveScore">Save Score</button>
+              <p id="formMessage" class="form-message" aria-live="polite"></p>
+            </form>
+
+            <button id="playAgainButton" class="button button-secondary" type="button" data-i18n="playAgain">Play Again</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="game-controls">
+        <button id="startButton" class="button button-primary" type="button" data-i18n="startGame">Start Game</button>
+        <button id="pauseButton" class="button button-secondary" type="button" disabled data-i18n="pause">Pause</button>
+      </div>
+
+      <div class="control-hint" aria-label="Controls">
+        <span data-i18n="controls">Controls</span>
+        <div class="keys" aria-hidden="true">
+          <kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd>
+          <span class="or" data-i18n="or">or</span>
+          <kbd>↑</kbd><kbd>←</kbd><kbd>↓</kbd><kbd>→</kbd>
+          <span class="separator">•</span>
+          <kbd>SPACE</kbd>
+          <span data-i18n="pauseHint">pause</span>
+        </div>
+      </div>
+    </section>
+
+    <aside class="leaderboard-panel" aria-labelledby="leaderboardTitle">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow" data-i18n="localData">LOCAL DATA</p>
+          <h2 id="leaderboardTitle" data-i18n="leaderboard">Leaderboard</h2>
+        </div>
+        <span class="top-ten-badge">TOP 10</span>
+      </div>
+
+      <ol id="leaderboardList" class="leaderboard-list"></ol>
+      <p id="emptyLeaderboard" class="empty-state" data-i18n="noScores">No saved scores yet.</p>
+
+      <button id="clearLeaderboardButton" class="text-button" type="button" data-i18n="clearLeaderboard">Clear leaderboard</button>
+
+      <div class="lab-note">
+        <span class="lab-note-mark" aria-hidden="true">i</span>
+        <p data-i18n="localOnly">Records are stored only in this browser.</p>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

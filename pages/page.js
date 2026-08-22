@@ -23,7 +23,8 @@
       Мне особенно нравится разбираться, как устроены процессы, находить проблемы и искать способы сделать их понятнее и эффективнее.
       Этот сайт я сделал как общее пространство для своего портфолио. Здесь буду собирать проекты, эксперименты и просто интересные вещи, которые делаю и изучаю.`,
       
-      laboratory: `В Лаборатории собраны мои небольшие проекты, эксперименты и практические решения.
+      laboratory: 
+      `В Лаборатории собраны мои небольшие проекты, эксперименты и практические решения.
         Здесь есть автоматизация, инструменты, игры и просто идеи, которые мне было интересно превратить во что-то работающее.
 
         <a href="https://datalens.yandex/0w26s5wwwfwqj?_theme=dark" target="_blank" rel="noopener noreferrer">Открыть Лабораторию в DataLens →</a>`,
@@ -55,7 +56,8 @@
       What I enjoy most is understanding how processes work, finding problems, and looking for ways to make things clearer and more efficient.
       I built this website as a home for my portfolio. This is where I’ll keep collecting my projects, experiments, and other interesting things I build and explore.`,
       
-      laboratory: `The Laboratory is a collection of my smaller projects, experiments, and practical solutions.
+      laboratory: 
+      `The Laboratory is a collection of my smaller projects, experiments, and practical solutions.
         It includes automation, tools, games, and ideas that I simply found interesting enough to turn into something that works.
 
         <a href="https://datalens.yandex/0w26s5wwwfwqj?_theme=dark" target="_blank" rel="noopener noreferrer">Open the Laboratory in DataLens →</a>`,

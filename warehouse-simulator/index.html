@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Симулятор склада</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <header class="topbar">
+      <a class="back-link" href="../index.html" id="backLink" data-i18n="back">← Вернуться в портфолио</a>
+      <div class="brand">
+        <div class="brand-mark" data-i18n="app.mark">СС</div>
+        <div><h1 data-i18n="app.title">Симулятор склада</h1><p data-i18n="app.subtitle">Балансируй поток. Спасай SLA.</p></div>
+      </div>
+      <div class="header-actions">
+        <button class="ghost-btn compact-btn" id="helpBtn" type="button" data-i18n="nav.howTo">? Как играть</button>
+        <button class="ghost-btn compact-btn" id="soundBtn" type="button">🔇 Звук</button>
+        <button class="ghost-btn" id="langToggle" type="button">EN</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="kpi-grid" aria-label="Warehouse KPIs">
+        <article class="kpi-card"><span data-i18n="kpi.money">Деньги</span><strong id="moneyKpi">$0</strong></article>
+        <article class="kpi-card"><span class="with-tip" data-i18n="kpi.sla" data-tooltip-key="tooltip.sla">SLA</span><strong id="slaKpi">100%</strong></article>
+        <article class="kpi-card"><span class="with-tip" data-i18n="kpi.incoming" data-tooltip-key="tooltip.incoming">Вход / мин</span><strong id="incomingKpi">0</strong></article>
+        <article class="kpi-card"><span data-i18n="kpi.shipped">Отгружено</span><strong id="shippedKpi">0</strong></article>
+        <article class="kpi-card"><span data-i18n="kpi.time">Игровое время</span><strong id="timeKpi">00:00</strong></article>
+        <article class="kpi-card"><span class="with-tip" data-i18n="kpi.freeStaff" data-tooltip-key="tooltip.freeStaff">Свободные</span><strong id="freeStaffKpi">0</strong></article>
+        <article class="kpi-card speed-kpi"><span data-i18n="kpi.speed">Скорость</span><strong id="speedKpi">×1</strong></article>
+      </section>
+
+      <section id="criticalBanner" class="critical-banner hidden" aria-live="polite">
+        <strong data-i18n="warning.critical">КРИТИЧЕСКИЙ SLA — стабилизируй склад до остановки</strong>
+        <span><span data-i18n="warning.shutdownIn">Остановка через</span> <b id="shutdownCountdown">—</b><span data-i18n="unit.secondsShort">с</span></span>
+      </section>
+
+      <section class="panel warehouse-panel">
+        <div class="section-heading warehouse-heading">
+          <div><span class="eyebrow" data-i18n="section.operations">ОПЕРАЦИИ</span><h2 data-i18n="flow.title">Складской поток</h2></div>
+          <div class="warehouse-heading-right">
+            <div class="floor-legend"><span><i class="legend-worker"></i><b data-i18n="flow.legend.worker">Работник</b></span><span><i class="legend-trainee"></i><b data-i18n="flow.legend.trainee">Стажёр</b></span><span><i class="legend-box"></i><b data-i18n="flow.legend.goods">Товар в очереди</b></span></div>
+            <div class="speed-controls" aria-label="Game speed"><button type="button" class="speed-btn" data-speed="0">⏸</button><button type="button" class="speed-btn active" data-speed="1">×1</button><button type="button" class="speed-btn" data-speed="2">×2</button><button type="button" class="speed-btn" data-speed="4">×4</button></div>
+          </div>
+        </div>
+        <div id="firstRunHints" class="first-run-hints hidden">
+          <strong data-i18n="hint.title">Первая смена?</strong>
+          <span data-i18n="hint.1">Поток идёт слева → направо.</span><span data-i18n="hint.2">Очереди показывают, где не хватает мощности.</span><span data-i18n="hint.3">Перебрасывай людей кнопками − / +.</span><span data-i18n="hint.4">При критическом SLA есть немного времени на спасение.</span>
+          <button id="dismissHintsBtn" type="button" class="hint-close" data-i18n="hint.dismiss">Скрыть подсказки</button>
+        </div>
+        <div class="inbound-strip"><div><span data-i18n="flow.inbound">Очередь на входе</span><strong id="inboundAmount">0</strong></div><div class="mini-progress"><div id="inboundBar"></div></div></div>
+        <div class="warehouse-hall"><div class="hall-grid"></div><div class="flow-rail" aria-hidden="true"></div><div id="warehouseFlow" class="warehouse-flow"></div></div>
+      </section>
+
+      <section class="lower-grid">
+        <article class="panel staff-panel" id="staff-panel">
+          <div class="section-heading compact"><div><span class="eyebrow" data-i18n="section.people">ЛЮДИ</span><h2 data-i18n="staff.title">Персонал</h2></div></div>
+          <div class="staff-summary"><div><span data-i18n="staff.free">Свободно</span><strong id="freeStaffDetail">0</strong></div><div><span data-i18n="staff.total">Всего</span><strong id="totalStaffDetail">0</strong></div></div>
+          <div id="freeStaffIcons" class="people-row"></div>
+          <div class="staff-actions"><button id="hireBtn" class="primary-btn" type="button"></button><button id="fireBtn" class="danger-btn" type="button" data-i18n="staff.fire">Уволить свободного</button></div>
+          <p class="cost-note"><span data-i18n="staff.hireCost">Стоимость найма</span>: <strong id="hireCost">$0</strong></p>
+        </article>
+
+        <article class="panel upgrades-panel">
+          <div class="section-heading compact"><div><span class="eyebrow" data-i18n="section.system">СИСТЕМА</span><h2 data-i18n="global.title">Общие улучшения</h2></div></div>
+          <div id="globalUpgrades" class="global-upgrades"></div>
+        </article>
+
+        <article class="panel operations-panel">
+          <div class="live-columns">
+            <section class="effects-section"><div class="mini-section-title"><span class="eyebrow" data-i18n="section.live">СМЕНА</span><h2 data-i18n="effects.title">Активные эффекты</h2></div><div id="activeEffects" class="active-effects"></div></section>
+            <section class="log-section"><div class="mini-section-title"><h2 data-i18n="events.title">Журнал смены</h2></div><div id="eventLog" class="event-log"></div></section>
+          </div>
+        </article>
+      </section>
+
+      <section class="help-strip panel"><div><strong data-i18n="help.title">Как играть</strong><span data-i18n="help.short">Перебрасывай людей кнопками − / +, следи за буферами и вкладывайся до того, как очереди превратятся в обвал SLA.</span></div><button id="helpStripBtn" class="ghost-btn" type="button" data-i18n="help.open">Открыть правила</button></section>
+    </main>
+  </div>
+
+  <div id="startOverlay" class="overlay visible">
+    <div class="modal start-modal">
+      <div class="modal-topline"><div class="modal-kicker" data-i18n="section.control">УПРАВЛЕНИЕ СКЛАДОМ</div><div class="modal-inline-actions"><button id="startHelpBtn" class="ghost-btn" type="button" data-i18n="nav.howTo">? Как играть</button><button id="startLangToggle" class="ghost-btn" type="button">EN</button></div></div>
+      <h2 data-i18n="start.title">Выбери смену</h2><p data-i18n="start.subtitle">Любой склад выглядит спокойным, пока один процесс не начинает отставать.</p>
+      <div id="scenarioList" class="scenario-list"></div><button id="startBtn" class="primary-btn large" type="button" data-i18n="start.play">Начать смену</button>
+    </div>
+  </div>
+
+  <div id="helpOverlay" class="overlay"><div class="modal help-modal"><div class="modal-kicker" data-i18n="help.title">Как играть</div><h2 data-i18n="help.title">Как играть</h2><p data-i18n="help.intro"></p><ol class="help-list"><li data-i18n="help.1"></li><li data-i18n="help.2"></li><li data-i18n="help.3"></li><li data-i18n="help.4"></li><li data-i18n="help.5"></li><li data-i18n="help.6"></li><li data-i18n="help.7"></li><li data-i18n="help.8"></li><li data-i18n="help.9"></li></ol><button id="closeHelpBtn" class="primary-btn" type="button" data-i18n="help.close">Понятно</button></div></div>
+
+  <div id="eventOverlay" class="overlay"><div class="modal event-modal"><div id="eventType" class="modal-kicker">РЕШЕНИЕ</div><h2 id="eventTitle">Событие</h2><p id="eventBody"></p><div id="eventChoices" class="event-choices"></div></div></div>
+
+  <div id="shutdownOverlay" class="overlay"><div class="modal shutdown-modal"><div class="shutdown-icon">⚠</div><h2 data-i18n="shutdown.title">СКЛАД ОСТАНОВЛЕН</h2><p data-i18n="shutdown.subtitle">Критический SLA держался слишком долго. Операция остановлена.</p><div class="shutdown-summary"><div><span data-i18n="shutdown.rating">Оценка смены</span><strong id="shutdownRating">—</strong></div><div><span data-i18n="shutdown.quote">Послесменная записка</span><em id="shutdownQuote">—</em></div></div><div id="shutdownStats" class="shutdown-stats"></div><div class="shutdown-charts"><article><span data-i18n="shutdown.chartSla">История SLA</span><canvas id="slaChart" width="320" height="110"></canvas></article><article><span data-i18n="shutdown.chartIncoming">История входящего потока</span><canvas id="incomingChart" width="320" height="110"></canvas></article></div><div class="modal-actions"><button id="restartBtn" class="primary-btn" type="button" data-i18n="shutdown.restart">Повторить смену</button><button id="chooseScenarioBtn" class="ghost-btn" type="button" data-i18n="shutdown.choose">Выбрать другой сценарий</button></div></div></div>
+
+  <div id="toast" class="toast" aria-live="polite"></div><div id="transferLayer" class="transfer-layer" aria-hidden="true"></div>
+  <script src="translations.js"></script><script src="scenarios.js"></script><script src="events.js"></script><script src="script.js"></script>
+</body></html>

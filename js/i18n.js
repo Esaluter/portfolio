@@ -62,7 +62,11 @@ window.PortfolioMap = window.PortfolioMap || {};
       "location.contacts.title": "Контакты",
       "location.contacts.subtitle": "Станция связи",
       "location.laboratory.title": "Лаборатория",
-      "location.laboratory.subtitle": "Эксперименты"
+      "location.laboratory.subtitle": "Эксперименты",
+      "location.snake.title": "Змейка",
+      "location.snake.subtitle": "Классическая браузерная игра",
+      "location.warehouse.title": "Симулятор склада",
+      "location.warehouse.subtitle": "Управление складскими процессами"
     },
     en: {
       "meta.title": "Evgeny • Portfolio & Experiments",
@@ -122,7 +126,11 @@ window.PortfolioMap = window.PortfolioMap || {};
       "location.contacts.title": "Contacts",
       "location.contacts.subtitle": "Signal station",
       "location.laboratory.title": "Laboratory",
-      "location.laboratory.subtitle": "Experiments"
+      "location.laboratory.subtitle": "Experiments",
+      "location.snake.title": "Snake",
+      "location.snake.subtitle": "Classic browser game",
+      "location.warehouse.title": "Warehouse Simulator",
+      "location.warehouse.subtitle": "Warehouse operations management"
     }
   };
 

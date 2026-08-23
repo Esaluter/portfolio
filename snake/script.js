@@ -4,7 +4,7 @@
 // Configuration
 // ------------------------------------------------------------
 
-const PORTFOLIO_URL = 'https://esaluter.github.io/portfolio/';
+const PORTFOLIO_URL = '../index.html?returnFrom=snake';
 
 const CONFIG = {
   columns: 24,

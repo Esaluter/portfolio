@@ -49,8 +49,10 @@ window.PortfolioMap.CONFIG = {
   assets: {
     baseMap: "assets/map/base-map.jpg",
     analytics: "assets/locations/analytics.png",
+    snake: "assets/locations/snake.png",
+    warehouse: "assets/locations/warehouse.png",
     player: "assets/player/player.png"
-  },
+},
 
   debug: {
     showGrid: false,

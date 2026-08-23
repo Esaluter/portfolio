@@ -109,6 +109,27 @@ window.PortfolioMap = window.PortfolioMap || {};
       action: { type: "internal", href: "pages/about.html" }
     },
     {
+      id: "snake",
+      titleKey: "location.snake.title",
+      subtitleKey: "location.snake.subtitle",
+      x: 610,
+      y: 300,
+      width: 190,
+      height: 150,
+      collisionRect: { x: 645, y: 350, width: 120, height: 82 },
+      interactionPoint: { x: 785, y: 455 },
+      label: { x: 700, y: 300 },
+      category: "major",
+      render: {
+        assetKey: "snake",
+        x: 610,
+        y: 300,
+        width: 190,
+        height: 150
+      },
+      action: { type: "internal", href: "snake/index.html" }
+    },
+    {
       id: "github",
       titleKey: "location.github.title",
       subtitleKey: "location.github.subtitle",
@@ -121,6 +142,27 @@ window.PortfolioMap = window.PortfolioMap || {};
       label: { x: 1122, y: 385 },
       category: "major",
       action: { type: "external", configKey: "github" }
+    },
+    {
+      id: "warehouse",
+      titleKey: "location.warehouse.title",
+      subtitleKey: "location.warehouse.subtitle",
+      x: 1270,
+      y: 335,
+      width: 270,
+      height: 205,
+      collisionRect: { x: 1315, y: 400, width: 175, height: 100 },
+      interactionPoint: { x: 1230, y: 520 },
+      label: { x: 1400, y: 335 },
+      category: "major",
+      render: {
+        assetKey: "warehouse",
+        x: 1270,
+        y: 335,
+        width: 270,
+        height: 205
+      },
+      action: { type: "internal", href: "warehouse-simulator/index.html" }
     },
     {
       id: "contacts",

@@ -26,6 +26,7 @@
   const $$ = (selector) => [...document.querySelectorAll(selector)];
 
   const dom = {
+    backLink: $('#backLink'),
     money: $('#moneyKpi'),
     sla: $('#slaKpi'),
     incoming: $('#incomingKpi'),
@@ -77,8 +78,13 @@
     incomingChart: $('#incomingChart')
   };
 
-  let language = localStorage.getItem(STORAGE.lang) || 'ru';
-  if (!window.WAREHOUSE_TRANSLATIONS[language]) language = 'en';
+  const queryLanguage = new URLSearchParams(window.location.search).get('lang');
+  let language = queryLanguage || localStorage.getItem(STORAGE.lang) || 'ru';
+
+  if (!window.WAREHOUSE_TRANSLATIONS[language]) {
+    language = 'ru';
+  }
+  localStorage.setItem(STORAGE.lang, language);
 
   let selectedScenarioId = 'endless';
   let state = null;
@@ -703,6 +709,7 @@
 
   function renderI18n() {
     document.documentElement.lang = language;
+    dom.backLink.href = `../index.html?returnFrom=warehouse&lang=${language}`;
     document.title = t('app.title');
     $$('[data-i18n]').forEach((node) => { node.textContent = t(node.dataset.i18n); });
     $$('[data-tooltip-key]').forEach((node) => { node.dataset.tip = t(node.dataset.tooltipKey); });

@@ -254,7 +254,7 @@ const state = {
 // ------------------------------------------------------------
 
 function initialize() {
-  elements.backLink.href = PORTFOLIO_URL;
+  elements.backLink.href = `${PORTFOLIO_URL}&lang=${state.language}`;
   resetBoardState();
   applyLanguage(state.language, false);
   updateScoreUI();
@@ -290,6 +290,7 @@ function applyLanguage(language, persist = true) {
   if (!translations[language]) return;
 
   state.language = language;
+  elements.backLink.href = `${PORTFOLIO_URL}&lang=${state.language}`;
   document.documentElement.lang = language;
 
   document.querySelectorAll('[data-i18n]').forEach((node) => {

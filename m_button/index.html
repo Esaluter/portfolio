@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Генератор денег</title>
+
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    #money {
+      font-size: 42px;
+      margin: 20px;
+    }
+
+    button {
+      font-size: 28px;
+      font-weight: bold;
+      padding: 25px 45px;
+      border: none;
+      border-radius: 20px;
+      background: #e53935;
+      color: white;
+      cursor: pointer;
+      box-shadow: 0 8px 0 #8e1714;
+      transition: 0.1s;
+    }
+
+    button:hover {
+      transform: scale(1.03);
+    }
+
+    button:active {
+      transform: translateY(6px);
+      box-shadow: 0 2px 0 #8e1714;
+    }
+
+    #message {
+      height: 30px;
+      margin-top: 25px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>ГЕНЕРАТОР ДЕНЕГ</h1>
+
+  <div id="money">0 ₽</div>
+
+  <button onclick="generateMoney()">
+    СГЕНЕРИРОВАТЬ ДЕНЬГИ
+  </button>
+
+  <div id="message"></div>
+
+  <script>
+    let money = 0;
+
+    function generateMoney() {
+      const amount = Math.floor(Math.random() * 9000) + 1000;
+
+      money += amount;
+
+      document.getElementById("money").textContent =
+        money.toLocaleString("ru-RU") + " ₽";
+
+      document.getElementById("message").textContent =
+        `+${amount.toLocaleString("ru-RU")} ₽. Всё.`;
+    }
+  </script>
+
+</body>
+</html>

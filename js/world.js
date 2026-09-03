@@ -165,6 +165,48 @@ window.PortfolioMap = window.PortfolioMap || {};
       action: { type: "internal", href: "warehouse-simulator/index.html" }
     },
     {
+      id: "uselessBox",
+      titleKey: "location.uselessBox.title",
+      subtitleKey: "location.uselessBox.subtitle",
+
+      x: 900,
+      y: 690,
+      width: 170,
+      height: 120,
+
+      collisionRect: {
+        x: 930,
+        y: 730,
+        width: 110,
+        height: 65
+      },
+
+      interactionPoint: {
+        x: 885,
+        y: 785
+      },
+
+      label: {
+        x: 985,
+        y: 690
+      },
+
+      category: "major",
+
+      render: {
+        assetKey: "uselessBox",
+        x: 900,
+        y: 690,
+        width: 170,
+        height: 120
+      },
+
+      action: {
+        type: "internal",
+        href: "useless-box/index.html"
+      }
+    },
+    {
       id: "contacts",
       titleKey: "location.contacts.title",
       subtitleKey: "location.contacts.subtitle",

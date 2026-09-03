@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const PORTFOLIO_URL = "../index.html";
+  const PORTFOLIO_URL = "../index.html?returnFrom=uselessBox";
   const STORAGE_PREFIX = "uselessBox.";
   const MODELS = ["classic", "industrial", "raccoon"];
 
@@ -166,7 +166,7 @@
     });
     langButton.textContent = language === "ru" ? "RU / EN" : "EN / RU";
     modelName.textContent = dict.modelNames[model];
-    backLink.href = `${PORTFOLIO_URL}?lang=${language}`;
+    backLink.href = `${PORTFOLIO_URL}&lang=${language}`;
     populateTracks();
     write("language", language);
   }

@@ -280,41 +280,41 @@
     { id:"fakeExit", weight:2, minPresses:10, cooldown:7, seq:[A.open(),A.pose("peek",240),A.pose("rise",390),A.pose("reach",430),A.pose("press",190),A.off(),A.pose("hidden",500),A.close(470),A.wait(500),A.open(360,44),A.pose("peek",270),A.msg("check",600),A.pose("hidden",220,false),A.close(420)] },
     { id:"rebellion", weight:1.2, minPresses:12, cooldown:10, seq:[A.open(),A.pose("peek",250),A.pose("rise",380),A.pose("hover",430),A.msg("rebellion",950),A.pose("hidden",450),A.close(),A.wait(1700),A.msg("rebellion2",550),A.open(300),A.pose("press",390),A.off(150),A.pose("hidden",280),A.close(330,true)] },
     {
-  id:"raccoonLogic",
-  weight:5,
-  minPresses:4,
-  cooldown:5,
-  raccoonOnly:true,
-  seq:[
-    A.open(),
-    A.pose("peek",250),
-    A.pose("rise",380),
-    A.pose("hover",430),
+      id:"raccoonLogic",
+      weight:5,
+      minPresses:4,
+      cooldown:5,
+      raccoonOnly:true,
+      seq:[
+        A.open(),
+        A.pose("peek",250),
+        A.pose("rise",380),
+        A.pose("hover",430),
 
-    A.msg("raccoonMaybe",900),
+        A.msg("raccoonMaybe",900),
 
-    A.pose("rise",300),
-    A.pose("peek",260),
-    A.pose("hidden",180,false),
-    A.close(500),
+        A.pose("rise",300),
+        A.pose("peek",260),
+        A.pose("hidden",180,false),
+        A.close(500),
 
-    A.wait(1200),
+        A.wait(1200),
 
-    A.msg("raccoonFine",550),
+        A.msg("raccoonFine",550),
 
-    A.open(420),
-    A.pose("peek",180),
-    A.pose("rise",260),
-    A.pose("reach",300),
-    A.pose("press",180),
-    A.off(180),
+        A.open(420),
+        A.pose("peek",180),
+        A.pose("rise",260),
+        A.pose("reach",300),
+        A.pose("press",180),
+        A.off(180),
 
-    A.pose("reach",180),
-    A.pose("rise",220),
-    A.pose("hidden",180,false),
-    A.close(450)
-  ]
-},
+        A.pose("reach",180),
+        A.pose("rise",220),
+        A.pose("hidden",180,false),
+        A.close(450)
+      ]
+    },
     { id:"wtf", weight:.8, minPresses:14, cooldown:12, seq:[A.msg("wtf",650),A.open(260,34),A.pose("peek",180),A.pose("hidden",150,false),A.close(230),A.wait(220),A.open(230,48),A.pose("rise",220),A.pose("peek",160),A.pose("rise",160),A.sfx("weird",1.1,.8),A.wait(160),A.pose("press",280),A.off(140),A.pose("hidden",260),A.close(300,true)] }
   ];
 
@@ -360,8 +360,6 @@
     activateAudio();
     busy = true;
     switchButton.disabled = true;
-    modelPrev.disabled = true;
-    modelNext.disabled = true;
 
     presses += 1;
     write("presses", presses);
@@ -382,8 +380,6 @@
       setPose("hidden");
       reactionMessage.classList.remove("show");
       switchButton.disabled = false;
-      modelPrev.disabled = false;
-      modelNext.disabled = false;
       busy = false;
     }
   }

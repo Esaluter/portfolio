@@ -50,7 +50,7 @@ button { -webkit-tap-highlight-color: transparent; }
 .hero { text-align:center; margin-top:3px; }
 .hero h1 { margin:4px 0 2px; font-size:clamp(1.7rem,4vw,3.15rem); letter-spacing:-.035em; }
 .subtitle { margin:0; color:var(--muted); font-size:clamp(.9rem,1.9vw,1.08rem); }
-.model-row { display:flex; justify-content:center; align-items:center; gap:10px; margin:12px 0 2px; color:var(--muted); }
+.model-row { display:flex; justify-content:center; align-items:center; gap:10px; margin:12px 0 2px; color:var(--muted);position: relative; z-index: 100; }
 .model-label { margin-right:4px; }
 .model-name { min-width:155px; text-align:center; color:var(--text); letter-spacing:.11em; font-size:.93rem; }
 .model-arrow { width:38px; height:38px; border-radius:50%; font-size:1.6rem; line-height:1; }

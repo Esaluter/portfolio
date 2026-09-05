@@ -68,7 +68,9 @@ window.PortfolioMap = window.PortfolioMap || {};
       "location.warehouse.title": "Симулятор склада",
       "location.warehouse.subtitle": "Управление складскими процессами",
       "location.uselessBox.title": "Бесполезная коробка",
-      "location.uselessBox.subtitle": "Не трогай тумблер"
+      "location.uselessBox.subtitle": "Не трогай тумблер",
+      "location.cinema.title": "Кинотеатр",
+      "location.cinema.subtitle": "Фильмы, музыка и визуальные эксперименты"
     },
     en: {
       "meta.title": "Evgeny • Portfolio & Experiments",
@@ -134,7 +136,9 @@ window.PortfolioMap = window.PortfolioMap || {};
       "location.warehouse.title": "Warehouse Simulator",
       "location.warehouse.subtitle": "Warehouse operations management",
       "location.uselessBox.title": "Useless Box",
-      "location.uselessBox.subtitle": "Don't touch the switch"
+      "location.uselessBox.subtitle": "Don't touch the switch",
+      "location.cinema.title": "Cinema",
+      "location.cinema.subtitle": "Films, music & visual experiments"
     }
   };
 

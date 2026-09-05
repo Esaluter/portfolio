@@ -52,7 +52,8 @@ window.PortfolioMap.CONFIG = {
     snake: "assets/locations/snake.png",
     warehouse: "assets/locations/warehouse.png",
     uselessBox: "assets/locations/useless-box.png",
-    player: "assets/player/player.png"
+    player: "assets/player/player.png",
+    cinema: "assets/locations/cinema.png",
 },
 
   debug: {

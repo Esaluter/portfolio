@@ -21,9 +21,14 @@ window.PortfolioMap = window.PortfolioMap || {};
         { x: 520, y: 555 },
         { x: 460, y: 505 },
         { x: 455, y: 445 },
-        { x: 500, y: 382 },
-        { x: 575, y: 330 },
-        { x: 660, y: 295 },
+        { x: 470, y: 380 },
+        // новый карман вокруг кинотеатра
+        { x: 455, y: 330 },
+        { x: 470, y: 270 },
+        { x: 510, y: 220 },
+        { x: 575, y: 205 },
+        // возвращаемся к старому маршруту
+        { x: 660, y: 245 },
         { x: 725, y: 250 },
         { x: 772, y: 205 },
         { x: 835, y: 175 },
@@ -107,6 +112,48 @@ window.PortfolioMap = window.PortfolioMap || {};
       label: { x: 360, y: 346 },
       category: "major",
       action: { type: "internal", href: "pages/about.html" }
+    },
+    {
+      id: "cinema",
+      titleKey: "location.cinema.title",
+      subtitleKey: "location.cinema.subtitle",
+
+      x: 440,
+      y: 210,
+      width: 190,
+      height: 150,
+
+      collisionRect: {
+        x: 475,
+        y: 260,
+        width: 120,
+        height: 75
+      },
+
+      interactionPoint: {
+        x: 620,
+        y: 300
+      },
+
+      label: {
+        x: 535,
+        y: 210
+      },
+
+      category: "major",
+
+      render: {
+        assetKey: "cinema",
+        x: 440,
+        y: 210,
+        width: 190,
+        height: 150
+      },
+
+      action: {
+        type: "internal",
+        href: "cinema/index.html"
+      }
     },
     {
       id: "snake",

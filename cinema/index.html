@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Персональная медиатека творческих и AI-assisted проектов." />
+  <title>Кинотеатр в портфолио</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="css/cinema.css" />
+</head>
+<body>
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Кинотеатр — на главную">
+      <span class="brand-mark">CINEMA</span>
+      <span class="brand-sub" data-i18n="brandSub">архив странных сеансов</span>
+    </a>
+
+    <div class="header-actions">
+      <button class="ghost-btn" id="popcornBtn" type="button" data-i18n="popcorn">Купить попкорн</button>
+      <div class="lang-switch" role="group" aria-label="Language switcher">
+        <button type="button" data-lang="ru" class="lang-btn is-active">RU</button>
+        <button type="button" data-lang="en" class="lang-btn">EN</button>
+      </div>
+      <a class="ghost-btn"
+   id="backToPortfolio"
+   href="../index.html?returnFrom=cinema">
+  Вернуться в портфолио
+</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero shell" aria-labelledby="heroTitle">
+      <div class="marquee" aria-hidden="true">
+        <span class="marquee-lights"></span>
+        <span class="marquee-text">NOW SHOWING · СЕГОДНЯ В КИНО · NOW SHOWING</span>
+      </div>
+
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">Авторская медиатека</p>
+        <h1 id="heroTitle" data-i18n="heroTitle">Маленький кинотеатр для больших странностей.</h1>
+        <p data-i18n="heroText">Видео, изображения, музыка и эксперименты — без алгоритмов рекомендаций и необходимости быть полезным.</p>
+      </div>
+
+      <div id="featuredMount" class="featured-mount" aria-live="polite"></div>
+    </section>
+
+    <section class="catalog shell" aria-labelledby="catalogTitle">
+      <div class="catalog-head">
+        <div>
+          <p class="eyebrow" data-i18n="collectionEyebrow">Коллекция</p>
+          <h2 id="catalogTitle" data-i18n="catalogTitle">Все сеансы</h2>
+          <p class="catalog-meta"><span id="resultCount">0</span> <span data-i18n="works">работ</span></p>
+        </div>
+
+        <label class="sort-control">
+          <span data-i18n="sortLabel">Сортировка</span>
+          <select id="sortSelect">
+            <option value="newest" data-i18n="sortNewest">Сначала новые</option>
+            <option value="oldest" data-i18n="sortOldest">Сначала старые</option>
+            <option value="featured" data-i18n="sortFeatured">Сначала избранное</option>
+          </select>
+        </label>
+      </div>
+
+      <nav class="type-tabs" id="typeTabs" aria-label="Тип контента">
+        <button type="button" class="type-tab is-active" data-type="all" data-i18n="all">Всё</button>
+        <button type="button" class="type-tab" data-type="video" data-i18n="video">Видео</button>
+        <button type="button" class="type-tab" data-type="image" data-i18n="images">Изображения</button>
+        <button type="button" class="type-tab" data-type="music" data-i18n="music">Музыка</button>
+      </nav>
+
+      <div class="filters-row">
+        <div class="chip-group" id="subcategoryFilters" aria-label="Подкатегории"></div>
+        <div class="chip-group chip-group--tags" id="tagFilters" aria-label="Теги"></div>
+      </div>
+
+      <div id="projectGrid" class="project-grid" aria-live="polite"></div>
+      <div id="emptyState" class="empty-state" hidden>
+        <p class="empty-icon">◌</p>
+        <h3 data-i18n="emptyTitle">Сегодня в этом зале ничего не показывают.</h3>
+        <p data-i18n="emptyText">Попробуйте другой фильтр — киномеханик мог перепутать плёнки.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer shell">
+    <span>© 2026</span>
+    <span data-i18n="footerText">Сеансы идут всегда. Билеты не нужны.</span>
+  </footer>
+
+  <div id="viewerOverlay" class="viewer-overlay" hidden>
+    <div class="viewer-backdrop" data-close-viewer></div>
+    <article class="viewer-panel" role="dialog" aria-modal="true" aria-labelledby="viewerTitle">
+      <button class="viewer-close" type="button" aria-label="Закрыть" data-close-viewer>×</button>
+      <div id="viewerContent"></div>
+    </article>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

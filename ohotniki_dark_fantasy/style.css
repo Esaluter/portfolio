@@ -1,0 +1,93 @@
+:root{
+  --bg:#080c11;
+  --panel:rgba(10,14,19,.88);
+  --panel2:rgba(21,25,29,.9);
+  --text:#e7dfcf;
+  --muted:#a89f90;
+  --gold:#c9a765;
+  --line:rgba(231,223,207,.18);
+  --danger:#a44f4f;
+}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:var(--bg);color:var(--text);font-family:Georgia,"Times New Roman",serif}
+button{font:inherit}
+#app{position:relative;width:100vw;height:100vh;overflow:hidden;background:#070a0e}
+#gameCanvas{position:absolute;inset:0;width:100%;height:100%;display:block;background:#0b1015}
+
+.hidden{display:none!important}
+
+.screen{position:absolute;inset:0;z-index:30;display:flex;align-items:center;justify-content:center;padding:24px}
+.start-screen{
+  background:
+    radial-gradient(circle at 50% 63%, rgba(197,142,73,.17), transparent 17%),
+    radial-gradient(circle at 50% 15%, rgba(110,128,150,.12), transparent 26%),
+    linear-gradient(rgba(4,7,10,.2),rgba(4,7,10,.86)),
+    #090e13;
+}
+.start-screen::before{
+  content:"";position:absolute;inset:0;opacity:.35;pointer-events:none;
+  background:
+    linear-gradient(110deg,transparent 0 48%,rgba(255,255,255,.018) 49%,transparent 50%),
+    repeating-linear-gradient(90deg,transparent 0 39px,rgba(255,255,255,.015) 40px);
+}
+.title-wrap{position:relative;text-align:center;max-width:760px;padding:54px 62px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(13,18,24,.72),rgba(7,10,14,.76));box-shadow:0 30px 90px rgba(0,0,0,.55);backdrop-filter:blur(8px)}
+.eyebrow{font-family:Arial,sans-serif;letter-spacing:.24em;font-size:12px;color:var(--gold);margin-bottom:12px}
+h1{font-size:clamp(54px,9vw,112px);letter-spacing:.06em;margin:0;line-height:.9;font-weight:600;text-shadow:0 7px 35px rgba(0,0,0,.8)}
+.subtitle{font-size:clamp(17px,2.2vw,24px);color:#cfc3af;margin:18px 0 32px}
+.menu{display:grid;gap:10px;max-width:330px;margin:0 auto}
+button{cursor:pointer;border-radius:2px;letter-spacing:.08em;transition:.15s ease}
+button:disabled{opacity:.32;cursor:not-allowed}
+.primary-btn,.secondary-btn,.ghost-btn{border:1px solid rgba(217,193,145,.4);color:var(--text);background:rgba(20,21,20,.82);padding:13px 18px}
+.primary-btn{background:linear-gradient(180deg,#7f663b,#594729);border-color:#b8975a;color:#fff9ed;font-weight:700}
+.primary-btn:hover:not(:disabled){filter:brightness(1.12);transform:translateY(-1px)}
+.secondary-btn:hover,.ghost-btn:hover{background:rgba(82,70,48,.55)}
+.motto{font-style:italic;color:var(--muted);margin:30px 0 0}
+
+.hud{position:absolute;z-index:10;inset:18px 18px auto 18px;display:flex;align-items:flex-start;gap:12px;pointer-events:none}
+.hud-card{background:linear-gradient(180deg,rgba(9,12,16,.87),rgba(9,12,16,.68));border:1px solid rgba(230,220,197,.16);box-shadow:0 12px 28px rgba(0,0,0,.28);backdrop-filter:blur(5px);padding:10px 12px}
+.health-card{width:190px}
+.objective-card{max-width:420px;min-width:260px}
+.hud-kicker{font:700 10px Arial,sans-serif;letter-spacing:.18em;color:var(--gold);margin-bottom:7px}
+.hud-small{font:12px Arial,sans-serif;color:#b8b0a2;margin-top:6px}
+.health-track{height:9px;border:1px solid rgba(255,255,255,.15);background:#1a1718;overflow:hidden}
+.health-fill{height:100%;width:100%;background:linear-gradient(90deg,#6d2e2e,#b35b4a);transition:width .2s}
+.hud-actions{margin-left:auto;display:flex;gap:8px;pointer-events:auto}
+.ghost-btn{padding:9px 11px;background:rgba(9,12,16,.76);font:11px Arial,sans-serif}
+
+.interact-prompt{position:absolute;z-index:14;left:50%;bottom:128px;transform:translateX(-50%);padding:8px 13px;border:1px solid rgba(231,223,207,.24);background:rgba(8,11,15,.86);font:12px Arial,sans-serif;letter-spacing:.05em;box-shadow:0 8px 30px rgba(0,0,0,.4)}
+
+.dialogue-box{position:absolute;z-index:20;left:50%;bottom:28px;transform:translateX(-50%);width:min(780px,calc(100vw - 32px));min-height:128px;padding:20px 24px 24px;border:1px solid rgba(223,205,168,.34);background:linear-gradient(180deg,rgba(16,17,18,.96),rgba(9,11,14,.96));box-shadow:0 18px 60px rgba(0,0,0,.58)}
+.speaker{font:700 12px Arial,sans-serif;color:var(--gold);letter-spacing:.17em;text-transform:uppercase;margin-bottom:10px}
+.dialogue-text{font-size:19px;line-height:1.45}
+.dialogue-hint{position:absolute;right:18px;bottom:10px;font:10px Arial,sans-serif;color:#8c857a}
+
+.overlay-screen{background:rgba(3,5,7,.72);backdrop-filter:blur(8px)}
+.panel{width:min(470px,calc(100vw - 32px));padding:34px;border:1px solid var(--line);background:linear-gradient(180deg,rgba(18,21,24,.96),rgba(8,11,14,.97));box-shadow:0 30px 80px rgba(0,0,0,.65);text-align:center}
+.panel h2{font-size:34px;margin:6px 0 16px}
+.panel p{line-height:1.55;color:#bcb3a4}
+.panel button{width:100%;margin-top:8px}
+.wide-panel{width:min(680px,calc(100vw - 32px))}
+.how-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:20px 0;text-align:left}
+.how-grid div{border:1px solid var(--line);padding:13px;background:rgba(255,255,255,.025)}
+.how-grid b,.how-grid span{display:block}.how-grid b{color:#d8c69f}.how-grid span{font:12px Arial,sans-serif;color:var(--muted);margin-top:4px}
+.danger{color:#cf706b}
+
+.toast{position:absolute;z-index:15;right:22px;bottom:22px;max-width:340px;padding:12px 16px;background:rgba(9,12,16,.92);border-left:3px solid var(--gold);font:13px Arial,sans-serif;box-shadow:0 12px 30px rgba(0,0,0,.4)}
+
+.ending-screen{background:#020304;z-index:50;text-align:center}
+.ending-card{max-width:840px}
+.ending-line{font-size:clamp(24px,4vw,46px);line-height:1.35;margin:18px 0;animation:fadeIn 1.2s ease both}
+.ending-line.muted{color:#a9a095}
+.ending-card h2{font-size:clamp(30px,5vw,64px);letter-spacing:.08em;margin:34px 0}
+.ending-card button{min-width:300px}
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+@media (max-width:700px){
+  .title-wrap{padding:36px 24px}
+  .hud{inset:8px 8px auto 8px;gap:7px;flex-wrap:wrap}
+  .health-card{width:150px}
+  .objective-card{order:3;width:100%;max-width:none}
+  .hud-actions{margin-left:auto}
+  .how-grid{grid-template-columns:1fr}
+  .dialogue-text{font-size:16px}
+}

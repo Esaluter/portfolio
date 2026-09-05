@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d12">
+  <title>Охотники — Зверь из старого леса</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="app">
+    <canvas id="gameCanvas" aria-label="Игровое поле"></canvas>
+
+    <section id="hud" class="hud hidden" aria-live="polite">
+      <div class="hud-card health-card">
+        <div class="hud-kicker">КАЙ</div>
+        <div class="health-track"><div id="healthFill" class="health-fill"></div></div>
+        <div id="healthText" class="hud-small">100 / 100</div>
+      </div>
+
+      <div class="hud-card objective-card">
+        <div class="hud-kicker">ЦЕЛЬ</div>
+        <div id="objectiveText">Поговорить со старостой</div>
+        <div id="clueText" class="hud-small">Улики: 0/3</div>
+      </div>
+
+      <div class="hud-actions">
+        <button id="soundBtn" class="ghost-btn" type="button">Звук: ВЫКЛ</button>
+        <button id="pauseBtn" class="ghost-btn" type="button">Пауза</button>
+      </div>
+    </section>
+
+    <div id="interactPrompt" class="interact-prompt hidden">[E] Взаимодействовать</div>
+
+    <section id="dialogueBox" class="dialogue-box hidden" aria-live="assertive">
+      <div id="speakerName" class="speaker">Имя</div>
+      <div id="dialogueText" class="dialogue-text"></div>
+      <div class="dialogue-hint">E / Enter — дальше</div>
+    </section>
+
+    <section id="startScreen" class="screen start-screen">
+      <div class="title-wrap">
+        <div class="eyebrow">DARK FANTASY ADVENTURE</div>
+        <h1>ОХОТНИКИ</h1>
+        <p class="subtitle">История первая: Зверь из старого леса</p>
+        <div class="menu">
+          <button id="newGameBtn" class="primary-btn" type="button">НОВАЯ ИГРА</button>
+          <button id="continueBtn" class="primary-btn" type="button">ПРОДОЛЖИТЬ</button>
+          <button id="howToBtn" class="secondary-btn" type="button">КАК ИГРАТЬ</button>
+        </div>
+        <p class="motto">«Две дороги. Одна цель. Меньше чудовищ в этом мире.»</p>
+      </div>
+    </section>
+
+    <section id="pauseScreen" class="screen overlay-screen hidden">
+      <div class="panel">
+        <div class="eyebrow">ПАУЗА</div>
+        <h2>Ночь подождёт.</h2>
+        <button id="resumeBtn" class="primary-btn" type="button">ПРОДОЛЖИТЬ</button>
+        <button id="pauseHowToBtn" class="secondary-btn" type="button">КАК ИГРАТЬ</button>
+        <button id="menuBtn" class="secondary-btn" type="button">В ГЛАВНОЕ МЕНЮ</button>
+      </div>
+    </section>
+
+    <section id="howToScreen" class="screen overlay-screen hidden">
+      <div class="panel wide-panel">
+        <div class="eyebrow">КАК ИГРАТЬ</div>
+        <h2>Коротко и по делу</h2>
+        <div class="how-grid">
+          <div><b>WASD / стрелки</b><span>движение</span></div>
+          <div><b>Space / ЛКМ</b><span>удар мечом</span></div>
+          <div><b>E</b><span>разговор / осмотр</span></div>
+          <div><b>Esc</b><span>пауза</span></div>
+        </div>
+        <p>Сначала поговори со старостой. Найди три улики в лесу и у старой дороги. После этого путь к логову откроется. Рен следует за Каем и автоматически стреляет в ближайшего врага.</p>
+        <button id="closeHowToBtn" class="primary-btn" type="button">ПОНЯТНО</button>
+      </div>
+    </section>
+
+    <section id="deathScreen" class="screen overlay-screen hidden">
+      <div class="panel">
+        <div class="eyebrow danger">ПУТЬ ОБОРВАЛСЯ</div>
+        <h2>Кай пал.</h2>
+        <p>Иногда лучший план — вернуться с целой шеей и попробовать ещё раз.</p>
+        <button id="retryBtn" class="primary-btn" type="button">ПРОДОЛЖИТЬ С ПОСЛЕДНЕГО СОХРАНЕНИЯ</button>
+        <button id="deathMenuBtn" class="secondary-btn" type="button">В ГЛАВНОЕ МЕНЮ</button>
+      </div>
+    </section>
+
+    <section id="endingScreen" class="screen ending-screen hidden">
+      <div class="ending-card">
+        <div id="endingLine1" class="ending-line">Зверь из старого леса больше никого не потревожит.</div>
+        <div id="endingLine2" class="ending-line muted hidden">Но дорога Кая и Рена только начинается.</div>
+        <h2 id="endingTitle" class="hidden">КОНЕЦ ПЕРВОЙ ИСТОРИИ</h2>
+        <button id="endingMenuBtn" class="primary-btn hidden" type="button">ВЕРНУТЬСЯ В ГЛАВНОЕ МЕНЮ</button>
+      </div>
+    </section>
+
+    <div id="toast" class="toast hidden"></div>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="dialogues.js"></script>
+  <script src="world.js"></script>
+  <script src="entities.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

@@ -165,5 +165,21 @@
     "tags": ["AI", "Cinema", "Odd"],
     "featured": false,
     "media": {"kind": "image", "source": "local", "url": "assets/previews/seat-13.svg"}
-  }
+  },
+  {
+  "id": "man-pickaxe-looking-for-work",
+  "type": "video",
+  "featured": true,
+  "title_ru": "Человек-кирка ищет работу",
+  "title_en": "Man-Pickaxe Is Looking for a Job",
+  "description_ru": "Человек берёт кирку и отправляется искать работу. Собеседования, отказы и бесконечное копание постепенно превращают его в енота. Короткая история о поиске работы, выгорании и умении вовремя уехать дальше.",
+  "description_en": "A man picks up a pickaxe and sets out to find a job. Interviews, rejections and endless digging gradually turn him into a raccoon. A short story about job hunting, burnout and knowing when to move on.",
+  "date": "2026-09-05",
+  "duration": "00:55",
+  "subcategory": {"ru": "Короткометражки", "en": "Short Films"},
+  "tags": ["AI","Animation","Experimental"],
+  "tools": ["Gemini"],
+  "preview": "assets/previews/man-pickaxe-looking-for-work.jpg",
+  "media": {"kind": "video","url": "assets/media/man-pickaxe-looking-for-work.mp4","poster": "assets/previews/man-pickaxe-looking-for-work.jpg"}
+}
 ]

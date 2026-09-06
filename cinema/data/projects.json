@@ -59,5 +59,21 @@
   "featured": false,
   "lyrics": {"language": "ru","text": "Молот отчаяния кует мою волю,\nРынок труда — бесконечное поле.\nЗа каждый товар — невидимый штраф,\nМой симулятор склада, где гниёт состав.\n\nНо в этом аду я рождаю свой код,\nЯ кую свой собственный мир и ковчег."},
   "credits": {"concept": "Жека","music_generation": "Google DeepMind Lyria"}
+},
+{
+  "id": "raccoon-postman",
+  "type": "image",
+  "category": "image",
+  "subcategory": {"ru": "AI-арт / персонаж","en": "AI Art / Character"},
+  "title_ru": "Енот-почтальон",
+  "title_en": "Raccoon Postman",
+  "description_ru": "Почтальон постапокалиптического мира продолжает доставлять письма туда, где связь между людьми почти исчезла. Потому что кто-то всё ещё должен доставлять надежду.",
+  "description_en": "A postman of the post-apocalyptic world keeps delivering letters where communication between people has almost disappeared. Because someone still has to deliver hope.",
+  "preview": "assets/media/images/raccoon-postman.png",
+  "media": {"kind": "image","url": "assets/media/images/raccoon-postman.png"},
+  "date": "2026-09-06",
+  "tools": ["ChatGPT","OpenAI"],
+  "tags": ["AI Art","Raccoon","Post-Apocalyptic","Postman","Character","Experimental"],
+  "featured": false
 }
 ]

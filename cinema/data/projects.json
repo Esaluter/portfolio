@@ -75,5 +75,54 @@
   "tools": ["ChatGPT","OpenAI"],
   "tags": ["AI Art","Raccoon","Post-Apocalyptic","Postman","Character","Experimental"],
   "featured": false
+},
+{
+  "id": "neon-landing",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Неоновая посадка",
+  "title_en": "Neon Landing",
+  "description_ru": "Короткий AI-видеоэксперимент: футуристический корабль совершает посадку посреди обычного земного поля.",
+  "description_en": "A short AI video experiment: a futuristic spacecraft lands in the middle of an ordinary field.",
+  "date": "2026-09-06",
+  "duration": "00:10",
+  "subcategory": {"ru": "Видеоэксперименты","en": "Video Experiments"},
+  "tags": ["AI","Sci-Fi","Spaceship","Experimental","Google Flow"],
+  "tools": ["Google Flow"],
+  "preview": "assets/previews/neon-landing.jpg",
+  "media": {"kind": "video","url": "assets/media/neon-landing.mp4","poster": "assets/previews/neon-landing.jpg"}
+},
+{
+  "id": "cat-parade",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Кошачий парад",
+  "title_en": "The Cat Parade",
+  "description_ru": "Десятисекундный AI-видеоэксперимент: торжественный парад котов в мундирах проходит через город, построенный по всем правилам кошачьей архитектуры.",
+  "description_en": "A ten-second AI video experiment: a ceremonial parade of uniformed cats marches through a city built according to the finest principles of feline architecture.",
+  "date": "2026-09-06",
+  "duration": "00:10",
+  "subcategory": {"ru": "Видеоэксперименты","en": "Video Experiments"},
+  "tags": ["AI","Cats","Parade","Experimental","Google Flow"],
+  "tools": ["Google Flow"],
+  "preview": "assets/previews/cat-parade.jpg",
+  "media": {"kind": "video","url": "assets/media/cat-parade.mp4","poster": "assets/previews/cat-parade.jpg"}
+},
+{
+  "id": "march-of-the-cats",
+  "type": "image",
+  "category": "image",
+  "subcategory": {
+    "ru": "AI-арт / абсурд",
+    "en": "AI Art / Absurd"},
+  "title_ru": "Марш котов",
+  "title_en": "March of the Cats",
+  "description_ru": "Торжественный кошачий марш проходит по улицам города. Оркестр играет, жители ликуют, пекарня мяукает. Причины проведения парада неизвестны.",
+  "description_en": "A ceremonial cat march takes over the city streets. The band plays, the crowd cheers, and the bakery meows. The reason for the parade remains unknown.",
+  "preview": "assets/media/images/march-of-the-cats.jpg",
+  "media": {"kind": "image","url": "assets/media/images/march-of-the-cats.jpg"},
+  "date": "2026-09-06",
+  "tools": ["Gemini","Nano Banana"],
+  "tags": ["AI Art","Cats","Parade","Absurd","Comedy","Experimental"],"featured": false
 }
 ]

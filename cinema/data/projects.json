@@ -124,5 +124,39 @@
   "date": "2026-09-06",
   "tools": ["Gemini","Nano Banana"],
   "tags": ["AI Art","Cats","Parade","Absurd","Comedy","Experimental"],"featured": false
+},
+{
+  "id": "the-pet",
+  "type": "video",
+  "featured": true,
+  "title_ru": "Питомец",
+  "title_en": "The Pet",
+  "description_ru": "Обычная ночная поездка на мотоцикле заканчивается похищением пришельцами. Вскоре становится ясно, что разумные коты прилетели на Землю вовсе не ради первого контакта — им просто понравился новый зверёк.",
+  "description_en": "An ordinary nighttime motorcycle ride ends in an alien abduction. It soon becomes clear that the intelligent cats didn't come to Earth for first contact — they simply found themselves a new pet.",
+  "date": "2026-09-08",
+  "duration": "01:10",
+  "subcategory": {
+    "ru": "Короткометражки",
+    "en": "Short Films"
+  },
+  "tags": [
+    "AI",
+    "Sci-Fi",
+    "Dark Comedy",
+    "Cats",
+    "Alien World",
+    "Short Film",
+    "Experimental"
+  ],
+  "tools": [
+    "Gemini",
+    "Veo"
+  ],
+  "preview": "assets/previews/the-pet.jpg",
+  "media": {
+  "kind": "video",
+  "url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-pet-web.mp4",
+  "poster": "assets/previews/the-pet.jpg"
+  }
 }
 ]

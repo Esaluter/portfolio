@@ -172,5 +172,5 @@
   "tools": ["Codex","Python","FFmpeg"],
   "preview": "assets/previews/the-button.jpg",
   "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-button.mp4","poster": "assets/previews/the-button.jpg"}
-},
+}
 ]

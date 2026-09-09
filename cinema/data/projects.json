@@ -156,5 +156,21 @@
   "tools": ["Gemini","Veo"],
   "preview": "assets/previews/the-last-bus-poster.jpg",
   "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-last-bus.mp4","poster": "assets/previews/the-last-bus-poster.jpg"}
-}
+},
+{
+  "id": "the-button",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Кнопка",
+  "title_en": "The Button",
+  "description_ru": "Енот находит загадочную кнопку с единственной инструкцией: не нажимать. Разумеется, эксперимент сразу идёт не по плану. Короткая процедурная анимация, полностью созданная кодом — от отрисовки кадров до сборки финального видео.",
+  "description_en": "A raccoon discovers a mysterious button with one simple instruction: do not press it. Naturally, the experiment immediately goes off script. A short procedural animation created entirely with code — from frame generation to the final video.",
+  "date": "2026-09-09",
+  "duration": "00:10",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": [ "AI","Procedural Animation","Code","2D Animation","Sci-Fi","Comedy","Raccoon","Experimental"],
+  "tools": ["Codex","Python","FFmpeg"],
+  "preview": "assets/previews/the-button.jpg",
+  "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-button.mp4","poster": "assets/previews/the-button.jpg"}
+},
 ]

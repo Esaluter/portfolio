@@ -154,7 +154,7 @@
   "subcategory": {"ru": "Короткометражки","en": "Short Films"},
   "tags": ["AI","Post-Apocalyptic","Comedy","Raccoon","Short Film","Experimental"],
   "tools": ["Gemini","Veo"],
-  "preview": "assets/previews/the-last-bus.jpg",
+  "preview": "assets/previews/the-last-bus-poster.jpg",
   "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-last-bus.mp4","poster": "assets/previews/the-last-bus-poster.jpg"}
 }
 ]

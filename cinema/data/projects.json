@@ -158,5 +158,18 @@
   "url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-pet-web.mp4",
   "poster": "assets/previews/the-pet.jpg"
   }
+},
+{
+  "id": "the-last-bus",
+  "type": "video",
+  "category": "cartoon",
+  "title_ru": "Последний автобус",
+  "title_en": "The Last Bus",
+  "description_ru": "Маленький енот ждёт последний автобус посреди мира, который уже закончился. Конечная остановка, кирка на плечо — и дальше только светлое будущее.",
+  "description_en": "A little raccoon waits for the last bus in a world that has already ended. Final stop, pickaxe over the shoulder — and nothing ahead but a bright future.",
+  "preview": "assets/previews/the-last-bus-poster.jpg",
+  "media": {"src": "https://ik.imagekit.io/a5nejkvlx/cinema/the-last-bus.mp4","type": "video/mp4"},
+  "date": "2026-09-09",
+  "tools": ["Gemini","Veo"],"tags": ["AI","Animation","Comedy","Post-apocalyptic","Raccoon","Experimental"],"featured": false
 }
 ]

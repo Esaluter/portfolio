@@ -172,5 +172,22 @@
   "tools": ["Codex","Python","FFmpeg"],
   "preview": "assets/previews/the-button.jpg",
   "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-button.mp4","poster": "assets/previews/the-button.jpg"}
+},
+{
+  "id": "multiverse-of-madness",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Мультивселенная безумия",
+  "title_en": "Multiverse of Madness",
+  "description_ru": "Любопытный енот находит странный пульт с одной-единственной кнопкой. Конечно же, он её нажимает — и случайно запускает путешествие через порталы, космос и совершенно потерявшую здравый смысл реальность. Короткий экспериментальный фильм, объединяющий AI-генерацию, процедурную анимацию и монтаж.",
+  "description_en": "A curious raccoon finds a strange remote with a single button. Of course, he presses it — accidentally launching a journey through portals, outer space and a reality that has completely lost all common sense. A short experimental film combining AI-generated video, procedural animation and editing.",
+  "date": "2026-09-10",
+  "duration": "00:40",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","AI Video","Procedural Animation","3D Animation","Sci-Fi","Comedy","Raccoon","Multiverse","Experimental"],
+  "tools": ["Gemini","Codex","Python","FFmpeg","Microsoft Clipchamp"],
+  "preview": "assets/previews/multiverse-of-madness.jpg",
+  "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/multiverse-of-madness.mp4","poster": "assets/previews/multiverse-of-madness.jpg"
+  }
 }
 ]

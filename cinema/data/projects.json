@@ -187,7 +187,7 @@
   "tags": ["AI","AI Video","Procedural Animation","3D Animation","Sci-Fi","Comedy","Raccoon","Multiverse","Experimental"],
   "tools": ["Gemini","Codex","Python","FFmpeg","Microsoft Clipchamp"],
   "preview": "assets/previews/multiverse-of-madness.jpg",
-  "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/multiverse-of-madness.mp4","poster": "assets/previews/multiverse-of-madness.jpg"
+  "media": {"kind": "video","url": "assets/media/multiverse-of-madness.mp4","poster": "assets/previews/multiverse-of-madness.jpg"
   }
 }
 ]

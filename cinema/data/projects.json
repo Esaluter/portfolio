@@ -203,7 +203,7 @@
   "tags": ["AI","Photorealism","Sci-Fi","Travel","Goa","Alternative World","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/goa-that-never-was.jpg",
-  "media": {"kind": "image","url": "assets/media/goa-that-never-was.jpg"
+  "media": {"kind": "image","url": "assets/media/images/goa-that-never-was.jpg"
   }
 },
 {
@@ -219,7 +219,7 @@
   "tags": ["AI","Photorealism","Cinema","Night","Milky Way","Travel","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/cinema-at-the-edge-of-the-world.jpg",
-  "media": {"kind": "image","url": "assets/media/cinema-at-the-edge-of-the-world.jpg"}
+  "media": {"kind": "image","url": "assets/media/images/cinema-at-the-edge-of-the-world.jpg"}
 },
 {
   "id": "where-the-earth-ends",
@@ -234,7 +234,7 @@
   "tags": ["AI","Photorealism","Sci-Fi","Surreal","Space","Travel","Motorcycle","Exploration","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/where-the-earth-ends.jpg",
-  "media": {"kind": "image","url": "assets/media/where-the-earth-ends.jpg"
+  "media": {"kind": "image","url": "assets/media/images/where-the-earth-ends.jpg"
   }
 },
 {
@@ -250,7 +250,7 @@
   "tags": ["AI","Photorealism","Sci-Fi","Ringworld","Travel","Motorcycle","Countryside","Alternative World","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/the-road-home.jpg",
-  "media": {"kind": "image","url": "assets/media/the-road-home.jpg"
+  "media": {"kind": "image","url": "assets/media/images/the-road-home.jpg"
   }
 },
 {
@@ -266,7 +266,7 @@
   "tags": ["AI","Photorealism","Lighthouse","Ocean","Landscape","Nature","Atmospheric","Travel"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/lighthouse-at-the-edge.jpg",
-  "media": {"kind": "image","url": "assets/media/lighthouse-at-the-edge.jpg"}
+  "media": {"kind": "image","url": "assets/media/images/lighthouse-at-the-edge.jpg"}
 },
 {
   "id": "first-local-raccoon",
@@ -281,7 +281,7 @@
   "tags": ["AI","Local AI","ComfyUI","FLUX","Raccoon","Experimental","First Test"],
   "tools": ["ComfyUI","flux2_clein"],
   "preview": "assets/previews/first-local-raccoon.png",
-  "media": {"kind": "image","url": "assets/media/first-local-raccoon.png"
+  "media": {"kind": "image","url": "assets/media/images/first-local-raccoon.png"
   }
 },
 {
@@ -297,7 +297,7 @@
   "tags": ["AI","Nature","Forest","Paper Boat","Atmospheric","Cinematic","Experimental"],
   "tools": ["AI Generation"],
   "preview": "assets/previews/where-the-current-leads.jpg",
-  "media": {"kind": "image","url": "assets/media/where-the-current-leads.jpg"
+  "media": {"kind": "image","url": "assets/media/images/where-the-current-leads.jpg"
   }
 },
 {
@@ -314,7 +314,7 @@
   "tags": ["AI","Raccoon","Pickaxe","Road","Travel","Adventure","Photorealism","Cinematic"],
   "tools": ["ChatGPT","GPT Image"],
   "preview": "assets/previews/the-caravan-moves-on.jpg",
-  "media": {"kind": "image","url": "assets/media/the-caravan-moves-on.jpg"
+  "media": {"kind": "image","url": "assets/media/images/the-caravan-moves-on.jpg"
   }
 },
 {
@@ -330,6 +330,6 @@
   "tags": ["Raccoon","Character","Sprite Sheet","Pixel Art","Animation","Game Development","Portfolio","Experimental"],
   "tools": ["ChatGPT","Codex"],
   "preview": "assets/previews/raccoon-character-spritesheet.webp",
-  "media": {"kind": "image","url": "assets/media/raccoon-character-spritesheet.webp"}
+  "media": {"kind": "image","url": "assets/media/images/raccoon-character-spritesheet.webp"}
 }
 ]

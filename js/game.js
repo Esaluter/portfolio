@@ -33,17 +33,20 @@ window.PortfolioMap = window.PortfolioMap || {};
 
   const state = {
     player: {
-    x: CONFIG.player.start.x,
-    y: CONFIG.player.start.y,
-    radius: CONFIG.player.radius,
-    facingX: 1,
-    facingY: 1,
-    walking: false,
-    lastMovedAt: performance.now(),
-    currentAnimation: "idle",
-    animationStartedAt: performance.now(),
-    waveUntil: 0
-  },
+      x: CONFIG.player.start.x,
+      y: CONFIG.player.start.y,
+      radius: CONFIG.player.radius,
+      facingX: 1,
+      facingY: 1,
+      walking: false,
+      lastMovedAt: performance.now(),
+      currentAnimation: "idle",
+      animationStartedAt: performance.now(),
+      reaction: null,
+      reactionUntil: 0,
+      nextIdleReactionAt: 0,
+      pendingFreeRouteJump: false
+    },
     keys: new Set(),
     route: [],
     routeIndex: 0,
@@ -341,6 +344,8 @@ window.PortfolioMap = window.PortfolioMap || {};
 
       if (state.returnFrom) {
         state.experienceActive = true;
+        state.player.lastMovedAt = performance.now();
+        scheduleNextIdleReaction(performance.now());
         return;
       }
 
@@ -350,22 +355,19 @@ window.PortfolioMap = window.PortfolioMap || {};
   }
 
   function startJourney() {
-  if (introScreen.hidden) return;
+    if (introScreen.hidden) return;
 
-  state.experienceActive = true;
+    state.experienceActive = true;
+    playPlayerReaction("wave", performance.now());
+    scheduleNextIdleReaction(performance.now());
 
-  const wave = CONFIG.player.animations?.wave;
-  if (wave) {
-    state.player.waveUntil = performance.now() + (wave.frameCount * wave.frameDuration);
+    introScreen.classList.add("is-leaving");
+    window.setTimeout(() => {
+      introScreen.hidden = true;
+      introScreen.classList.remove("is-leaving");
+      unlockUI("intro");
+    }, 220);
   }
-
-  introScreen.classList.add("is-leaving");
-  window.setTimeout(() => {
-    introScreen.hidden = true;
-    introScreen.classList.remove("is-leaving");
-    unlockUI("intro");
-  }, 220);
-}
 
   function lockUI(reason) {
     state.uiLocks.add(reason);
@@ -450,6 +452,7 @@ window.PortfolioMap = window.PortfolioMap || {};
 
     if (movementKey) {
       cancelRoute();
+      interruptPlayerReaction();
       state.keys.add(event.code);
     }
   }
@@ -504,13 +507,16 @@ window.PortfolioMap = window.PortfolioMap || {};
     if (!path || path.length < 2) {
       cancelRoute();
       state.deniedMarker = { x: goal.x, y: goal.y, bornAt: performance.now() };
+      playPlayerReaction("failed", performance.now());
       showToast(I18N.t("toast.blocked"));
       return;
     }
 
+    interruptPlayerReaction();
     state.route = path.slice(1);
     state.routeIndex = 0;
     state.routeTargetLocationId = targetLocationId;
+    state.player.pendingFreeRouteJump = !targetLocationId;
     state.targetMarker = { x: goal.x, y: goal.y, bornAt: performance.now() };
     state.deniedMarker = null;
   }
@@ -519,6 +525,7 @@ window.PortfolioMap = window.PortfolioMap || {};
     state.route = [];
     state.routeIndex = 0;
     state.routeTargetLocationId = null;
+    state.player.pendingFreeRouteJump = false;
     state.targetMarker = null;
   }
 
@@ -562,6 +569,9 @@ window.PortfolioMap = window.PortfolioMap || {};
 
     const nearby = state.experienceActive ? getNearbyLocation() : null;
     state.nearbyLocationId = nearby ? nearby.id : null;
+
+    updatePlayerReactions(performance.now());
+
     prompt.hidden = !nearby || isUiBlocked();
     if (nearby) promptText.textContent = I18N.t("prompt.open", { title: locationTitle(nearby) });
   }
@@ -605,6 +615,7 @@ window.PortfolioMap = window.PortfolioMap || {};
       if (!Geometry.pointIsWalkable(waypoint.x, waypoint.y, WORLD, state.player.radius)) {
         cancelRoute();
         state.player.walking = false;
+        playPlayerReaction("failed", performance.now());
         showToast(I18N.t("toast.blocked"));
         return;
       }
@@ -631,6 +642,7 @@ if (moved > 0.02) {
     if (moved < 0.02) {
       cancelRoute();
       state.player.walking = false;
+      playPlayerReaction("failed", performance.now());
       showToast(I18N.t("toast.blocked"));
     }
   }
@@ -651,15 +663,24 @@ if (moved > 0.02) {
 
   function finishRoute() {
     const targetLocationId = state.routeTargetLocationId;
+    const shouldJump = state.player.pendingFreeRouteJump;
+
     state.route = [];
     state.routeIndex = 0;
     state.routeTargetLocationId = null;
+    state.player.pendingFreeRouteJump = false;
     state.targetMarker = null;
     state.player.walking = false;
+    state.player.lastMovedAt = performance.now();
 
     if (targetLocationId) {
       const location = WORLD.findLocation(targetLocationId);
       if (location && getNearbyLocation()?.id === location.id) activateLocation(location);
+      return;
+    }
+
+    if (shouldJump) {
+      playPlayerReaction("jump", performance.now());
     }
   }
 
@@ -1004,23 +1025,77 @@ if (moved > 0.02) {
     }
   }
 
-function getPlayerAnimationName(now) {
-  const p = state.player;
-
-  if (p.waveUntil && now < p.waveUntil) {
-    return "wave";
+  function animationDuration(name) {
+    const animation = CONFIG.player.animations?.[name];
+    if (!animation) return 0;
+    return animation.frameCount * animation.frameDuration;
   }
 
-  if (p.walking) {
-    return p.facingX < -0.12 ? "runLeft" : "runRight";
+  function scheduleNextIdleReaction(now) {
+    const min = CONFIG.player.idleReactionMinGapMs;
+    const max = CONFIG.player.idleReactionMaxGapMs;
+    state.player.nextIdleReactionAt = now + min + Math.random() * Math.max(0, max - min);
   }
 
-  if (now - p.lastMovedAt >= CONFIG.player.waitingDelayMs) {
-    return "waiting";
+  function playPlayerReaction(name, now = performance.now()) {
+    if (!CONFIG.player.animations?.[name]) return;
+    state.player.reaction = name;
+    state.player.reactionUntil = now + animationDuration(name);
+    state.player.currentAnimation = "";
+    state.player.animationStartedAt = now;
   }
 
-  return "idle";
-}
+  function interruptPlayerReaction() {
+    state.player.reaction = null;
+    state.player.reactionUntil = 0;
+  }
+
+  function updatePlayerReactions(now) {
+    const p = state.player;
+
+    if (p.walking || state.route.length || state.keys.size) {
+      interruptPlayerReaction();
+      return;
+    }
+
+    if (p.reaction) {
+      if (now < p.reactionUntil) return;
+      p.reaction = null;
+      p.reactionUntil = 0;
+      p.lastMovedAt = now;
+      scheduleNextIdleReaction(now);
+    }
+
+    if (isUiBlocked()) return;
+
+    const idleFor = now - p.lastMovedAt;
+    if (idleFor < CONFIG.player.idleReactionDelayMs) return;
+    if (!p.nextIdleReactionAt) scheduleNextIdleReaction(now);
+    if (now < p.nextIdleReactionAt) return;
+
+    // Near a location the raccoon "reviews" it. Elsewhere he picks one of
+    // the ambient idle reactions. All are one-shot and then return to idle.
+    if (state.nearbyLocationId) {
+      playPlayerReaction("review", now);
+      return;
+    }
+
+    const roll = Math.random();
+    if (roll < 0.42) playPlayerReaction("waiting", now);
+    else if (roll < 0.76) playPlayerReaction("look", now);
+    else playPlayerReaction("action", now);
+  }
+
+  function getPlayerAnimationName() {
+    const p = state.player;
+
+    if (p.walking) {
+      return p.facingX < -0.12 ? "runLeft" : "runRight";
+    }
+
+    if (p.reaction) return p.reaction;
+    return "idle";
+  }
 
   function drawPlayer(now) {
   if (!state.experienceActive) return;
@@ -1037,7 +1112,7 @@ function getPlayerAnimationName(now) {
   ctx.ellipse(0, 14, 18, 7, 0, 0, Math.PI * 2);
   ctx.fill();
 
-  const animationName = getPlayerAnimationName(now);
+  const animationName = getPlayerAnimationName();
   const animation = CONFIG.player.animations?.[animationName];
   const strip = animation ? state.images[animation.assetKey] : null;
 

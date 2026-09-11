@@ -189,5 +189,147 @@
   "preview": "assets/previews/multiverse-of-madness.jpg",
   "media": {"kind": "video","url": "assets/media/multiverse-of-madness.mp4","poster": "assets/previews/multiverse-of-madness.jpg"
   }
+},
+{
+  "id": "goa-that-never-was",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Гоа, которого никогда не было",
+  "title_en": "The Goa That Never Was",
+  "description_ru": "Тёплый вечер на берегу океана: старый мотоцикл, маленький пляжный бар, костёр и путешественники, которым совершенно некуда спешить. Всё выглядит как обычный закат в Гоа — если не считать гигантской планеты над горизонтом. Визуальный эксперимент о свободе, путешествиях и мире, который мог существовать где-то совсем рядом.",
+  "description_en": "A warm evening by the ocean: an old motorcycle, a tiny beach bar, a campfire and travelers with nowhere to hurry. Everything looks like an ordinary sunset in Goa — except for the enormous planet hanging above the horizon. A visual experiment about freedom, travel and a world that might exist somewhere just beyond our own.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Photorealism","Sci-Fi","Travel","Goa","Alternative World","Experimental"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/goa-that-never-was.jpg",
+  "media": {"kind": "image","url": "assets/media/goa-that-never-was.jpg"
+  }
+},
+{
+  "id": "cinema-at-the-edge-of-the-world",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Кинотеатр на краю мира",
+  "title_en": "Cinema at the Edge of the World",
+  "description_ru": "Одинокий старый кинотеатр посреди бескрайней пустоши. Вокруг нет ни города, ни дорог, ни других огней — только мотоцикл у входа, тёплый свет из фойе и Млечный Путь над головой. Возможно, последний кинотеатр на Земле. А возможно, просто очень далеко ехать до следующего.",
+  "description_en": "A lonely old cinema in the middle of an endless wasteland. There is no town, no road and no other light around — only a motorcycle by the entrance, the warm glow of the lobby and the Milky Way overhead. Perhaps the last cinema on Earth. Or perhaps the next one is simply very far away.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Photorealism","Cinema","Night","Milky Way","Travel","Atmospheric","Experimental"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/cinema-at-the-edge-of-the-world.jpg",
+  "media": {"kind": "image","url": "assets/media/cinema-at-the-edge-of-the-world.jpg"}
+},
+{
+  "id": "where-the-earth-ends",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Там, где заканчивается Земля",
+  "title_en": "Where the Earth Ends",
+  "description_ru": "Обычная дорога через поля однажды просто заканчивается — вместе с самой Землёй. Путешественник оставляет мотоцикл у края и смотрит туда, где вместо следующего километра дороги начинается бесконечный космос. Никакой катастрофы и никакой паники. Просто неожиданное открытие: дальше дороги действительно нет.",
+  "description_en": "An ordinary road through the countryside simply ends one day — along with the Earth itself. A traveler leaves his motorcycle near the edge and looks out at the place where, instead of another mile of road, infinite space begins. No catastrophe, no panic. Just an unexpected discovery: there really is no road beyond this point.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Photorealism","Sci-Fi","Surreal","Space","Travel","Motorcycle","Exploration","Experimental"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/where-the-earth-ends.jpg",
+  "media": {"kind": "image","url": "assets/media/where-the-earth-ends.jpg"
+  }
+},
+{
+  "id": "the-road-home",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Дорога домой",
+  "title_en": "The Road Home",
+  "description_ru": "Поздний летний вечер. Путешественник едет по старой дороге к маленькой деревне, где уже зажигаются огни и поднимается дым из труб. Обычная дорога домой — если не обращать внимания на то, что поля, леса и озёра продолжаются вверх и уходят далеко в небо. Здесь человечество живёт внутри гигантского кольцевого мира, и для кого-то этот невозможный пейзаж — просто вид по дороге домой.",
+  "description_en": "A late summer evening. A traveler follows an old country road toward a small village where lights are coming on and smoke rises from the chimneys. An ordinary journey home — if you ignore the fields, forests and lakes continuing upward into the sky. Humanity lives inside a colossal ringworld, and for someone, this impossible landscape is simply the view on the way home.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Photorealism","Sci-Fi","Ringworld","Travel","Motorcycle","Countryside","Alternative World","Atmospheric","Experimental"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/the-road-home.jpg",
+  "media": {"kind": "image","url": "assets/media/the-road-home.jpg"
+  }
+},
+{
+  "id": "lighthouse-at-the-edge",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Маяк на краю",
+  "title_en": "Lighthouse at the Edge",
+  "description_ru": "Старый маяк стоит над холодным морем, где ветер гонит волны на скалистый берег, а последние лучи солнца пробиваются сквозь тяжёлые облака. Никаких других миров и невозможной геометрии — только море, свет, расстояние и маленький дом на самом краю земли.",
+  "description_en": "An old lighthouse stands above a cold sea, where the wind drives waves against the rocky coast and the last rays of sunlight break through heavy clouds. No other worlds and no impossible geometry — just the sea, light, distance and a small house at the very edge of the land.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Photorealism","Lighthouse","Ocean","Landscape","Nature","Atmospheric","Travel"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/lighthouse-at-the-edge.jpg",
+  "media": {"kind": "image","url": "assets/media/lighthouse-at-the-edge.jpg"}
+},
+{
+  "id": "first-local-raccoon",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Первый локальный енот",
+  "title_en": "The First Local Raccoon",
+  "description_ru": "Первый тест локальной генерации изображений в ComfyUI. Енот с киркой посреди кислотно-красного пейзажа стал первым блином комом — и одновременно отправной точкой экспериментов с локальными AI-моделями. Красиво ли? Спорно. Исторически важно? Безусловно.",
+  "description_en": "The first test of local image generation in ComfyUI. A raccoon with a pickaxe in the middle of an acid-red landscape became the first imperfect attempt — and the starting point for experiments with local AI models. Beautiful? Debatable. Historically important? Absolutely.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","Local AI","ComfyUI","FLUX","Raccoon","Experimental","First Test"],
+  "tools": ["ComfyUI","flux2_clein"],
+  "preview": "assets/previews/first-local-raccoon.png",
+  "media": {"kind": "image","url": "assets/media/first-local-raccoon.png"
+  }
+},
+{
+  "id": "where-the-current-leads",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Куда несёт течение",
+  "title_en": "Where the Current Leads",
+  "description_ru": "Маленький красный бумажный кораблик плывёт по тихому лесному ручью навстречу утреннему свету. Простая сцена без большой истории — только вода, туман, лес и неизвестность где-то впереди.",
+  "description_en": "A small red paper boat drifts along a quiet forest stream toward the morning light. A simple scene without a grand story — just water, mist, forest and something unknown waiting somewhere ahead.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
+  "tags": ["AI","Nature","Forest","Paper Boat","Atmospheric","Cinematic","Experimental"],
+  "tools": ["AI Generation"],
+  "preview": "assets/previews/where-the-current-leads.jpg",
+  "media": {"kind": "image","url": "assets/media/where-the-current-leads.jpg"
+  }
+},
+{
+  "id": "the-caravan-moves-on",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Караван идёт дальше",
+  "title_en": "The Caravan Moves On",
+  "description_ru": "Енот, рюкзак, кирка и бесконечная дорога впереди. Никто уже толком не помнит, откуда начался этот караван и куда именно он направляется. Но пока есть дорога, любопытство и возможность копать дальше — останавливаться совершенно незачем.",
+  "description_en": "A raccoon, a backpack, a pickaxe and an endless road ahead. Nobody really remembers where this caravan started or exactly where it is going. But as long as there is a road, curiosity and something new to dig into, there is no reason to stop.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "AI-арт","en": "AI Art"
+  },
+  "tags": ["AI","Raccoon","Pickaxe","Road","Travel","Adventure","Photorealism","Cinematic"],
+  "tools": ["ChatGPT","GPT Image"],
+  "preview": "assets/previews/the-caravan-moves-on.jpg",
+  "media": {"kind": "image","url": "assets/media/the-caravan-moves-on.jpg"
+  }
+},
+{
+  "id": "raccoon-character-spritesheet",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Енот. Готов к работе",
+  "title_en": "Raccoon. Ready for Work",
+  "description_ru": "Финальный спрайтшит енота с киркой — персонажа интерактивного портфолио. Здесь собраны кадры его основных состояний и анимаций: движение, ожидание, реакции, работа с киркой и другие действия. То, что начиналось как очередная идея с енотом, в итоге превратилось в полноценного анимированного персонажа.",
+  "description_en": "The final sprite sheet for the pickaxe-wielding raccoon — a character created for the interactive portfolio. It contains frames for his main states and animations: movement, waiting, reactions, pickaxe actions and more. What started as yet another raccoon idea eventually became a fully animated character.",
+  "date": "2026-09-11",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["Raccoon","Character","Sprite Sheet","Pixel Art","Animation","Game Development","Portfolio","Experimental"],
+  "tools": ["ChatGPT","Codex"],
+  "preview": "assets/previews/raccoon-character-spritesheet.webp",
+  "media": {"kind": "image","url": "assets/media/raccoon-character-spritesheet.webp"}
 }
 ]

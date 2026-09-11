@@ -202,7 +202,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Travel","Goa","Alternative World","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/goa-that-never-was.jpg",
+  "preview": "assets/media/images/goa-that-never-was.jpg",
   "media": {"kind": "image","url": "assets/media/images/goa-that-never-was.jpg"
   }
 },
@@ -218,7 +218,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Cinema","Night","Milky Way","Travel","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/cinema-at-the-edge-of-the-world.jpg",
+  "preview": "assets/media/images/cinema-at-the-edge-of-the-world.jpg",
   "media": {"kind": "image","url": "assets/media/images/cinema-at-the-edge-of-the-world.jpg"}
 },
 {
@@ -233,7 +233,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Surreal","Space","Travel","Motorcycle","Exploration","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/where-the-earth-ends.jpg",
+  "preview": "assets/media/images/where-the-earth-ends.jpg",
   "media": {"kind": "image","url": "assets/media/images/where-the-earth-ends.jpg"
   }
 },
@@ -249,7 +249,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Ringworld","Travel","Motorcycle","Countryside","Alternative World","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/the-road-home.jpg",
+  "preview": "assets/media/images/the-road-home.jpg",
   "media": {"kind": "image","url": "assets/media/images/the-road-home.jpg"
   }
 },
@@ -265,7 +265,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Lighthouse","Ocean","Landscape","Nature","Atmospheric","Travel"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/lighthouse-at-the-edge.jpg",
+  "preview": "assets/media/images/lighthouse-at-the-edge.jpg",
   "media": {"kind": "image","url": "assets/media/images/lighthouse-at-the-edge.jpg"}
 },
 {
@@ -280,7 +280,7 @@
   "subcategory": {"ru": "Эксперименты","en": "Experiments"},
   "tags": ["AI","Local AI","ComfyUI","FLUX","Raccoon","Experimental","First Test"],
   "tools": ["ComfyUI","flux2_clein"],
-  "preview": "assets/previews/first-local-raccoon.png",
+  "preview": "assets/media/images/first-local-raccoon.png",
   "media": {"kind": "image","url": "assets/media/images/first-local-raccoon.png"
   }
 },
@@ -296,7 +296,7 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Nature","Forest","Paper Boat","Atmospheric","Cinematic","Experimental"],
   "tools": ["AI Generation"],
-  "preview": "assets/previews/where-the-current-leads.jpg",
+  "preview": "assets/media/images/where-the-current-leads.jpg",
   "media": {"kind": "image","url": "assets/media/images/where-the-current-leads.jpg"
   }
 },
@@ -309,11 +309,10 @@
   "description_ru": "Енот, рюкзак, кирка и бесконечная дорога впереди. Никто уже толком не помнит, откуда начался этот караван и куда именно он направляется. Но пока есть дорога, любопытство и возможность копать дальше — останавливаться совершенно незачем.",
   "description_en": "A raccoon, a backpack, a pickaxe and an endless road ahead. Nobody really remembers where this caravan started or exactly where it is going. But as long as there is a road, curiosity and something new to dig into, there is no reason to stop.",
   "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"
-  },
+  "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Raccoon","Pickaxe","Road","Travel","Adventure","Photorealism","Cinematic"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/previews/the-caravan-moves-on.jpg",
+  "preview": "assets/media/images/the-caravan-moves-on.jpg",
   "media": {"kind": "image","url": "assets/media/images/the-caravan-moves-on.jpg"
   }
 },
@@ -329,7 +328,7 @@
   "subcategory": {"ru": "Эксперименты","en": "Experiments"},
   "tags": ["Raccoon","Character","Sprite Sheet","Pixel Art","Animation","Game Development","Portfolio","Experimental"],
   "tools": ["ChatGPT","Codex"],
-  "preview": "assets/previews/raccoon-character-spritesheet.webp",
+  "preview": "assets/media/images/raccoon-character-spritesheet.webp",
   "media": {"kind": "image","url": "assets/media/images/raccoon-character-spritesheet.webp"}
 }
 ]

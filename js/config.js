@@ -8,14 +8,67 @@ window.PortfolioMap.CONFIG = {
   },
 
   player: {
-    start: { x: 800, y: 818 },
-    radius: 16,
-    speed: 235,
-    interactionRadius: 72,
-    safeReturnDistance: 46,
-    spriteWidth: 70,
-    spriteHeight: 92
-  },
+  start: { x: 800, y: 818 },
+  radius: 16,
+  speed: 235,
+  interactionRadius: 72,
+  safeReturnDistance: 46,
+
+  // Размер на карте
+  spriteWidth: 92,
+  spriteHeight: 100,
+
+  // Через сколько бездействия переключаться в waiting
+  waitingDelayMs: 5500,
+
+  animations: {
+    idle: {
+      assetKey: "playerIdle",
+      frameWidth: 192,
+      frameHeight: 208,
+      frameCount: 6,
+      frameDuration: 280,
+      loop: true,
+      mirrorWithFacing: true
+    },
+    runLeft: {
+      assetKey: "playerRunLeft",
+      frameWidth: 192,
+      frameHeight: 208,
+      frameCount: 8,
+      frameDuration: 120,
+      loop: true,
+      mirrorWithFacing: false
+    },
+    runRight: {
+      assetKey: "playerRunRight",
+      frameWidth: 192,
+      frameHeight: 208,
+      frameCount: 8,
+      frameDuration: 120,
+      loop: true,
+      mirrorWithFacing: false
+    },
+    waiting: {
+      assetKey: "playerWaiting",
+      frameWidth: 192,
+      frameHeight: 208,
+      frameCount: 6,
+      frameDuration: 150,
+      loop: true,
+      mirrorWithFacing: true
+    },
+    wave: {
+      assetKey: "playerWave",
+      frameWidth: 192,
+      frameHeight: 208,
+      frameCount: 4,
+      frameDuration: 140,
+      loop: false,
+      mirrorWithFacing: true
+    }
+  }
+},
 
   controls: {
     up: ["KeyW", "ArrowUp"],
@@ -47,13 +100,22 @@ window.PortfolioMap.CONFIG = {
   },
 
   assets: {
-    baseMap: "assets/map/base-map.jpg",
-    analytics: "assets/locations/analytics.png",
-    snake: "assets/locations/snake.png",
-    warehouse: "assets/locations/warehouse.png",
-    uselessBox: "assets/locations/useless-box.png",
-    player: "assets/player/player.png",
-    cinema: "assets/locations/cinema.png",
+  baseMap: "assets/map/base-map.jpg",
+  analytics: "assets/locations/analytics.png",
+  snake: "assets/locations/snake.png",
+  warehouse: "assets/locations/warehouse.png",
+  uselessBox: "assets/locations/useless-box.png",
+  cinema: "assets/locations/cinema.png",
+
+  // Старый персонаж оставим как запасной fallback
+  player: "assets/player/player.png",
+
+  // Новый енот
+  playerIdle: "assets/player/raccoon/idle-strip.png",
+  playerRunLeft: "assets/player/raccoon/run-left-strip.png",
+  playerRunRight: "assets/player/raccoon/run-right-strip.png",
+  playerWaiting: "assets/player/raccoon/waiting-strip.png",
+  playerWave: "assets/player/raccoon/wave-strip.png"
 },
 
   debug: {

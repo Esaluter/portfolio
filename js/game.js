@@ -33,13 +33,17 @@ window.PortfolioMap = window.PortfolioMap || {};
 
   const state = {
     player: {
-      x: CONFIG.player.start.x,
-      y: CONFIG.player.start.y,
-      radius: CONFIG.player.radius,
-      facingX: 0,
-      facingY: 1,
-      walking: false
-    },
+    x: CONFIG.player.start.x,
+    y: CONFIG.player.start.y,
+    radius: CONFIG.player.radius,
+    facingX: 1,
+    facingY: 1,
+    walking: false,
+    lastMovedAt: performance.now(),
+    currentAnimation: "idle",
+    animationStartedAt: performance.now(),
+    waveUntil: 0
+  },
     keys: new Set(),
     route: [],
     routeIndex: 0,
@@ -346,15 +350,22 @@ window.PortfolioMap = window.PortfolioMap || {};
   }
 
   function startJourney() {
-    if (introScreen.hidden) return;
-    state.experienceActive = true;
-    introScreen.classList.add("is-leaving");
-    window.setTimeout(() => {
-      introScreen.hidden = true;
-      introScreen.classList.remove("is-leaving");
-      unlockUI("intro");
-    }, 220);
+  if (introScreen.hidden) return;
+
+  state.experienceActive = true;
+
+  const wave = CONFIG.player.animations?.wave;
+  if (wave) {
+    state.player.waveUntil = performance.now() + (wave.frameCount * wave.frameDuration);
   }
+
+  introScreen.classList.add("is-leaving");
+  window.setTimeout(() => {
+    introScreen.hidden = true;
+    introScreen.classList.remove("is-leaving");
+    unlockUI("intro");
+  }, 220);
+}
 
   function lockUI(reason) {
     state.uiLocks.add(reason);
@@ -568,12 +579,18 @@ window.PortfolioMap = window.PortfolioMap || {};
   }
 
   function updateManualMovement(vector, dt) {
-    const distance = CONFIG.player.speed * dt;
-    state.player.facingX = vector.x;
-    state.player.facingY = vector.y;
-    const moved = movePlayerWithCollision(vector.x * distance, vector.y * distance);
-    state.player.walking = moved > 0.02;
+  const distance = CONFIG.player.speed * dt;
+
+  if (Math.abs(vector.x) > 0.05) state.player.facingX = vector.x;
+  state.player.facingY = vector.y;
+
+  const moved = movePlayerWithCollision(vector.x * distance, vector.y * distance);
+  state.player.walking = moved > 0.02;
+
+  if (moved > 0.02) {
+    state.player.lastMovedAt = performance.now();
   }
+}
 
   function updateAutoMovement(dt) {
     const waypoint = state.route[state.routeIndex];
@@ -599,11 +616,17 @@ window.PortfolioMap = window.PortfolioMap || {};
     }
 
     const nx = dx / distance;
-    const ny = dy / distance;
-    state.player.facingX = nx;
-    state.player.facingY = ny;
-    const moved = movePlayerWithCollision(nx * step, ny * step);
-    state.player.walking = moved > 0.02;
+const ny = dy / distance;
+
+if (Math.abs(nx) > 0.05) state.player.facingX = nx;
+state.player.facingY = ny;
+
+const moved = movePlayerWithCollision(nx * step, ny * step);
+state.player.walking = moved > 0.02;
+
+if (moved > 0.02) {
+  state.player.lastMovedAt = performance.now();
+}
 
     if (moved < 0.02) {
       cancelRoute();
@@ -981,20 +1004,76 @@ window.PortfolioMap = window.PortfolioMap || {};
     }
   }
 
+function getPlayerAnimationName(now) {
+  const p = state.player;
+
+  if (p.waveUntil && now < p.waveUntil) {
+    return "wave";
+  }
+
+  if (p.walking) {
+    return p.facingX < -0.12 ? "runLeft" : "runRight";
+  }
+
+  if (now - p.lastMovedAt >= CONFIG.player.waitingDelayMs) {
+    return "waiting";
+  }
+
+  return "idle";
+}
+
   function drawPlayer(now) {
-    if (!state.experienceActive) return;
-    const p = state.player;
-    const bob = p.walking ? Math.sin(now / 75) * 2.2 : Math.sin(now / 700) * 0.6;
+  if (!state.experienceActive) return;
+
+  const p = state.player;
+  const bob = p.walking ? Math.sin(now / 75) * 2.2 : Math.sin(now / 700) * 0.6;
+
+  ctx.save();
+  ctx.translate(p.x, p.y + bob);
+
+  // Тень
+  ctx.fillStyle = "rgba(0, 0, 0, 0.23)";
+  ctx.beginPath();
+  ctx.ellipse(0, 14, 18, 7, 0, 0, Math.PI * 2);
+  ctx.fill();
+
+  const animationName = getPlayerAnimationName(now);
+  const animation = CONFIG.player.animations?.[animationName];
+  const strip = animation ? state.images[animation.assetKey] : null;
+
+  if (animationName !== p.currentAnimation) {
+    p.currentAnimation = animationName;
+    p.animationStartedAt = now;
+  }
+
+  if (animation && strip) {
+    const elapsed = now - p.animationStartedAt;
+    const rawFrame = Math.floor(elapsed / animation.frameDuration);
+    const frameIndex = animation.loop
+      ? (rawFrame % animation.frameCount)
+      : Math.min(rawFrame, animation.frameCount - 1);
+
+    const width = CONFIG.player.spriteWidth;
+    const height = CONFIG.player.spriteHeight;
+
+    const shouldMirror = animation.mirrorWithFacing && p.facingX < -0.22;
+
+    if (shouldMirror) ctx.scale(-1, 1);
+
+    ctx.drawImage(
+      strip,
+      frameIndex * animation.frameWidth,
+      0,
+      animation.frameWidth,
+      animation.frameHeight,
+      -width / 2,
+      -height + 8,
+      width,
+      height
+    );
+  } else {
+    // запасной вариант — старый PNG-персонаж
     const image = state.images.player;
-
-    ctx.save();
-    ctx.translate(p.x, p.y + bob);
-
-    ctx.fillStyle = "rgba(0, 0, 0, 0.23)";
-    ctx.beginPath();
-    ctx.ellipse(0, 14, 17, 7, 0, 0, Math.PI * 2);
-    ctx.fill();
-
     if (image) {
       const width = CONFIG.player.spriteWidth;
       const height = CONFIG.player.spriteHeight;
@@ -1004,9 +1083,10 @@ window.PortfolioMap = window.PortfolioMap || {};
     } else {
       drawFallbackPlayer();
     }
-
-    ctx.restore();
   }
+
+  ctx.restore();
+}
 
   function drawFallbackPlayer() {
     ctx.fillStyle = "#6b4831";

@@ -202,8 +202,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Travel","Goa","Alternative World","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/goa-that-never-was.jpg",
-  "media": {"kind": "image","url": "assets/media/images/goa-that-never-was.jpg"
+  "preview": "assets/media/images/goa-that-never-was.png",
+  "media": {"kind": "image","url": "assets/media/images/goa-that-never-was.png"
   }
 },
 {
@@ -218,8 +218,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Cinema","Night","Milky Way","Travel","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/cinema-at-the-edge-of-the-world.jpg",
-  "media": {"kind": "image","url": "assets/media/images/cinema-at-the-edge-of-the-world.jpg"}
+  "preview": "assets/media/images/cinema-at-the-edge-of-the-world.png",
+  "media": {"kind": "image","url": "assets/media/images/cinema-at-the-edge-of-the-world.png"}
 },
 {
   "id": "where-the-earth-ends",
@@ -233,8 +233,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Surreal","Space","Travel","Motorcycle","Exploration","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/where-the-earth-ends.jpg",
-  "media": {"kind": "image","url": "assets/media/images/where-the-earth-ends.jpg"
+  "preview": "assets/media/images/where-the-earth-ends.png",
+  "media": {"kind": "image","url": "assets/media/images/where-the-earth-ends.png"
   }
 },
 {
@@ -249,8 +249,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Sci-Fi","Ringworld","Travel","Motorcycle","Countryside","Alternative World","Atmospheric","Experimental"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/the-road-home.jpg",
-  "media": {"kind": "image","url": "assets/media/images/the-road-home.jpg"
+  "preview": "assets/media/images/the-road-home.png",
+  "media": {"kind": "image","url": "assets/media/images/the-road-home.png"
   }
 },
 {
@@ -265,8 +265,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Photorealism","Lighthouse","Ocean","Landscape","Nature","Atmospheric","Travel"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/lighthouse-at-the-edge.jpg",
-  "media": {"kind": "image","url": "assets/media/images/lighthouse-at-the-edge.jpg"}
+  "preview": "assets/media/images/lighthouse-at-the-edge.png",
+  "media": {"kind": "image","url": "assets/media/images/lighthouse-at-the-edge.png"}
 },
 {
   "id": "first-local-raccoon",
@@ -296,8 +296,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Nature","Forest","Paper Boat","Atmospheric","Cinematic","Experimental"],
   "tools": ["AI Generation"],
-  "preview": "assets/media/images/where-the-current-leads.jpg",
-  "media": {"kind": "image","url": "assets/media/images/where-the-current-leads.jpg"
+  "preview": "assets/media/images/where-the-current-leads.png",
+  "media": {"kind": "image","url": "assets/media/images/where-the-current-leads.png"
   }
 },
 {
@@ -312,8 +312,8 @@
   "subcategory": {"ru": "AI-арт","en": "AI Art"},
   "tags": ["AI","Raccoon","Pickaxe","Road","Travel","Adventure","Photorealism","Cinematic"],
   "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/the-caravan-moves-on.jpg",
-  "media": {"kind": "image","url": "assets/media/images/the-caravan-moves-on.jpg"
+  "preview": "assets/media/images/the-caravan-moves-on.png",
+  "media": {"kind": "image","url": "assets/media/images/the-caravan-moves-on.png"
   }
 },
 {

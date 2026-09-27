@@ -361,9 +361,18 @@
   "tags": ["AI","AI Video","Sci-Fi","Comedy","Raccoon","Portal","Experimental"],
   "tools": ["Gemini","Veo"],
   "preview": "assets/previews/beyond-the-sandwich.jpg",
-  "media": {"kind": "video",
-    "url": "assets/media/beyond-the-sandwich.mp4",
-    "poster": "assets/previews/beyond-the-sandwich.jpg"
+  "media": {"kind": "video","url": "assets/media/beyond-the-sandwich.mp4","poster": "assets/previews/beyond-the-sandwich.jpg"}
+},
+{"id": "raccovortex","type": "image","featured": false,"title_ru": "Раковоронка",
+  "title_en": "The Raccovortex",
+  "description_ru": "Пространственно нестабильная форма жизни неизвестного происхождения, сочетающая признаки ворона, ракообразного и локальной гравитационной аномалии. Раковоронка ведёт себя преимущественно как обычная птица, если не считать воронки в центре тела, способной нарушать пространство-время. Первый официальный монстр Мультивселенной безумия.",
+  "description_en": "A spatially unstable life form of unknown origin, combining traits of a raven, a crustacean and a localized gravitational anomaly. The Raccovortex behaves mostly like an ordinary bird, except for the vortex at the center of its body capable of disrupting spacetime. The first official monster of the Multiverse of Madness.",
+  "date": "2026-09-27",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","Raccovortex","Creature","Concept Art","Sci-Fi","Fantasy","Multiverse","Experimental"],
+  "tools": ["ChatGPT"],
+  "preview": "assets/media/images/raccovortex.webp",
+  "media": {"kind": "image","url": "assets/media/images/raccovortex.png"
   }
 }
 ]

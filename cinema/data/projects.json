@@ -371,7 +371,7 @@
   "subcategory": {"ru": "Эксперименты","en": "Experiments"},
   "tags": ["AI","Raccovortex","Creature","Concept Art","Sci-Fi","Fantasy","Multiverse","Experimental"],
   "tools": ["ChatGPT"],
-  "preview": "assets/media/images/raccovortex.webp",
+  "preview": "assets/media/images/raccovortex.png",
   "media": {"kind": "image","url": "assets/media/images/raccovortex.png"
   }
 }

@@ -330,5 +330,40 @@
   "tools": ["ChatGPT","Codex"],
   "preview": "assets/media/images/raccoon-character-spritesheet.webp",
   "media": {"kind": "image","url": "assets/media/images/raccoon-character-spritesheet.webp"}
+},
+{
+  "id": "the-sandwich",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Бутерброд",
+  "title_en": "The Sandwich",
+  "description_ru": "Енот замечает странное свечение из старого холодильника и решает проверить, что происходит. Внутри обнаруживается загадочный портал, из которого неожиданно появляется рука и предлагает ему бутерброд. Иногда встреча с неизведанным заканчивается гораздо спокойнее, чем ожидаешь.",
+  "description_en": "A raccoon notices a strange glow coming from an old refrigerator and decides to investigate. Inside, he discovers a mysterious portal, from which a hand unexpectedly appears and offers him a sandwich. Sometimes an encounter with the unknown ends much more quietly than expected.",
+  "date": "2026-09-26",
+  "duration": "00:20",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","AI Video","Comedy","Raccoon","Portal","Experimental"],
+  "tools": ["GigaChat"],
+  "preview": "assets/previews/the-sandwich.jpg",
+  "media": {"kind": "video","url": "assets/media/the-sandwich.mp4","poster": "assets/previews/the-sandwich.jpg"}
+},
+{
+  "id": "beyond-the-sandwich",
+  "type": "video",
+  "featured": false,
+  "title_ru": "За бутербродом",
+  "title_en": "Beyond the Sandwich",
+  "description_ru": "Енот обнаруживает внутри старого холодильника загадочный портал. Оттуда появляется рука и предлагает ему бутерброд. Бутерброд оказывается неплох, но остаётся куда более важный вопрос: а что находится по ту сторону? Любопытство побеждает.",
+  "description_en": "A raccoon discovers a mysterious portal inside an old refrigerator. A hand emerges from it and offers him a sandwich. The sandwich turns out to be pretty good, but a much more important question remains: what is on the other side? Curiosity wins.",
+  "date": "2026-09-26",
+  "duration": "00:30",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","AI Video","Sci-Fi","Comedy","Raccoon","Portal","Experimental"],
+  "tools": ["Gemini","Veo"],
+  "preview": "assets/previews/beyond-the-sandwich.jpg",
+  "media": {"kind": "video",
+    "url": "assets/media/beyond-the-sandwich.mp4",
+    "poster": "assets/previews/beyond-the-sandwich.jpg"
+  }
 }
 ]

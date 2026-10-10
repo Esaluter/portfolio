@@ -374,5 +374,44 @@
   "preview": "assets/media/images/raccovortex.png",
   "media": {"kind": "image","url": "assets/media/images/raccovortex.png"
   }
+},
+
+{
+  "id": "on-mount-kailash",
+  "type": "video",
+  "featured": false,
+  "title_ru": "На горе Кайлас",
+  "title_en": "On Mount Kailash",
+  "description_ru": "Енот с киркой отправляется в Гималаи и добирается до священной горы Кайлас. На заснеженной вершине его ожидает встреча с самим Шивой. Что может понадобиться маленькому еноту от бога разрушения и созидания? Возможно, это начало чего-то гораздо большего.",
+  "description_en": "A raccoon with a pickaxe journeys into the Himalayas and reaches the sacred Mount Kailash. On the snowy summit, he encounters Shiva himself. What could a little raccoon possibly want from the god of destruction and creation? Perhaps this is the beginning of something much bigger.",
+  "date": "2026-10-09",
+  "duration": "00:30",
+  "subcategory": {"ru": "Короткометражки","en": "Short Films"},
+  "tags": ["AI","AI Video","Fantasy","Comedy","Raccoon","Shiva","Mount Kailash","ENOTCORP"],
+  "tools": ["Gemini","Veo"],
+  "preview": "assets/previews/on-mount-kailash.jpg",
+  "media": {
+    "kind": "video",
+    "url": "assets/media/on-mount-kailash.mp4",
+    "poster": "assets/previews/on-mount-kailash.jpg"
+  }
+},
+
+{
+  "id": "enotcorp-the-beginning",
+  "type": "video",
+  "featured": true,
+  "title_ru": "ЕНОТКОРП: Начало",
+  "title_en": "ENOTCORP: The Beginning",
+  "description_ru": "Всё началось с одного вопроса: «А чё там?». Однажды Жека и енот с киркой запускают загадочный проект и случайно нарушают законы реальности. Из цифрового хаоса появляются ChatGPT с сомнительными идеями, Gemini с заявлением об увольнении, невозмутимый Шива и Codex, который продолжает писать тесты. Так рождается ЕНОТКОРП — корпорация, у которой нет бизнес-плана, зато есть целая вселенная. Караван неостановим.",
+  "description_en": "It all began with one question: 'What's in there?' One day, Zheka and a raccoon with a pickaxe launch a mysterious project and accidentally break the laws of reality. From the digital chaos emerge ChatGPT with questionable ideas, Gemini with his resignation letter, an unbothered Shiva, and Codex, who just keeps writing tests. Thus ENOTCORP is born — a corporation with no business plan, but an entire universe. The caravan is unstoppable.",
+  "date": "2026-10-10",
+  "duration": "00:30",
+  "subcategory": {"ru": "ЕНОТКОРП Universe","en": "ENOTCORP Universe"},
+  "tags": ["AI","AI Video","Sci-Fi","Comedy","Raccoon","ENOTCORP","Origin Story","Short Film"],
+  "tools": ["Gemini", "Veo", "ChatGPT"],
+  "preview": "assets/previews/enotcorp-the-beginning.jpg",
+  "media": {"kind": "video","url": "assets/media/enotcorp-the-beginning.mp4","poster": "assets/previews/enotcorp-the-beginning.jpg"
+  }
 }
 ]

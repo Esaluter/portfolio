@@ -1,0 +1,51 @@
+# ============================================================
+# Portfolio + Raccoontraption — shared repository .gitignore
+# ============================================================
+
+# Dependencies (including nested JavaScript projects)
+node_modules/
+
+# Generated builds and test artifacts
+# Note: keep these rules only if deployment builds the app
+# from source, rather than committing its dist/ directory.
+dist/
+dist-ssr/
+coverage/
+.vite/
+.vitest/
+*.tsbuildinfo
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Temporary files and local caches
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Editors and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local directory-tree exports
+structure.txt
+structure(*).txt

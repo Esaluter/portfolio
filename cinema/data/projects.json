@@ -835,5 +835,38 @@
       "kind": "image",
       "url": "assets/media/images/chasing-the-horizon.png"
     }
+  },
+  
+{
+  "id": "the-last-jump",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Последний прыжок",
+  "title_en": "The Last Jump",
+  "description_ru": "Во время морского сражения капитан замечает приближающуюся торпеду и поручает боцману-еноту успокоить команду. Но у енота собственное представление о поддержании боевого духа. Один невероятный прыжок, оглушительный взрыв — и корабля больше нет. Самое обидное, что торпеда вообще прошла мимо. Морская комедия о самоуверенности, совпадениях и разрушительной силе енотового энтузиазма.",
+  "description_en": "During a naval battle, a captain spots an approaching torpedo and orders his raccoon boatswain to calm the crew. But the raccoon has his own ideas about boosting morale. One incredible jump, a deafening explosion — and the ship is gone. The worst part? The torpedo missed entirely. A naval comedy about overconfidence, unfortunate coincidences, and the destructive power of raccoon enthusiasm.",
+  "date": "2026-10-17",
+  "duration": "00:30",
+  "subcategory": {
+    "ru": "Короткометражки",
+    "en": "Short Films"
+  },
+  "tags": [
+    "AI",
+    "Comedy",
+    "Raccoon",
+    "Experimental"
+  ],
+  "tools": [
+    "Gemini",
+    "Veo",
+    "ChatGPT"
+  ],
+  "preview": "assets/previews/the-last-jump.jpg",
+  "media": {
+    "kind": "video",
+    "url": "assets/media/the-last-jump.mp4",
+    "poster": "assets/previews/the-last-jump.jpg"
   }
+}
 ]

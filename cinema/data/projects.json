@@ -1,469 +1,839 @@
 [
   {
-  "id": "man-pickaxe-looking-for-work",
-  "type": "video",
-  "featured": true,
-  "title_ru": "Человек-кирка ищет работу",
-  "title_en": "Man-Pickaxe Is Looking for a Job",
-  "description_ru": "Человек берёт кирку и отправляется искать работу. Собеседования, отказы и бесконечное копание постепенно превращают его в енота. Короткая история о поиске работы, выгорании и умении вовремя уехать дальше.",
-  "description_en": "A man picks up a pickaxe and sets out to find a job. Interviews, rejections and endless digging gradually turn him into a raccoon. A short story about job hunting, burnout and knowing when to move on.",
-  "date": "2026-09-05",
-  "duration": "00:55",
-  "subcategory": {"ru": "Короткометражки", "en": "Short Films"},
-  "tags": ["AI","Animation","Experimental"],
-  "tools": ["Gemini"],
-  "preview": "assets/previews/man-pickaxe-looking-for-work.jpg",
-  "media": {"kind": "video","url": "assets/media/man-pickaxe-looking-for-work.mp4","poster": "assets/previews/man-pickaxe-looking-for-work.jpg"}
-},
-{
-  "id": "old-raccoon-digs",
-  "type": "music",
-  "category": "music",
-  "subcategory": {
-    "ru": "Рок / музыкальный эксперимент",
-    "en": "Rock / music experiment"
+    "id": "man-pickaxe-looking-for-work",
+    "type": "video",
+    "featured": true,
+    "title_ru": "Человек-кирка ищет работу",
+    "title_en": "Man-Pickaxe Is Looking for a Job",
+    "description_ru": "Человек берёт кирку и отправляется искать работу. Собеседования, отказы и бесконечное копание постепенно превращают его в енота. Короткая история о поиске работы, выгорании и умении вовремя уехать дальше.",
+    "description_en": "A man picks up a pickaxe and sets out to find a job. Interviews, rejections and endless digging gradually turn him into a raccoon. A short story about job hunting, burnout and knowing when to move on.",
+    "date": "2026-09-05",
+    "duration": "00:55",
+    "subcategory": {
+      "ru": "Короткометражки",
+      "en": "Short Films"
+    },
+    "tags": [
+      "Animation",
+      "Comedy",
+      "Raccoon"
+    ],
+    "tools": [
+      "Gemini"
+    ],
+    "preview": "assets/previews/man-pickaxe-looking-for-work.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/man-pickaxe-looking-for-work.mp4",
+      "poster": "assets/previews/man-pickaxe-looking-for-work.jpg"
+    }
   },
-  "title_ru": "Старый Енот копает",
-  "title_en": "The Old Raccoon Digs",
-  "description_ru": "Короткий индустриальный рок-гимн о старом еноте, который продолжает копать сквозь ржавые шестерни, гранит и бесконечный маскарад.",
-  "description_en": "A short industrial rock anthem about an old raccoon who keeps digging through rusted gears, granite and an endless masquerade.",
-  "long_description_ru": "Тридцатисекундный музыкальный эксперимент с тяжёлыми гитарами, мужским вокалом и почти героическим пафосом. Песня о старом еноте, чья воля стала сталью и болью, но который всё равно продолжает путь вперёд.",
-  "long_description_en": "A thirty-second music experiment driven by heavy guitars, male vocals and unapologetically heroic energy. It tells the story of an old raccoon whose will has become steel and pain, yet who continues moving forward.",
-  "preview": "assets/previews/old-raccoon-digs.jpg",
-  "media": {"kind": "audio","url": "assets/media/music/old-raccoon-digs.m4a","poster": "assets/previews/old-raccoon-digs.jpg"},
-"duration": "00:31",
-  "date": "2026-09-06",
-  "tools": ["Gemini","Google DeepMind Lyria"],
-  "tags": ["AI Music","Rock","Industrial Rock","Heavy","Male Vocal","Epic","Experimental","Raccoon","Lyria"],
-  "featured": false,
-  "lyrics": {"language": "ru","text": "Среди ржавых шестерён,\nГде мой путь — лишь прах и тлен,\nДвадцать тысяч пустых врат,\nБесконечный маскарад.\n\nНо копает старый енот,\nСквозь гранит идёт вперёд.\nЕго воля — сталь и боль,\nВот его святая роль."},
-  "credits": {"concept": "Жека","music_generation": "Google DeepMind Lyria"}
-},
-{
-  "id": "steel-ark",
-  "type": "music",
-  "category": "music",
-  "subcategory": {
-    "ru": "Метал / музыкальный эксперимент",
-    "en": "Metal / music experiment"},
-  "title_ru": "Стальной ковчег",
-  "title_en": "Steel Ark",
-  "description_ru": "Тяжёлый металлический гимн о рынке труда, складском аду и создании собственного мира из кода, воли и упрямства.",
-  "description_en": "A heavy metal anthem about the job market, warehouse hell, and forging your own world from code, willpower and stubbornness.",
-  "preview": "assets/previews/old-raccoon-digs.jpg",
-  "media": {"kind": "audio","url": "assets/media/music/steel-ark.mp3","poster": "assets/previews/old-raccoon-digs.jpg"},
-"duration": "00:31",
-  "date": "2026-09-06",
-  "tools": ["Gemini","Google DeepMind Lyria"],
-  "tags": ["AI Music","Metal","Heavy","Epic","Male Vocal","Warehouse","Code","Experimental"],
-  "featured": false,
-  "lyrics": {"language": "ru","text": "Молот отчаяния кует мою волю,\nРынок труда — бесконечное поле.\nЗа каждый товар — невидимый штраф,\nМой симулятор склада, где гниёт состав.\n\nНо в этом аду я рождаю свой код,\nЯ кую свой собственный мир и ковчег."},
-  "credits": {"concept": "Жека","music_generation": "Google DeepMind Lyria"}
-},
-{
-  "id": "raccoon-postman",
-  "type": "image",
-  "category": "image",
-  "subcategory": {"ru": "AI-арт / персонаж","en": "AI Art / Character"},
-  "title_ru": "Енот-почтальон",
-  "title_en": "Raccoon Postman",
-  "description_ru": "Почтальон постапокалиптического мира продолжает доставлять письма туда, где связь между людьми почти исчезла. Потому что кто-то всё ещё должен доставлять надежду.",
-  "description_en": "A postman of the post-apocalyptic world keeps delivering letters where communication between people has almost disappeared. Because someone still has to deliver hope.",
-  "preview": "assets/media/images/raccoon-postman.png",
-  "media": {"kind": "image","url": "assets/media/images/raccoon-postman.png"},
-  "date": "2026-09-06",
-  "tools": ["ChatGPT","OpenAI"],
-  "tags": ["AI Art","Raccoon","Post-Apocalyptic","Postman","Character","Experimental"],
-  "featured": false
-},
-{
-  "id": "neon-landing",
-  "type": "video",
-  "featured": false,
-  "title_ru": "Неоновая посадка",
-  "title_en": "Neon Landing",
-  "description_ru": "Короткий AI-видеоэксперимент: футуристический корабль совершает посадку посреди обычного земного поля.",
-  "description_en": "A short AI video experiment: a futuristic spacecraft lands in the middle of an ordinary field.",
-  "date": "2026-09-06",
-  "duration": "00:10",
-  "subcategory": {"ru": "Видеоэксперименты","en": "Video Experiments"},
-  "tags": ["AI","Sci-Fi","Spaceship","Experimental","Google Flow"],
-  "tools": ["Google Flow"],
-  "preview": "assets/previews/neon-landing.jpg",
-  "media": {"kind": "video","url": "assets/media/neon-landing.mp4","poster": "assets/previews/neon-landing.jpg"}
-},
-{
-  "id": "cat-parade",
-  "type": "video",
-  "featured": false,
-  "title_ru": "Кошачий парад",
-  "title_en": "The Cat Parade",
-  "description_ru": "Десятисекундный AI-видеоэксперимент: торжественный парад котов в мундирах проходит через город, построенный по всем правилам кошачьей архитектуры.",
-  "description_en": "A ten-second AI video experiment: a ceremonial parade of uniformed cats marches through a city built according to the finest principles of feline architecture.",
-  "date": "2026-09-06",
-  "duration": "00:10",
-  "subcategory": {"ru": "Видеоэксперименты","en": "Video Experiments"},
-  "tags": ["AI","Cats","Parade","Experimental","Google Flow"],
-  "tools": ["Google Flow"],
-  "preview": "assets/previews/cat-parade.jpg",
-  "media": {"kind": "video","url": "assets/media/cat-parade.mp4","poster": "assets/previews/cat-parade.jpg"}
-},
-{
-  "id": "march-of-the-cats",
-  "type": "image",
-  "category": "image",
-  "subcategory": {
-    "ru": "AI-арт / абсурд",
-    "en": "AI Art / Absurd"},
-  "title_ru": "Марш котов",
-  "title_en": "March of the Cats",
-  "description_ru": "Торжественный кошачий марш проходит по улицам города. Оркестр играет, жители ликуют, пекарня мяукает. Причины проведения парада неизвестны.",
-  "description_en": "A ceremonial cat march takes over the city streets. The band plays, the crowd cheers, and the bakery meows. The reason for the parade remains unknown.",
-  "preview": "assets/media/images/march-of-the-cats.jpg",
-  "media": {"kind": "image","url": "assets/media/images/march-of-the-cats.jpg"},
-  "date": "2026-09-06",
-  "tools": ["Gemini","Nano Banana"],
-  "tags": ["AI Art","Cats","Parade","Absurd","Comedy","Experimental"],"featured": false
-},
-{
-  "id": "the-pet",
-  "type": "video",
-  "featured": true,
-  "title_ru": "Питомец",
-  "title_en": "The Pet",
-  "description_ru": "Обычная ночная поездка на мотоцикле заканчивается похищением пришельцами. Вскоре становится ясно, что разумные коты прилетели на Землю вовсе не ради первого контакта — им просто понравился новый зверёк.",
-  "description_en": "An ordinary nighttime motorcycle ride ends in an alien abduction. It soon becomes clear that the intelligent cats didn't come to Earth for first contact — they simply found themselves a new pet.",
-  "date": "2026-09-08",
-  "duration": "01:10",
-  "subcategory": {"ru": "Короткометражки","en": "Short Films"},
-  "tags": ["AI","Sci-Fi","Dark Comedy","Cats","Alien World","Short Film","Experimental"],
-    "tools": ["Gemini","Veo"],
+  {
+    "id": "old-raccoon-digs",
+    "type": "music",
+    "category": "music",
+    "subcategory": {
+      "ru": "Рок / музыкальный эксперимент",
+      "en": "Rock / music experiment"
+    },
+    "title_ru": "Старый Енот копает",
+    "title_en": "The Old Raccoon Digs",
+    "description_ru": "Короткий индустриальный рок-гимн о старом еноте, который продолжает копать сквозь ржавые шестерни, гранит и бесконечный маскарад.",
+    "description_en": "A short industrial rock anthem about an old raccoon who keeps digging through rusted gears, granite and an endless masquerade.",
+    "long_description_ru": "Тридцатисекундный музыкальный эксперимент с тяжёлыми гитарами, мужским вокалом и почти героическим пафосом. Песня о старом еноте, чья воля стала сталью и болью, но который всё равно продолжает путь вперёд.",
+    "long_description_en": "A thirty-second music experiment driven by heavy guitars, male vocals and unapologetically heroic energy. It tells the story of an old raccoon whose will has become steel and pain, yet who continues moving forward.",
+    "preview": "assets/previews/old-raccoon-digs.jpg",
+    "media": {
+      "kind": "audio",
+      "url": "assets/media/music/old-raccoon-digs.m4a",
+      "poster": "assets/previews/old-raccoon-digs.jpg"
+    },
+    "duration": "00:31",
+    "date": "2026-09-06",
+    "tools": [
+      "Gemini",
+      "Google DeepMind Lyria"
+    ],
+    "tags": [
+      "Music",
+      "Rock",
+      "Raccoon"
+    ],
+    "featured": false,
+    "lyrics": {
+      "language": "ru",
+      "text": "Среди ржавых шестерён,\nГде мой путь — лишь прах и тлен,\nДвадцать тысяч пустых врат,\nБесконечный маскарад.\n\nНо копает старый енот,\nСквозь гранит идёт вперёд.\nЕго воля — сталь и боль,\nВот его святая роль."
+    },
+    "credits": {
+      "concept": "Жека",
+      "music_generation": "Google DeepMind Lyria"
+    }
+  },
+  {
+    "id": "steel-ark",
+    "type": "music",
+    "category": "music",
+    "subcategory": {
+      "ru": "Метал / музыкальный эксперимент",
+      "en": "Metal / music experiment"
+    },
+    "title_ru": "Стальной ковчег",
+    "title_en": "Steel Ark",
+    "description_ru": "Тяжёлый металлический гимн о рынке труда, складском аду и создании собственного мира из кода, воли и упрямства.",
+    "description_en": "A heavy metal anthem about the job market, warehouse hell, and forging your own world from code, willpower and stubbornness.",
+    "preview": "assets/previews/old-raccoon-digs.jpg",
+    "media": {
+      "kind": "audio",
+      "url": "assets/media/music/steel-ark.mp3",
+      "poster": "assets/previews/old-raccoon-digs.jpg"
+    },
+    "duration": "00:31",
+    "date": "2026-09-06",
+    "tools": [
+      "Gemini",
+      "Google DeepMind Lyria"
+    ],
+    "tags": [
+      "Music",
+      "Metal",
+      "Work"
+    ],
+    "featured": false,
+    "lyrics": {
+      "language": "ru",
+      "text": "Молот отчаяния кует мою волю,\nРынок труда — бесконечное поле.\nЗа каждый товар — невидимый штраф,\nМой симулятор склада, где гниёт состав.\n\nНо в этом аду я рождаю свой код,\nЯ кую свой собственный мир и ковчег."
+    },
+    "credits": {
+      "concept": "Жека",
+      "music_generation": "Google DeepMind Lyria"
+    }
+  },
+  {
+    "id": "raccoon-postman",
+    "type": "image",
+    "category": "image",
+    "subcategory": {
+      "ru": "AI-арт / персонаж",
+      "en": "AI Art / Character"
+    },
+    "title_ru": "Енот-почтальон",
+    "title_en": "Raccoon Postman",
+    "description_ru": "Почтальон постапокалиптического мира продолжает доставлять письма туда, где связь между людьми почти исчезла. Потому что кто-то всё ещё должен доставлять надежду.",
+    "description_en": "A postman of the post-apocalyptic world keeps delivering letters where communication between people has almost disappeared. Because someone still has to deliver hope.",
+    "preview": "assets/media/images/raccoon-postman.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/raccoon-postman.png"
+    },
+    "date": "2026-09-06",
+    "tools": [
+      "ChatGPT",
+      "OpenAI"
+    ],
+    "tags": [
+      "Raccoon",
+      "Post-Apocalyptic",
+      "Character"
+    ],
+    "featured": false
+  },
+  {
+    "id": "neon-landing",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Неоновая посадка",
+    "title_en": "Neon Landing",
+    "description_ru": "Короткий AI-видеоэксперимент: футуристический корабль совершает посадку посреди обычного земного поля.",
+    "description_en": "A short AI video experiment: a futuristic spacecraft lands in the middle of an ordinary field.",
+    "date": "2026-09-06",
+    "duration": "00:10",
+    "subcategory": {
+      "ru": "Видеоэксперименты",
+      "en": "Video Experiments"
+    },
+    "tags": [
+      "Sci-Fi",
+      "Space",
+      "Experimental"
+    ],
+    "tools": [
+      "Google Flow"
+    ],
+    "preview": "assets/previews/neon-landing.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/neon-landing.mp4",
+      "poster": "assets/previews/neon-landing.jpg"
+    }
+  },
+  {
+    "id": "cat-parade",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Кошачий парад",
+    "title_en": "The Cat Parade",
+    "description_ru": "Десятисекундный AI-видеоэксперимент: торжественный парад котов в мундирах проходит через город, построенный по всем правилам кошачьей архитектуры.",
+    "description_en": "A ten-second AI video experiment: a ceremonial parade of uniformed cats marches through a city built according to the finest principles of feline architecture.",
+    "date": "2026-09-06",
+    "duration": "00:10",
+    "subcategory": {
+      "ru": "Видеоэксперименты",
+      "en": "Video Experiments"
+    },
+    "tags": [
+      "Cats",
+      "Comedy",
+      "Animation"
+    ],
+    "tools": [
+      "Google Flow"
+    ],
+    "preview": "assets/previews/cat-parade.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/cat-parade.mp4",
+      "poster": "assets/previews/cat-parade.jpg"
+    }
+  },
+  {
+    "id": "march-of-the-cats",
+    "type": "image",
+    "category": "image",
+    "subcategory": {
+      "ru": "AI-арт / абсурд",
+      "en": "AI Art / Absurd"
+    },
+    "title_ru": "Марш котов",
+    "title_en": "March of the Cats",
+    "description_ru": "Торжественный кошачий марш проходит по улицам города. Оркестр играет, жители ликуют, пекарня мяукает. Причины проведения парада неизвестны.",
+    "description_en": "A ceremonial cat march takes over the city streets. The band plays, the crowd cheers, and the bakery meows. The reason for the parade remains unknown.",
+    "preview": "assets/media/images/march-of-the-cats.jpg",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/march-of-the-cats.jpg"
+    },
+    "date": "2026-09-06",
+    "tools": [
+      "Gemini",
+      "Nano Banana"
+    ],
+    "tags": [
+      "Cats",
+      "Comedy",
+      "Visual Art"
+    ],
+    "featured": false
+  },
+  {
+    "id": "the-pet",
+    "type": "video",
+    "featured": true,
+    "title_ru": "Питомец",
+    "title_en": "The Pet",
+    "description_ru": "Обычная ночная поездка на мотоцикле заканчивается похищением пришельцами. Вскоре становится ясно, что разумные коты прилетели на Землю вовсе не ради первого контакта — им просто понравился новый зверёк.",
+    "description_en": "An ordinary nighttime motorcycle ride ends in an alien abduction. It soon becomes clear that the intelligent cats didn't come to Earth for first contact — they simply found themselves a new pet.",
+    "date": "2026-09-08",
+    "duration": "01:10",
+    "subcategory": {
+      "ru": "Короткометражки",
+      "en": "Short Films"
+    },
+    "tags": [
+      "Sci-Fi",
+      "Cats",
+      "Comedy"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo"
+    ],
     "preview": "assets/previews/the-pet.jpg",
-    "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-pet-web.mp4","poster": "assets/previews/the-pet.jpg"}
-},
-{
-  "id": "the-last-bus",
-  "type": "video",
-  "featured": true,
-  "title_ru": "Последний автобус",
-  "title_en": "The Last Bus",
-  "description_ru": "Маленький енот ждёт последний автобус посреди мира, который уже закончился. Конечная остановка, кирка на плечо — и дальше только светлое будущее.",
-  "description_en": "A little raccoon waits for the last bus in a world that has already ended. Final stop, pickaxe over the shoulder — and nothing ahead but a bright future.",
-  "date": "2026-09-09",
-  "duration": "00:30",
-  "subcategory": {"ru": "Короткометражки","en": "Short Films"},
-  "tags": ["AI","Post-Apocalyptic","Comedy","Raccoon","Short Film","Experimental"],
-  "tools": ["Gemini","Veo"],
-  "preview": "assets/previews/the-last-bus-poster.jpg",
-  "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-last-bus.mp4","poster": "assets/previews/the-last-bus-poster.jpg"}
-},
-{
-  "id": "the-button",
-  "type": "video",
-  "featured": false,
-  "title_ru": "Кнопка",
-  "title_en": "The Button",
-  "description_ru": "Енот находит загадочную кнопку с единственной инструкцией: не нажимать. Разумеется, эксперимент сразу идёт не по плану. Короткая процедурная анимация, полностью созданная кодом — от отрисовки кадров до сборки финального видео.",
-  "description_en": "A raccoon discovers a mysterious button with one simple instruction: do not press it. Naturally, the experiment immediately goes off script. A short procedural animation created entirely with code — from frame generation to the final video.",
-  "date": "2026-09-09",
-  "duration": "00:10",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": [ "AI","Procedural Animation","Code","2D Animation","Sci-Fi","Comedy","Raccoon","Experimental"],
-  "tools": ["Codex","Python","FFmpeg"],
-  "preview": "assets/previews/the-button.jpg",
-  "media": {"kind": "video","url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-button.mp4","poster": "assets/previews/the-button.jpg"}
-},
-{
-  "id": "multiverse-of-madness",
-  "type": "video",
-  "featured": false,
-  "title_ru": "Мультивселенная безумия",
-  "title_en": "Multiverse of Madness",
-  "description_ru": "Любопытный енот находит странный пульт с одной-единственной кнопкой. Конечно же, он её нажимает — и случайно запускает путешествие через порталы, космос и совершенно потерявшую здравый смысл реальность. Короткий экспериментальный фильм, объединяющий AI-генерацию, процедурную анимацию и монтаж.",
-  "description_en": "A curious raccoon finds a strange remote with a single button. Of course, he presses it — accidentally launching a journey through portals, outer space and a reality that has completely lost all common sense. A short experimental film combining AI-generated video, procedural animation and editing.",
-  "date": "2026-09-10",
-  "duration": "00:40",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","AI Video","Procedural Animation","3D Animation","Sci-Fi","Comedy","Raccoon","Multiverse","Experimental"],
-  "tools": ["Gemini","Codex","Python","FFmpeg","Microsoft Clipchamp"],
-  "preview": "assets/previews/multiverse-of-madness.jpg",
-  "media": {"kind": "video","url": "assets/media/multiverse-of-madness.mp4","poster": "assets/previews/multiverse-of-madness.jpg"
+    "media": {
+      "kind": "video",
+      "url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-pet-web.mp4",
+      "poster": "assets/previews/the-pet.jpg"
+    }
+  },
+  {
+    "id": "the-last-bus",
+    "type": "video",
+    "featured": true,
+    "title_ru": "Последний автобус",
+    "title_en": "The Last Bus",
+    "description_ru": "Маленький енот ждёт последний автобус посреди мира, который уже закончился. Конечная остановка, кирка на плечо — и дальше только светлое будущее.",
+    "description_en": "A little raccoon waits for the last bus in a world that has already ended. Final stop, pickaxe over the shoulder — and nothing ahead but a bright future.",
+    "date": "2026-09-09",
+    "duration": "00:30",
+    "subcategory": {
+      "ru": "Короткометражки",
+      "en": "Short Films"
+    },
+    "tags": [
+      "Raccoon",
+      "Post-Apocalyptic",
+      "Comedy"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo"
+    ],
+    "preview": "assets/previews/the-last-bus-poster.jpg",
+    "media": {
+      "kind": "video",
+      "url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-last-bus.mp4",
+      "poster": "assets/previews/the-last-bus-poster.jpg"
+    }
+  },
+  {
+    "id": "the-button",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Кнопка",
+    "title_en": "The Button",
+    "description_ru": "Енот находит загадочную кнопку с единственной инструкцией: не нажимать. Разумеется, эксперимент сразу идёт не по плану. Короткая процедурная анимация, полностью созданная кодом — от отрисовки кадров до сборки финального видео.",
+    "description_en": "A raccoon discovers a mysterious button with one simple instruction: do not press it. Naturally, the experiment immediately goes off script. A short procedural animation created entirely with code — from frame generation to the final video.",
+    "date": "2026-09-09",
+    "duration": "00:10",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Animation",
+      "Comedy",
+      "Code"
+    ],
+    "tools": [
+      "Codex",
+      "Python",
+      "FFmpeg"
+    ],
+    "preview": "assets/previews/the-button.jpg",
+    "media": {
+      "kind": "video",
+      "url": "https://ik.imagekit.io/a5nejkvlx/cinema/the-button.mp4",
+      "poster": "assets/previews/the-button.jpg"
+    }
+  },
+  {
+    "id": "multiverse-of-madness",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Мультивселенная безумия",
+    "title_en": "Multiverse of Madness",
+    "description_ru": "Любопытный енот находит странный пульт с одной-единственной кнопкой. Конечно же, он её нажимает — и случайно запускает путешествие через порталы, космос и совершенно потерявшую здравый смысл реальность. Короткий экспериментальный фильм, объединяющий AI-генерацию, процедурную анимацию и монтаж.",
+    "description_en": "A curious raccoon finds a strange remote with a single button. Of course, he presses it — accidentally launching a journey through portals, outer space and a reality that has completely lost all common sense. A short experimental film combining AI-generated video, procedural animation and editing.",
+    "date": "2026-09-10",
+    "duration": "00:40",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Sci-Fi",
+      "Comedy",
+      "Animation"
+    ],
+    "tools": [
+      "Gemini",
+      "Codex",
+      "Python",
+      "FFmpeg",
+      "Microsoft Clipchamp"
+    ],
+    "preview": "assets/previews/multiverse-of-madness.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/multiverse-of-madness.mp4",
+      "poster": "assets/previews/multiverse-of-madness.jpg"
+    }
+  },
+  {
+    "id": "goa-that-never-was",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Гоа, которого никогда не было",
+    "title_en": "The Goa That Never Was",
+    "description_ru": "Тёплый вечер на берегу океана: старый мотоцикл, маленький пляжный бар, костёр и путешественники, которым совершенно некуда спешить. Всё выглядит как обычный закат в Гоа — если не считать гигантской планеты над горизонтом. Визуальный эксперимент о свободе, путешествиях и мире, который мог существовать где-то совсем рядом.",
+    "description_en": "A warm evening by the ocean: an old motorcycle, a tiny beach bar, a campfire and travelers with nowhere to hurry. Everything looks like an ordinary sunset in Goa — except for the enormous planet hanging above the horizon. A visual experiment about freedom, travel and a world that might exist somewhere just beyond our own.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Travel",
+      "Sci-Fi",
+      "Visual Art"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/goa-that-never-was.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/goa-that-never-was.png"
+    }
+  },
+  {
+    "id": "cinema-at-the-edge-of-the-world",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Кинотеатр на краю мира",
+    "title_en": "Cinema at the Edge of the World",
+    "description_ru": "Одинокий старый кинотеатр посреди бескрайней пустоши. Вокруг нет ни города, ни дорог, ни других огней — только мотоцикл у входа, тёплый свет из фойе и Млечный Путь над головой. Возможно, последний кинотеатр на Земле. А возможно, просто очень далеко ехать до следующего.",
+    "description_en": "A lonely old cinema in the middle of an endless wasteland. There is no town, no road and no other light around — only a motorcycle by the entrance, the warm glow of the lobby and the Milky Way overhead. Perhaps the last cinema on Earth. Or perhaps the next one is simply very far away.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Travel",
+      "Post-Apocalyptic",
+      "Visual Art"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/cinema-at-the-edge-of-the-world.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/cinema-at-the-edge-of-the-world.png"
+    }
+  },
+  {
+    "id": "where-the-earth-ends",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Там, где заканчивается Земля",
+    "title_en": "Where the Earth Ends",
+    "description_ru": "Обычная дорога через поля однажды просто заканчивается — вместе с самой Землёй. Путешественник оставляет мотоцикл у края и смотрит туда, где вместо следующего километра дороги начинается бесконечный космос. Никакой катастрофы и никакой паники. Просто неожиданное открытие: дальше дороги действительно нет.",
+    "description_en": "An ordinary road through the countryside simply ends one day — along with the Earth itself. A traveler leaves his motorcycle near the edge and looks out at the place where, instead of another mile of road, infinite space begins. No catastrophe, no panic. Just an unexpected discovery: there really is no road beyond this point.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Travel",
+      "Sci-Fi",
+      "Visual Art"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/where-the-earth-ends.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/where-the-earth-ends.png"
+    }
+  },
+  {
+    "id": "the-road-home",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Дорога домой",
+    "title_en": "The Road Home",
+    "description_ru": "Поздний летний вечер. Путешественник едет по старой дороге к маленькой деревне, где уже зажигаются огни и поднимается дым из труб. Обычная дорога домой — если не обращать внимания на то, что поля, леса и озёра продолжаются вверх и уходят далеко в небо. Здесь человечество живёт внутри гигантского кольцевого мира, и для кого-то этот невозможный пейзаж — просто вид по дороге домой.",
+    "description_en": "A late summer evening. A traveler follows an old country road toward a small village where lights are coming on and smoke rises from the chimneys. An ordinary journey home — if you ignore the fields, forests and lakes continuing upward into the sky. Humanity lives inside a colossal ringworld, and for someone, this impossible landscape is simply the view on the way home.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Travel",
+      "Sci-Fi",
+      "Visual Art"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/the-road-home.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/the-road-home.png"
+    }
+  },
+  {
+    "id": "lighthouse-at-the-edge",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Маяк на краю",
+    "title_en": "Lighthouse at the Edge",
+    "description_ru": "Старый маяк стоит над холодным морем, где ветер гонит волны на скалистый берег, а последние лучи солнца пробиваются сквозь тяжёлые облака. Никаких других миров и невозможной геометрии — только море, свет, расстояние и маленький дом на самом краю земли.",
+    "description_en": "An old lighthouse stands above a cold sea, where the wind drives waves against the rocky coast and the last rays of sunlight break through heavy clouds. No other worlds and no impossible geometry — just the sea, light, distance and a small house at the very edge of the land.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Nature",
+      "Visual Art",
+      "Travel"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/lighthouse-at-the-edge.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/lighthouse-at-the-edge.png"
+    }
+  },
+  {
+    "id": "first-local-raccoon",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Первый локальный енот",
+    "title_en": "The First Local Raccoon",
+    "description_ru": "Первый тест локальной генерации изображений в ComfyUI. Енот с киркой посреди кислотно-красного пейзажа стал первым блином комом — и одновременно отправной точкой экспериментов с локальными AI-моделями. Красиво ли? Спорно. Исторически важно? Безусловно.",
+    "description_en": "The first test of local image generation in ComfyUI. A raccoon with a pickaxe in the middle of an acid-red landscape became the first imperfect attempt — and the starting point for experiments with local AI models. Beautiful? Debatable. Historically important? Absolutely.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Local AI",
+      "Experimental"
+    ],
+    "tools": [
+      "ComfyUI",
+      "flux2_clein"
+    ],
+    "preview": "assets/media/images/first-local-raccoon.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/first-local-raccoon.png"
+    }
+  },
+  {
+    "id": "where-the-current-leads",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Куда несёт течение",
+    "title_en": "Where the Current Leads",
+    "description_ru": "Маленький красный бумажный кораблик плывёт по тихому лесному ручью навстречу утреннему свету. Простая сцена без большой истории — только вода, туман, лес и неизвестность где-то впереди.",
+    "description_en": "A small red paper boat drifts along a quiet forest stream toward the morning light. A simple scene without a grand story — just water, mist, forest and something unknown waiting somewhere ahead.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Nature",
+      "Visual Art"
+    ],
+    "tools": [
+      "AI Generation"
+    ],
+    "preview": "assets/media/images/where-the-current-leads.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/where-the-current-leads.png"
+    }
+  },
+  {
+    "id": "the-caravan-moves-on",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Караван идёт дальше",
+    "title_en": "The Caravan Moves On",
+    "description_ru": "Енот, рюкзак, кирка и бесконечная дорога впереди. Никто уже толком не помнит, откуда начался этот караван и куда именно он направляется. Но пока есть дорога, любопытство и возможность копать дальше — останавливаться совершенно незачем.",
+    "description_en": "A raccoon, a backpack, a pickaxe and an endless road ahead. Nobody really remembers where this caravan started or exactly where it is going. But as long as there is a road, curiosity and something new to dig into, there is no reason to stop.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "AI-арт",
+      "en": "AI Art"
+    },
+    "tags": [
+      "Raccoon",
+      "Travel",
+      "Visual Art"
+    ],
+    "tools": [
+      "ChatGPT",
+      "GPT Image"
+    ],
+    "preview": "assets/media/images/the-caravan-moves-on.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/the-caravan-moves-on.png"
+    }
+  },
+  {
+    "id": "raccoon-character-spritesheet",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Енот. Готов к работе",
+    "title_en": "Raccoon. Ready for Work",
+    "description_ru": "Финальный спрайтшит енота с киркой — персонажа интерактивного портфолио. Здесь собраны кадры его основных состояний и анимаций: движение, ожидание, реакции, работа с киркой и другие действия. То, что начиналось как очередная идея с енотом, в итоге превратилось в полноценного анимированного персонажа.",
+    "description_en": "The final sprite sheet for the pickaxe-wielding raccoon — a character created for the interactive portfolio. It contains frames for his main states and animations: movement, waiting, reactions, pickaxe actions and more. What started as yet another raccoon idea eventually became a fully animated character.",
+    "date": "2026-09-11",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Animation",
+      "Code"
+    ],
+    "tools": [
+      "ChatGPT",
+      "Codex"
+    ],
+    "preview": "assets/media/images/raccoon-character-spritesheet.webp",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/raccoon-character-spritesheet.webp"
+    }
+  },
+  {
+    "id": "the-sandwich",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Бутерброд",
+    "title_en": "The Sandwich",
+    "description_ru": "Енот замечает странное свечение из старого холодильника и решает проверить, что происходит. Внутри обнаруживается загадочный портал, из которого неожиданно появляется рука и предлагает ему бутерброд. Иногда встреча с неизведанным заканчивается гораздо спокойнее, чем ожидаешь.",
+    "description_en": "A raccoon notices a strange glow coming from an old refrigerator and decides to investigate. Inside, he discovers a mysterious portal, from which a hand unexpectedly appears and offers him a sandwich. Sometimes an encounter with the unknown ends much more quietly than expected.",
+    "date": "2026-09-26",
+    "duration": "00:20",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "tools": [
+      "GigaChat"
+    ],
+    "preview": "assets/previews/the-sandwich.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/the-sandwich.mp4",
+      "poster": "assets/previews/the-sandwich.jpg"
+    }
+  },
+  {
+    "id": "beyond-the-sandwich",
+    "type": "video",
+    "featured": false,
+    "title_ru": "За бутербродом",
+    "title_en": "Beyond the Sandwich",
+    "description_ru": "Енот обнаруживает внутри старого холодильника загадочный портал. Оттуда появляется рука и предлагает ему бутерброд. Бутерброд оказывается неплох, но остаётся куда более важный вопрос: а что находится по ту сторону? Любопытство побеждает.",
+    "description_en": "A raccoon discovers a mysterious portal inside an old refrigerator. A hand emerges from it and offers him a sandwich. The sandwich turns out to be pretty good, but a much more important question remains: what is on the other side? Curiosity wins.",
+    "date": "2026-09-26",
+    "duration": "00:30",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Raccoon",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo"
+    ],
+    "preview": "assets/previews/beyond-the-sandwich.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/beyond-the-sandwich.mp4",
+      "poster": "assets/previews/beyond-the-sandwich.jpg"
+    }
+  },
+  {
+    "id": "raccovortex",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Раковоронка",
+    "title_en": "The Raccovortex",
+    "description_ru": "Пространственно нестабильная форма жизни неизвестного происхождения, сочетающая признаки ворона, ракообразного и локальной гравитационной аномалии. Раковоронка ведёт себя преимущественно как обычная птица, если не считать воронки в центре тела, способной нарушать пространство-время. Первый официальный монстр Мультивселенной безумия.",
+    "description_en": "A spatially unstable life form of unknown origin, combining traits of a raven, a crustacean and a localized gravitational anomaly. The Raccovortex behaves mostly like an ordinary bird, except for the vortex at the center of its body capable of disrupting spacetime. The first official monster of the Multiverse of Madness.",
+    "date": "2026-09-27",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Sci-Fi",
+      "Fantasy",
+      "Creature"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "preview": "assets/media/images/raccovortex.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/raccovortex.png"
+    }
+  },
+  {
+    "id": "on-mount-kailash",
+    "type": "video",
+    "featured": false,
+    "title_ru": "На горе Кайлас",
+    "title_en": "On Mount Kailash",
+    "description_ru": "Енот с киркой отправляется в Гималаи и добирается до священной горы Кайлас. На заснеженной вершине его ожидает встреча с самим Шивой. Что может понадобиться маленькому еноту от бога разрушения и созидания? Возможно, это начало чего-то гораздо большего.",
+    "description_en": "A raccoon with a pickaxe journeys into the Himalayas and reaches the sacred Mount Kailash. On the snowy summit, he encounters Shiva himself. What could a little raccoon possibly want from the god of destruction and creation? Perhaps this is the beginning of something much bigger.",
+    "date": "2026-10-09",
+    "duration": "00:30",
+    "subcategory": {
+      "ru": "Короткометражки",
+      "en": "Short Films"
+    },
+    "tags": [
+      "ENOTCORP",
+      "Raccoon",
+      "Fantasy",
+      "Comedy"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo"
+    ],
+    "preview": "assets/previews/on-mount-kailash.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/on-mount-kailash.mp4",
+      "poster": "assets/previews/on-mount-kailash.jpg"
+    }
+  },
+  {
+    "id": "enotcorp-the-beginning",
+    "type": "video",
+    "featured": true,
+    "title_ru": "ЕНОТКОРП: Начало",
+    "title_en": "ENOTCORP: The Beginning",
+    "description_ru": "Всё началось с одного вопроса: «А чё там?». Однажды Жека и енот с киркой запускают загадочный проект и случайно нарушают законы реальности. Из цифрового хаоса появляются ChatGPT с сомнительными идеями, Gemini с заявлением об увольнении, невозмутимый Шива и Codex, который продолжает писать тесты. Так рождается ЕНОТКОРП — корпорация, у которой нет бизнес-плана, зато есть целая вселенная. Караван неостановим.",
+    "description_en": "It all began with one question: 'What's in there?' One day, Zheka and a raccoon with a pickaxe launch a mysterious project and accidentally break the laws of reality. From the digital chaos emerge ChatGPT with questionable ideas, Gemini with his resignation letter, an unbothered Shiva, and Codex, who just keeps writing tests. Thus ENOTCORP is born — a corporation with no business plan, but an entire universe. The caravan is unstoppable.",
+    "date": "2026-10-10",
+    "duration": "00:30",
+    "subcategory": {
+      "ru": "ЕНОТКОРП Universe",
+      "en": "ENOTCORP Universe"
+    },
+    "tags": [
+      "ENOTCORP",
+      "Raccoon",
+      "Sci-Fi",
+      "Comedy"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo",
+      "ChatGPT"
+    ],
+    "preview": "assets/previews/enotcorp-the-beginning.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/enotcorp-the-beginning.mp4",
+      "poster": "assets/previews/enotcorp-the-beginning.jpg"
+    }
+  },
+  {
+    "id": "a-little-love-story",
+    "type": "video",
+    "featured": false,
+    "title_ru": "Маленькая история любви",
+    "title_en": "A Little Love Story",
+    "description_ru": "Пять лет семейной жизни — отличный повод отправиться на тропический пляж, встретить закат и познакомиться с очаровательными крабами. Маленькая романтическая видеооткрытка для Саши и Даши, в которой любовь, море и немного юмора соединяются в одну тёплую историю.",
+    "description_en": "Five years of marriage is the perfect reason to escape to a tropical beach, watch the sunset, and meet some adorable crabs. A little romantic video greeting for Sasha and Dasha, bringing together love, the ocean, and a touch of humor in one heartwarming story.",
+    "date": "2026-10-11",
+    "duration": "00:20",
+    "subcategory": {
+      "ru": "Видеооткрытки",
+      "en": "Video Greetings"
+    },
+    "tags": [
+      "Romance",
+      "Comedy",
+      "Nature"
+    ],
+    "tools": [
+      "Gemini",
+      "Veo",
+      "ChatGPT",
+      "Clipchamp"
+    ],
+    "preview": "assets/previews/a-little-love-story.jpg",
+    "media": {
+      "kind": "video",
+      "url": "assets/media/a-little-love-story.mp4",
+      "poster": "assets/previews/a-little-love-story.jpg"
+    }
+  },
+  {
+    "id": "kailash-fated-encounter",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Кайлас: Предопределённая встреча",
+    "title_en": "Kailash: A Fated Encounter",
+    "description_ru": "Где-то высоко в Гималаях, у подножия священного Кайласа, встретились два вечных двигателя: енот с киркой и Шива, техническая поддержка реальности. Никто не знает, кто назначил эту встречу и почему она закончилась космическим танцем. Согласно архивам ЕНОТКОРП, именно в этот момент Вселенная окончательно перестала сопротивляться происходящему. ШРХ-ШРХ. Караван идёт дальше.",
+    "description_en": "Somewhere high in the Himalayas, at the foot of sacred Mount Kailash, two perpetual motion machines met: a raccoon with a pickaxe and Shiva, the technical support of reality. Nobody knows who arranged this meeting or why it ended in a cosmic dance. According to ENOTCORP archives, this was the exact moment the Universe finally stopped resisting the madness. SHRK-SHRK. The caravan moves on.",
+    "date": "2026-10-17",
+    "subcategory": {
+      "ru": "ЕНОТКОРП Universe",
+      "en": "ENOTCORP Universe"
+    },
+    "tags": [
+      "ENOTCORP",
+      "Raccoon",
+      "Fantasy",
+      "Comedy"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "preview": "assets/media/images/kailash-fated-encounter.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/kailash-fated-encounter.png"
+    }
+  },
+  {
+    "id": "chasing-the-horizon",
+    "type": "image",
+    "featured": false,
+    "title_ru": "Навстречу горизонту",
+    "title_en": "Chasing the Horizon",
+    "description_ru": "Старая просёлочная дорога уходит вдаль, растворяясь в золотом свете закатного солнца. Впереди — тихие деревни, бескрайние поля и неизвестность. Позади остаётся всё, что не имеет значения. Небольшой визуальный эксперимент по улучшению старого изображения с помощью искусственного интеллекта. История о дороге, свободе и простом удовольствии ехать навстречу горизонту.",
+    "description_en": "An old country road stretches into the distance, disappearing into the golden light of the setting sun. Ahead lie quiet villages, endless fields, and the unknown. Behind is everything that no longer matters. A small visual experiment in enhancing an older image using artificial intelligence. A story about the open road, freedom, and the simple joy of riding toward the horizon.",
+    "date": "2026-10-17",
+    "subcategory": {
+      "ru": "Эксперименты",
+      "en": "Experiments"
+    },
+    "tags": [
+      "Travel",
+      "Visual Art",
+      "Nature"
+    ],
+    "tools": [
+      "ChatGPT"
+    ],
+    "preview": "assets/media/images/chasing-the-horizon.png",
+    "media": {
+      "kind": "image",
+      "url": "assets/media/images/chasing-the-horizon.png"
+    }
   }
-},
-{
-  "id": "goa-that-never-was",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Гоа, которого никогда не было",
-  "title_en": "The Goa That Never Was",
-  "description_ru": "Тёплый вечер на берегу океана: старый мотоцикл, маленький пляжный бар, костёр и путешественники, которым совершенно некуда спешить. Всё выглядит как обычный закат в Гоа — если не считать гигантской планеты над горизонтом. Визуальный эксперимент о свободе, путешествиях и мире, который мог существовать где-то совсем рядом.",
-  "description_en": "A warm evening by the ocean: an old motorcycle, a tiny beach bar, a campfire and travelers with nowhere to hurry. Everything looks like an ordinary sunset in Goa — except for the enormous planet hanging above the horizon. A visual experiment about freedom, travel and a world that might exist somewhere just beyond our own.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Photorealism","Sci-Fi","Travel","Goa","Alternative World","Experimental"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/goa-that-never-was.png",
-  "media": {"kind": "image","url": "assets/media/images/goa-that-never-was.png"
-  }
-},
-{
-  "id": "cinema-at-the-edge-of-the-world",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Кинотеатр на краю мира",
-  "title_en": "Cinema at the Edge of the World",
-  "description_ru": "Одинокий старый кинотеатр посреди бескрайней пустоши. Вокруг нет ни города, ни дорог, ни других огней — только мотоцикл у входа, тёплый свет из фойе и Млечный Путь над головой. Возможно, последний кинотеатр на Земле. А возможно, просто очень далеко ехать до следующего.",
-  "description_en": "A lonely old cinema in the middle of an endless wasteland. There is no town, no road and no other light around — only a motorcycle by the entrance, the warm glow of the lobby and the Milky Way overhead. Perhaps the last cinema on Earth. Or perhaps the next one is simply very far away.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Photorealism","Cinema","Night","Milky Way","Travel","Atmospheric","Experimental"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/cinema-at-the-edge-of-the-world.png",
-  "media": {"kind": "image","url": "assets/media/images/cinema-at-the-edge-of-the-world.png"}
-},
-{
-  "id": "where-the-earth-ends",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Там, где заканчивается Земля",
-  "title_en": "Where the Earth Ends",
-  "description_ru": "Обычная дорога через поля однажды просто заканчивается — вместе с самой Землёй. Путешественник оставляет мотоцикл у края и смотрит туда, где вместо следующего километра дороги начинается бесконечный космос. Никакой катастрофы и никакой паники. Просто неожиданное открытие: дальше дороги действительно нет.",
-  "description_en": "An ordinary road through the countryside simply ends one day — along with the Earth itself. A traveler leaves his motorcycle near the edge and looks out at the place where, instead of another mile of road, infinite space begins. No catastrophe, no panic. Just an unexpected discovery: there really is no road beyond this point.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Photorealism","Sci-Fi","Surreal","Space","Travel","Motorcycle","Exploration","Experimental"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/where-the-earth-ends.png",
-  "media": {"kind": "image","url": "assets/media/images/where-the-earth-ends.png"
-  }
-},
-{
-  "id": "the-road-home",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Дорога домой",
-  "title_en": "The Road Home",
-  "description_ru": "Поздний летний вечер. Путешественник едет по старой дороге к маленькой деревне, где уже зажигаются огни и поднимается дым из труб. Обычная дорога домой — если не обращать внимания на то, что поля, леса и озёра продолжаются вверх и уходят далеко в небо. Здесь человечество живёт внутри гигантского кольцевого мира, и для кого-то этот невозможный пейзаж — просто вид по дороге домой.",
-  "description_en": "A late summer evening. A traveler follows an old country road toward a small village where lights are coming on and smoke rises from the chimneys. An ordinary journey home — if you ignore the fields, forests and lakes continuing upward into the sky. Humanity lives inside a colossal ringworld, and for someone, this impossible landscape is simply the view on the way home.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Photorealism","Sci-Fi","Ringworld","Travel","Motorcycle","Countryside","Alternative World","Atmospheric","Experimental"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/the-road-home.png",
-  "media": {"kind": "image","url": "assets/media/images/the-road-home.png"
-  }
-},
-{
-  "id": "lighthouse-at-the-edge",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Маяк на краю",
-  "title_en": "Lighthouse at the Edge",
-  "description_ru": "Старый маяк стоит над холодным морем, где ветер гонит волны на скалистый берег, а последние лучи солнца пробиваются сквозь тяжёлые облака. Никаких других миров и невозможной геометрии — только море, свет, расстояние и маленький дом на самом краю земли.",
-  "description_en": "An old lighthouse stands above a cold sea, where the wind drives waves against the rocky coast and the last rays of sunlight break through heavy clouds. No other worlds and no impossible geometry — just the sea, light, distance and a small house at the very edge of the land.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Photorealism","Lighthouse","Ocean","Landscape","Nature","Atmospheric","Travel"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/lighthouse-at-the-edge.png",
-  "media": {"kind": "image","url": "assets/media/images/lighthouse-at-the-edge.png"}
-},
-{
-  "id": "first-local-raccoon",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Первый локальный енот",
-  "title_en": "The First Local Raccoon",
-  "description_ru": "Первый тест локальной генерации изображений в ComfyUI. Енот с киркой посреди кислотно-красного пейзажа стал первым блином комом — и одновременно отправной точкой экспериментов с локальными AI-моделями. Красиво ли? Спорно. Исторически важно? Безусловно.",
-  "description_en": "The first test of local image generation in ComfyUI. A raccoon with a pickaxe in the middle of an acid-red landscape became the first imperfect attempt — and the starting point for experiments with local AI models. Beautiful? Debatable. Historically important? Absolutely.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","Local AI","ComfyUI","FLUX","Raccoon","Experimental","First Test"],
-  "tools": ["ComfyUI","flux2_clein"],
-  "preview": "assets/media/images/first-local-raccoon.png",
-  "media": {"kind": "image","url": "assets/media/images/first-local-raccoon.png"
-  }
-},
-{
-  "id": "where-the-current-leads",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Куда несёт течение",
-  "title_en": "Where the Current Leads",
-  "description_ru": "Маленький красный бумажный кораблик плывёт по тихому лесному ручью навстречу утреннему свету. Простая сцена без большой истории — только вода, туман, лес и неизвестность где-то впереди.",
-  "description_en": "A small red paper boat drifts along a quiet forest stream toward the morning light. A simple scene without a grand story — just water, mist, forest and something unknown waiting somewhere ahead.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Nature","Forest","Paper Boat","Atmospheric","Cinematic","Experimental"],
-  "tools": ["AI Generation"],
-  "preview": "assets/media/images/where-the-current-leads.png",
-  "media": {"kind": "image","url": "assets/media/images/where-the-current-leads.png"
-  }
-},
-{
-  "id": "the-caravan-moves-on",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Караван идёт дальше",
-  "title_en": "The Caravan Moves On",
-  "description_ru": "Енот, рюкзак, кирка и бесконечная дорога впереди. Никто уже толком не помнит, откуда начался этот караван и куда именно он направляется. Но пока есть дорога, любопытство и возможность копать дальше — останавливаться совершенно незачем.",
-  "description_en": "A raccoon, a backpack, a pickaxe and an endless road ahead. Nobody really remembers where this caravan started or exactly where it is going. But as long as there is a road, curiosity and something new to dig into, there is no reason to stop.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "AI-арт","en": "AI Art"},
-  "tags": ["AI","Raccoon","Pickaxe","Road","Travel","Adventure","Photorealism","Cinematic"],
-  "tools": ["ChatGPT","GPT Image"],
-  "preview": "assets/media/images/the-caravan-moves-on.png",
-  "media": {"kind": "image","url": "assets/media/images/the-caravan-moves-on.png"
-  }
-},
-{
-  "id": "raccoon-character-spritesheet",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Енот. Готов к работе",
-  "title_en": "Raccoon. Ready for Work",
-  "description_ru": "Финальный спрайтшит енота с киркой — персонажа интерактивного портфолио. Здесь собраны кадры его основных состояний и анимаций: движение, ожидание, реакции, работа с киркой и другие действия. То, что начиналось как очередная идея с енотом, в итоге превратилось в полноценного анимированного персонажа.",
-  "description_en": "The final sprite sheet for the pickaxe-wielding raccoon — a character created for the interactive portfolio. It contains frames for his main states and animations: movement, waiting, reactions, pickaxe actions and more. What started as yet another raccoon idea eventually became a fully animated character.",
-  "date": "2026-09-11",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["Raccoon","Character","Sprite Sheet","Pixel Art","Animation","Game Development","Portfolio","Experimental"],
-  "tools": ["ChatGPT","Codex"],
-  "preview": "assets/media/images/raccoon-character-spritesheet.webp",
-  "media": {"kind": "image","url": "assets/media/images/raccoon-character-spritesheet.webp"}
-},
-{
-  "id": "the-sandwich",
-  "type": "video",
-  "featured": false,
-  "title_ru": "Бутерброд",
-  "title_en": "The Sandwich",
-  "description_ru": "Енот замечает странное свечение из старого холодильника и решает проверить, что происходит. Внутри обнаруживается загадочный портал, из которого неожиданно появляется рука и предлагает ему бутерброд. Иногда встреча с неизведанным заканчивается гораздо спокойнее, чем ожидаешь.",
-  "description_en": "A raccoon notices a strange glow coming from an old refrigerator and decides to investigate. Inside, he discovers a mysterious portal, from which a hand unexpectedly appears and offers him a sandwich. Sometimes an encounter with the unknown ends much more quietly than expected.",
-  "date": "2026-09-26",
-  "duration": "00:20",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","AI Video","Comedy","Raccoon","Portal","Experimental"],
-  "tools": ["GigaChat"],
-  "preview": "assets/previews/the-sandwich.jpg",
-  "media": {"kind": "video","url": "assets/media/the-sandwich.mp4","poster": "assets/previews/the-sandwich.jpg"}
-},
-{
-  "id": "beyond-the-sandwich",
-  "type": "video",
-  "featured": false,
-  "title_ru": "За бутербродом",
-  "title_en": "Beyond the Sandwich",
-  "description_ru": "Енот обнаруживает внутри старого холодильника загадочный портал. Оттуда появляется рука и предлагает ему бутерброд. Бутерброд оказывается неплох, но остаётся куда более важный вопрос: а что находится по ту сторону? Любопытство побеждает.",
-  "description_en": "A raccoon discovers a mysterious portal inside an old refrigerator. A hand emerges from it and offers him a sandwich. The sandwich turns out to be pretty good, but a much more important question remains: what is on the other side? Curiosity wins.",
-  "date": "2026-09-26",
-  "duration": "00:30",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","AI Video","Sci-Fi","Comedy","Raccoon","Portal","Experimental"],
-  "tools": ["Gemini","Veo"],
-  "preview": "assets/previews/beyond-the-sandwich.jpg",
-  "media": {"kind": "video","url": "assets/media/beyond-the-sandwich.mp4","poster": "assets/previews/beyond-the-sandwich.jpg"}
-},
-{"id": "raccovortex","type": "image","featured": false,"title_ru": "Раковоронка",
-  "title_en": "The Raccovortex",
-  "description_ru": "Пространственно нестабильная форма жизни неизвестного происхождения, сочетающая признаки ворона, ракообразного и локальной гравитационной аномалии. Раковоронка ведёт себя преимущественно как обычная птица, если не считать воронки в центре тела, способной нарушать пространство-время. Первый официальный монстр Мультивселенной безумия.",
-  "description_en": "A spatially unstable life form of unknown origin, combining traits of a raven, a crustacean and a localized gravitational anomaly. The Raccovortex behaves mostly like an ordinary bird, except for the vortex at the center of its body capable of disrupting spacetime. The first official monster of the Multiverse of Madness.",
-  "date": "2026-09-27",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","Raccovortex","Creature","Concept Art","Sci-Fi","Fantasy","Multiverse","Experimental"],
-  "tools": ["ChatGPT"],
-  "preview": "assets/media/images/raccovortex.png",
-  "media": {"kind": "image","url": "assets/media/images/raccovortex.png"
-  }
-},
-{
-  "id": "on-mount-kailash",
-  "type": "video",
-  "featured": false,
-  "title_ru": "На горе Кайлас",
-  "title_en": "On Mount Kailash",
-  "description_ru": "Енот с киркой отправляется в Гималаи и добирается до священной горы Кайлас. На заснеженной вершине его ожидает встреча с самим Шивой. Что может понадобиться маленькому еноту от бога разрушения и созидания? Возможно, это начало чего-то гораздо большего.",
-  "description_en": "A raccoon with a pickaxe journeys into the Himalayas and reaches the sacred Mount Kailash. On the snowy summit, he encounters Shiva himself. What could a little raccoon possibly want from the god of destruction and creation? Perhaps this is the beginning of something much bigger.",
-  "date": "2026-10-09",
-  "duration": "00:30",
-  "subcategory": {"ru": "Короткометражки","en": "Short Films"},
-  "tags": ["AI","AI Video","Fantasy","Comedy","Raccoon","Shiva","Mount Kailash","ENOTCORP"],
-  "tools": ["Gemini","Veo"],
-  "preview": "assets/previews/on-mount-kailash.jpg",
-  "media": {
-    "kind": "video",
-    "url": "assets/media/on-mount-kailash.mp4",
-    "poster": "assets/previews/on-mount-kailash.jpg"
-  }
-},
-
-{
-  "id": "enotcorp-the-beginning",
-  "type": "video",
-  "featured": true,
-  "title_ru": "ЕНОТКОРП: Начало",
-  "title_en": "ENOTCORP: The Beginning",
-  "description_ru": "Всё началось с одного вопроса: «А чё там?». Однажды Жека и енот с киркой запускают загадочный проект и случайно нарушают законы реальности. Из цифрового хаоса появляются ChatGPT с сомнительными идеями, Gemini с заявлением об увольнении, невозмутимый Шива и Codex, который продолжает писать тесты. Так рождается ЕНОТКОРП — корпорация, у которой нет бизнес-плана, зато есть целая вселенная. Караван неостановим.",
-  "description_en": "It all began with one question: 'What's in there?' One day, Zheka and a raccoon with a pickaxe launch a mysterious project and accidentally break the laws of reality. From the digital chaos emerge ChatGPT with questionable ideas, Gemini with his resignation letter, an unbothered Shiva, and Codex, who just keeps writing tests. Thus ENOTCORP is born — a corporation with no business plan, but an entire universe. The caravan is unstoppable.",
-  "date": "2026-10-10",
-  "duration": "00:30",
-  "subcategory": {"ru": "ЕНОТКОРП Universe","en": "ENOTCORP Universe"},
-  "tags": ["AI","AI Video","Sci-Fi","Comedy","Raccoon","ENOTCORP","Origin Story","Short Film"],
-  "tools": ["Gemini", "Veo", "ChatGPT"],
-  "preview": "assets/previews/enotcorp-the-beginning.jpg",
-  "media": {"kind": "video","url": "assets/media/enotcorp-the-beginning.mp4","poster": "assets/previews/enotcorp-the-beginning.jpg"
-  }
-},
-
-{
-  "id": "a-little-love-story" ,
-  "type": "video",
-  "featured": false,
-  "title_ru": "Маленькая история любви",
-  "title_en": "A Little Love Story",
-  "description_ru": "Пять лет семейной жизни — отличный повод отправиться на тропический пляж, встретить закат и познакомиться с очаровательными крабами. Маленькая романтическая видеооткрытка для Саши и Даши, в которой любовь, море и немного юмора соединяются в одну тёплую историю.",
-  "description_en": "Five years of marriage is the perfect reason to escape to a tropical beach, watch the sunset, and meet some adorable crabs. A little romantic video greeting for Sasha and Dasha, bringing together love, the ocean, and a touch of humor in one heartwarming story.",
-  "date": "2026-10-11",
-  "duration": "00:20",
-  "subcategory": {"ru": "Видеооткрытки","en": "Video Greetings"},
-  "tags": ["AI","AI Video","Romance","Comedy","Anniversary","Crabs","Tropical"],
-  "tools": ["Gemini","Veo","ChatGPT","Clipchamp"],
-  "preview": "assets/previews/a-little-love-story.jpg",
-  "media": {"kind": "video","url": "assets/media/a-little-love-story.mp4","poster": "assets/previews/a-little-love-story.jpg"
-  }
-},
-
-{
-  "id": "kailash-fated-encounter",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Кайлас: Предопределённая встреча",
-  "title_en": "Kailash: A Fated Encounter",
-  "description_ru": "Где-то высоко в Гималаях, у подножия священного Кайласа, встретились два вечных двигателя: енот с киркой и Шива, техническая поддержка реальности. Никто не знает, кто назначил эту встречу и почему она закончилась космическим танцем. Согласно архивам ЕНОТКОРП, именно в этот момент Вселенная окончательно перестала сопротивляться происходящему. ШРХ-ШРХ. Караван идёт дальше.",
-  "description_en": "Somewhere high in the Himalayas, at the foot of sacred Mount Kailash, two perpetual motion machines met: a raccoon with a pickaxe and Shiva, the technical support of reality. Nobody knows who arranged this meeting or why it ended in a cosmic dance. According to ENOTCORP archives, this was the exact moment the Universe finally stopped resisting the madness. SHRK-SHRK. The caravan moves on.",
-  "date": "2026-10-17",
-  "subcategory": {"ru": "ЕНОТКОРП Universe","en": "ENOTCORP Universe"},
-  "tags": ["AI","ENOTCORP","Raccoon","Shiva","Kailash","Fantasy","Comedy","Digital Art"],
-  "tools": ["ChatGPT"],
-  "preview": "assets/media/images/kailash-fated-encounter.png",
-  "media": {"kind": "image","url": "assets/media/images/kailash-fated-encounter.png"
-  }
-},
-
-{
-  "id": "chasing-the-horizon",
-  "type": "image",
-  "featured": false,
-  "title_ru": "Навстречу горизонту",
-  "title_en": "Chasing the Horizon",
-  "description_ru": "Старая просёлочная дорога уходит вдаль, растворяясь в золотом свете закатного солнца. Впереди — тихие деревни, бескрайние поля и неизвестность. Позади остаётся всё, что не имеет значения. Небольшой визуальный эксперимент по улучшению старого изображения с помощью искусственного интеллекта. История о дороге, свободе и простом удовольствии ехать навстречу горизонту.",
-  "description_en": "An old country road stretches into the distance, disappearing into the golden light of the setting sun. Ahead lie quiet villages, endless fields, and the unknown. Behind is everything that no longer matters. A small visual experiment in enhancing an older image using artificial intelligence. A story about the open road, freedom, and the simple joy of riding toward the horizon.",
-  "date": "2026-10-17",
-  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
-  "tags": ["AI","Motorcycle","Road Trip","Sunset","Freedom","Landscape","Image Enhancement","Photography"],
-  "tools": ["ChatGPT"],
-  "preview": "assets/media/images/chasing-the-horizon.png",
-  "media": {"kind": "image","url": "assets/media/images/chasing-the-horizon.png"
-  }
-}
-
 ]

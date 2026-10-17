@@ -375,7 +375,6 @@
   "media": {"kind": "image","url": "assets/media/images/raccovortex.png"
   }
 },
-
 {
   "id": "on-mount-kailash",
   "type": "video",
@@ -413,5 +412,58 @@
   "preview": "assets/previews/enotcorp-the-beginning.jpg",
   "media": {"kind": "video","url": "assets/media/enotcorp-the-beginning.mp4","poster": "assets/previews/enotcorp-the-beginning.jpg"
   }
+},
+
+{
+  "id": "a-little-love-story" ,
+  "type": "video",
+  "featured": false,
+  "title_ru": "Маленькая история любви",
+  "title_en": "A Little Love Story",
+  "description_ru": "Пять лет семейной жизни — отличный повод отправиться на тропический пляж, встретить закат и познакомиться с очаровательными крабами. Маленькая романтическая видеооткрытка для Саши и Даши, в которой любовь, море и немного юмора соединяются в одну тёплую историю.",
+  "description_en": "Five years of marriage is the perfect reason to escape to a tropical beach, watch the sunset, and meet some adorable crabs. A little romantic video greeting for Sasha and Dasha, bringing together love, the ocean, and a touch of humor in one heartwarming story.",
+  "date": "2026-10-11",
+  "duration": "00:20",
+  "subcategory": {"ru": "Видеооткрытки","en": "Video Greetings"},
+  "tags": ["AI","AI Video","Romance","Comedy","Anniversary","Crabs","Tropical"],
+  "tools": ["Gemini","Veo","ChatGPT","Clipchamp"],
+  "preview": "assets/previews/a-little-love-story.jpg",
+  "media": {"kind": "video","url": "assets/media/a-little-love-story.mp4","poster": "assets/previews/a-little-love-story.jpg"
+  }
+},
+
+{
+  "id": "kailash-fated-encounter",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Кайлас: Предопределённая встреча",
+  "title_en": "Kailash: A Fated Encounter",
+  "description_ru": "Где-то высоко в Гималаях, у подножия священного Кайласа, встретились два вечных двигателя: енот с киркой и Шива, техническая поддержка реальности. Никто не знает, кто назначил эту встречу и почему она закончилась космическим танцем. Согласно архивам ЕНОТКОРП, именно в этот момент Вселенная окончательно перестала сопротивляться происходящему. ШРХ-ШРХ. Караван идёт дальше.",
+  "description_en": "Somewhere high in the Himalayas, at the foot of sacred Mount Kailash, two perpetual motion machines met: a raccoon with a pickaxe and Shiva, the technical support of reality. Nobody knows who arranged this meeting or why it ended in a cosmic dance. According to ENOTCORP archives, this was the exact moment the Universe finally stopped resisting the madness. SHRK-SHRK. The caravan moves on.",
+  "date": "2026-10-17",
+  "subcategory": {"ru": "ЕНОТКОРП Universe","en": "ENOTCORP Universe"},
+  "tags": ["AI","ENOTCORP","Raccoon","Shiva","Kailash","Fantasy","Comedy","Digital Art"],
+  "tools": ["ChatGPT"],
+  "preview": "assets/media/images/kailash-fated-encounter.png",
+  "media": {"kind": "image","url": "assets/media/images/kailash-fated-encounter.png"
+  }
+},
+
+{
+  "id": "chasing-the-horizon",
+  "type": "image",
+  "featured": false,
+  "title_ru": "Навстречу горизонту",
+  "title_en": "Chasing the Horizon",
+  "description_ru": "Старая просёлочная дорога уходит вдаль, растворяясь в золотом свете закатного солнца. Впереди — тихие деревни, бескрайние поля и неизвестность. Позади остаётся всё, что не имеет значения. Небольшой визуальный эксперимент по улучшению старого изображения с помощью искусственного интеллекта. История о дороге, свободе и простом удовольствии ехать навстречу горизонту.",
+  "description_en": "An old country road stretches into the distance, disappearing into the golden light of the setting sun. Ahead lie quiet villages, endless fields, and the unknown. Behind is everything that no longer matters. A small visual experiment in enhancing an older image using artificial intelligence. A story about the open road, freedom, and the simple joy of riding toward the horizon.",
+  "date": "2026-10-17",
+  "subcategory": {"ru": "Эксперименты","en": "Experiments"},
+  "tags": ["AI","Motorcycle","Road Trip","Sunset","Freedom","Landscape","Image Enhancement","Photography"],
+  "tools": ["ChatGPT"],
+  "preview": "assets/media/images/chasing-the-horizon.png",
+  "media": {"kind": "image","url": "assets/media/images/chasing-the-horizon.png"
+  }
 }
+
 ]

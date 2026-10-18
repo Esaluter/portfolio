@@ -868,5 +868,38 @@
     "url": "assets/media/the-last-jump.mp4",
     "poster": "assets/previews/the-last-jump.jpg"
   }
+},
+
+{
+  "id": "wrong-course",
+  "type": "video",
+  "featured": false,
+  "title_ru": "Неверный курс",
+  "title_en": "Wrong Course",
+  "description_ru": "Капитан современного исследовательского судна решает ненадолго отлучиться и оставляет за штурвалом енота. Казалось бы, что может пойти не так посреди спокойного океана? Но одна загадочная красная кнопка меняет всё. Теперь у корабля совершенно новый маршрут, а у капитана — серьёзные вопросы к экипажу. Фантастическая морская комедия о любопытстве, доверии и незапланированном освоении космоса.",
+  "description_en": "The captain of a modern research vessel steps away for a moment, leaving a raccoon at the helm. What could possibly go wrong in the middle of a calm ocean? But one mysterious red button changes everything. Now the ship has an entirely new destination, and the captain has some serious questions for his crew. A sci-fi maritime comedy about curiosity, trust, and the completely unplanned exploration of space.",
+  "date": "2026-10-18",
+  "duration": "00:30",
+  "subcategory": {
+    "ru": "Короткометражки",
+    "en": "Short Films"
+  },
+  "tags": [
+    "AI",
+    "Comedy",
+    "Raccoon",
+    "Experimental"
+  ],
+  "tools": [
+    "Gemini",
+    "Veo",
+    "ChatGPT"
+  ],
+  "preview": "assets/previews/wrong-course.jpg",
+  "media": {
+    "kind": "video",
+    "url": "assets/media/wrong-course.mp4",
+    "poster": "assets/previews/wrong-course.jpg"
+  }
 }
 ]

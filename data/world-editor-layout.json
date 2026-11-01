@@ -1,6 +1,167 @@
 {
   "version": 1,
-  "objects": [],
+  "objects": [
+    {
+      "id": "object-001",
+      "assetId": "building-cottage",
+      "x": 1405.7458757360573,
+      "y": 1284.6915725610659,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-002",
+      "assetId": "tree-birch",
+      "x": 1915.08134445253,
+      "y": 1095.1300569079574,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-003",
+      "assetId": "tree-birch",
+      "x": 2198.820737984081,
+      "y": 947.4348882702593,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-004",
+      "assetId": "street-bench",
+      "x": 1792.9803759246083,
+      "y": 1157.929577431073,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-005",
+      "assetId": "street-lamp",
+      "x": 1972.0617964322266,
+      "y": 1195.1441081114378,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-006",
+      "assetId": "street-lamp",
+      "x": 2166.2604797099684,
+      "y": 1266.0843072208836,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-007",
+      "assetId": "street-lamp",
+      "x": 1396.4429448005967,
+      "y": 1345.1651849166587,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-008",
+      "assetId": "building-workshop",
+      "x": 2634.2409823930575,
+      "y": 3181.4840674824413,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-009",
+      "assetId": "street-lamp",
+      "x": 2783.0878773604286,
+      "y": 3243.1206339217956,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-010",
+      "assetId": "street-lamp",
+      "x": 2095.8338545032702,
+      "y": 3136.1288582157467,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-011",
+      "assetId": "street-lamp",
+      "x": 2403.9934417404056,
+      "y": 2632.2414343951154,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-012",
+      "assetId": "street-lamp",
+      "x": 1745.3159206961693,
+      "y": 2523.840475441347,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-013",
+      "assetId": "street-bench",
+      "x": 2964.0585426541256,
+      "y": 3271.6927712532765,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-014",
+      "assetId": "tree-deciduous",
+      "x": 3802.638323596845,
+      "y": 3339.5286184773045,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-015",
+      "assetId": "tree-deciduous",
+      "x": 3653.791428629474,
+      "y": 3433.727899261978,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-016",
+      "assetId": "tree-deciduous",
+      "x": 3464.2442108194628,
+      "y": 3396.513368581613,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-017",
+      "assetId": "tree-deciduous",
+      "x": 3133.9901626106084,
+      "y": 3465.127659523536,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-018",
+      "assetId": "tree-deciduous",
+      "x": 2926.560182219024,
+      "y": 2788.2109346037328,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-019",
+      "assetId": "tree-deciduous",
+      "x": 3283.5601568673283,
+      "y": 2545.1535310975996,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-020",
+      "assetId": "tree-deciduous",
+      "x": 1997.0227510950122,
+      "y": 3101.457163767691,
+      "scale": 1,
+      "rotation": 0
+    }
+  ],
   "roads": [],
   "waters": []
 }

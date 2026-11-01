@@ -1294,6 +1294,334 @@
       "y": 131.16596879144993,
       "scale": 1,
       "rotation": 0
+    },
+    {
+      "id": "object-162",
+      "assetId": "desert-cactus-flowering",
+      "x": -1643.785047831752,
+      "y": 1138.5661438704274,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-163",
+      "assetId": "desert-cactus-round",
+      "x": -1436.794834517752,
+      "y": 722.2285818838454,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-164",
+      "assetId": "desert-rock-medium",
+      "x": -905.3649048295599,
+      "y": 1454.8896546535286,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-165",
+      "assetId": "desert-tree-canopy",
+      "x": -1584.4788631181902,
+      "y": 1380.4605932927989,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-166",
+      "assetId": "desert-rock-large",
+      "x": -2461.1726784046286,
+      "y": 541.9366030328133,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-167",
+      "assetId": "desert-tree-dead",
+      "x": -660.6938913415265,
+      "y": 1973.1581593149185,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-168",
+      "assetId": "desert-tree-dead",
+      "x": -1402.9414319941784,
+      "y": 1828.9518529285046,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-169",
+      "assetId": "desert-tree-dead",
+      "x": -2137.0554409862007,
+      "y": 2696.8181999439153,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-170",
+      "assetId": "desert-tree-dead",
+      "x": -2520.8013420739544,
+      "y": 3489.4547663832695,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-171",
+      "assetId": "desert-tree-dead",
+      "x": -1138.4202697606725,
+      "y": 3800.46881758675,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-172",
+      "assetId": "desert-cactus-monument",
+      "x": -1850.439817780976,
+      "y": 3525.060833031241,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-173",
+      "assetId": "desert-cactus-monument",
+      "x": -2030.5244920666955,
+      "y": 1926.5954449695992,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-174",
+      "assetId": "desert-cactus-monument",
+      "x": -2227.7590176069425,
+      "y": 1222.0995571165747,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-175",
+      "assetId": "desert-cactus-monument",
+      "x": -1671.9088942131664,
+      "y": 231.427862668519,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-176",
+      "assetId": "desert-tree-wide",
+      "x": -2680.1140343437187,
+      "y": 1176.0397562260202,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-177",
+      "assetId": "desert-tree-wide",
+      "x": -2589.410457722977,
+      "y": 2386.0104551268487,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-178",
+      "assetId": "desert-tree-wide",
+      "x": -2211.4788884698864,
+      "y": 3109.5157659660345,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-179",
+      "assetId": "desert-pots",
+      "x": -2061.4691271355828,
+      "y": 3490.9647054397747,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-180",
+      "assetId": "desert-bones",
+      "x": -1362.4919542856833,
+      "y": 2826.801751356013,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-181",
+      "assetId": "desert-bush",
+      "x": -1857.9675129223804,
+      "y": 711.727899261978,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-182",
+      "assetId": "desert-bush",
+      "x": -2501.0326138361,
+      "y": 168.6283421454033,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-183",
+      "assetId": "desert-bush",
+      "x": -2505.684079303831,
+      "y": 1897.485266174652,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-184",
+      "assetId": "desert-bush",
+      "x": -1575.1727037563246,
+      "y": 3153.1511337131783,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-185",
+      "assetId": "desert-cactus-large",
+      "x": -782.1694499782233,
+      "y": 3562.0632304156625,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-186",
+      "assetId": "desert-cactus-large",
+      "x": -1116.902361305268,
+      "y": 3028.188659106301,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-187",
+      "assetId": "desert-rock-large",
+      "x": -733.4463253371783,
+      "y": 2519.7877001525326,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-188",
+      "assetId": "desert-tree-canopy",
+      "x": -688.0945370268073,
+      "y": 1498.645822873992,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-189",
+      "assetId": "desert-tree-wide",
+      "x": -923.5277711964925,
+      "y": 622.18043481235,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-190",
+      "assetId": "desert-tree-canopy",
+      "x": -1120.0521872080997,
+      "y": 330.2789597882382,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-191",
+      "assetId": "desert-tree-wide",
+      "x": -689.7916314430429,
+      "y": 246.54626575741722,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-192",
+      "assetId": "desert-tree-dead",
+      "x": -1421.2345762436394,
+      "y": 575.662271461894,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-193",
+      "assetId": "desert-rock-medium",
+      "x": -1128.1922517766277,
+      "y": 490.7666233473117,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-194",
+      "assetId": "desert-rock-large",
+      "x": -1727.0684307469096,
+      "y": 554.7290979541888,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-195",
+      "assetId": "desert-cactus-cluster",
+      "x": -1957.6450086149202,
+      "y": 949.9002763319012,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-196",
+      "assetId": "desert-cactus-round",
+      "x": -2527.77854027555,
+      "y": 841.7455465420908,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-197",
+      "assetId": "desert-tree-canopy",
+      "x": -2661.508172472797,
+      "y": 3866.75720036115,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-198",
+      "assetId": "desert-tree-dead",
+      "x": -1761.2606318201451,
+      "y": 3828.3797155970237,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-199",
+      "assetId": "desert-cactus-cluster",
+      "x": -1252.0424005220998,
+      "y": 3302.024506330329,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-200",
+      "assetId": "desert-cactus-cluster",
+      "x": -1492.9316453081788,
+      "y": 2455.6317716705116,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-201",
+      "assetId": "desert-cactus-cluster",
+      "x": -1379.1140596954147,
+      "y": 288.4126127728277,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-202",
+      "assetId": "desert-cactus-cluster",
+      "x": -1101.1889979985265,
+      "y": 850.9378017250241,
+      "scale": 1,
+      "rotation": 0
     }
   ],
   "roads": [

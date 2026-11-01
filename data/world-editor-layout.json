@@ -160,8 +160,1232 @@
       "y": 3101.457163767691,
       "scale": 1,
       "rotation": 0
+    },
+    {
+      "id": "object-021",
+      "assetId": "surface-pavers",
+      "x": 2125.192099666451,
+      "y": 310.29420968392947,
+      "scale": 1,
+      "rotation": 0,
+      "width": 720,
+      "height": 520
+    },
+    {
+      "id": "object-022",
+      "assetId": "building-github",
+      "x": 1903.586263147226,
+      "y": 238.4055871710874,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-023",
+      "assetId": "surface-asphalt",
+      "x": -371.79483451775184,
+      "y": 965.0867046053049,
+      "scale": 1,
+      "rotation": 0,
+      "width": 720,
+      "height": 520
+    },
+    {
+      "id": "object-024",
+      "assetId": "building-cinema",
+      "x": -475.289941174752,
+      "y": 1062.7748476412626,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-025",
+      "assetId": "tree-poplar",
+      "x": 187.72199243774435,
+      "y": 1962.521566012415,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-026",
+      "assetId": "tree-poplar",
+      "x": 529.6797279525008,
+      "y": 1843.1499565114866,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-027",
+      "assetId": "tree-poplar",
+      "x": 53.57077833121889,
+      "y": 1821.9295129595153,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-028",
+      "assetId": "tree-poplar",
+      "x": 353.590300999826,
+      "y": 1683.200345161139,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-029",
+      "assetId": "tree-poplar",
+      "x": 214.87159697025504,
+      "y": 1497.6904114772638,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-030",
+      "assetId": "tree-poplar",
+      "x": -65.79182746166771,
+      "y": 1667.0690465799323,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-031",
+      "assetId": "tree-poplar",
+      "x": -243.98369647942218,
+      "y": 1459.7185138842246,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-032",
+      "assetId": "tree-poplar",
+      "x": 67.32688349391765,
+      "y": 1362.9307223969854,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-033",
+      "assetId": "tree-deciduous",
+      "x": -9.245469781244083,
+      "y": 632.9249062327157,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-034",
+      "assetId": "tree-deciduous",
+      "x": -173.7723047930608,
+      "y": 613.5673479352679,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-035",
+      "assetId": "tree-deciduous",
+      "x": 76.24396409744531,
+      "y": 589.370400063458,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-036",
+      "assetId": "tree-deciduous",
+      "x": -377.01133627824606,
+      "y": 607.1148285027853,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-037",
+      "assetId": "street-bench",
+      "x": -123.72678652971604,
+      "y": 1004.5661384977975,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-038",
+      "assetId": "street-lamp",
+      "x": -188.24711398533054,
+      "y": 931.975294882368,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-039",
+      "assetId": "street-lamp",
+      "x": -647.9544471065833,
+      "y": 1078.7701119713474,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-040",
+      "assetId": "surface-pavers",
+      "x": 4162.6830430920545,
+      "y": 821.2376887378953,
+      "scale": 1,
+      "rotation": 0,
+      "width": 720,
+      "height": 520
+    },
+    {
+      "id": "object-041",
+      "assetId": "game-snake-arcade",
+      "x": 4431.5317062626245,
+      "y": 666.9334208188947,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-042",
+      "assetId": "game-money-button",
+      "x": 3867.85866367312,
+      "y": 657.8412343458509,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-043",
+      "assetId": "game-useless-box",
+      "x": 3858.767162986193,
+      "y": 947.4923177013857,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-044",
+      "assetId": "tree-birch",
+      "x": 3247.108881982267,
+      "y": 1681.7296125321893,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-045",
+      "assetId": "tree-birch",
+      "x": 3765.324421137134,
+      "y": 1636.2686801669709,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-046",
+      "assetId": "tree-birch",
+      "x": 3363.999605099906,
+      "y": 1871.3666446842435,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-047",
+      "assetId": "tree-birch",
+      "x": 2908.125784941113,
+      "y": 1975.2773472333142,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-048",
+      "assetId": "tree-birch",
+      "x": 2462.642251281666,
+      "y": 1888.2521338484676,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-049",
+      "assetId": "tree-birch",
+      "x": 2361.336957913046,
+      "y": 1524.5646749267198,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-050",
+      "assetId": "tree-birch",
+      "x": 2839.290136882948,
+      "y": 1538.852396527217,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-051",
+      "assetId": "tree-birch",
+      "x": 2648.368622457471,
+      "y": 1668.7407747135553,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-052",
+      "assetId": "tree-birch",
+      "x": 3121.1266581777004,
+      "y": 1784.3414312993966,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-053",
+      "assetId": "tree-birch",
+      "x": 2892.540355192095,
+      "y": 1707.7072881694571,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-054",
+      "assetId": "tree-birch",
+      "x": 2413.2883904097744,
+      "y": 1670.0396584954187,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-055",
+      "assetId": "tree-birch",
+      "x": 2704.216412391454,
+      "y": 1873.9644122479701,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-056",
+      "assetId": "tree-birch",
+      "x": 2117.7662897496057,
+      "y": 1524.3439264144195,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-057",
+      "assetId": "tree-birch",
+      "x": 2083.827872365282,
+      "y": 1912.7101771915713,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-058",
+      "assetId": "tree-birch",
+      "x": 1911.0893593136598,
+      "y": 1765.936309841009,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-059",
+      "assetId": "tree-birch",
+      "x": 1722.7654165130189,
+      "y": 1798.4084043875937,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-060",
+      "assetId": "tree-birch",
+      "x": 1647.0780906744287,
+      "y": 1597.4923177013857,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-061",
+      "assetId": "tree-birch",
+      "x": 1310.6925652581117,
+      "y": 1635.1599473754236,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-062",
+      "assetId": "tree-birch",
+      "x": 1490.9193730522095,
+      "y": 1804.2827313704515,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-063",
+      "assetId": "tree-birch",
+      "x": 1166.1873675567897,
+      "y": 1853.64031508126,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-064",
+      "assetId": "tree-birch",
+      "x": 1009.0342842541859,
+      "y": 1660.1066315836158,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-065",
+      "assetId": "tree-birch",
+      "x": 893.442346948965,
+      "y": 1971.838739230828,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-066",
+      "assetId": "tree-birch",
+      "x": 738.8868352711977,
+      "y": 1731.545239586102,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-067",
+      "assetId": "tree-flowering",
+      "x": 999.9848435143275,
+      "y": 1225.60643463007,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-068",
+      "assetId": "tree-flowering",
+      "x": 1171.4245707535315,
+      "y": 1407.4501640909439,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-069",
+      "assetId": "tree-flowering",
+      "x": 1682.2602188116969,
+      "y": 1019.4865396571566,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-070",
+      "assetId": "shrub-berry",
+      "x": 1755.4254439901185,
+      "y": 1423.9921207478396,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-071",
+      "assetId": "stone-whispering",
+      "x": 1570.6934384946985,
+      "y": 1808.651477262626,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-072",
+      "assetId": "stone-whispering",
+      "x": 796.2948979659766,
+      "y": 1420.2852264854744,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-073",
+      "assetId": "shrub-green",
+      "x": 1471.8456485607155,
+      "y": 1358.2099802380258,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-074",
+      "assetId": "shrub-green",
+      "x": 3032.962306235866,
+      "y": 1922.0619828581512,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-075",
+      "assetId": "shrub-green",
+      "x": 3299.2133977815993,
+      "y": 1710.3439264144195,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-076",
+      "assetId": "shrub-green",
+      "x": 3073.5542435410866,
+      "y": 2736.0003939070916,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-077",
+      "assetId": "shrub-green",
+      "x": 3237.201255905781,
+      "y": 2541.167826627584,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-078",
+      "assetId": "desert-cactus-large",
+      "x": -1018.9865065511019,
+      "y": 2552.1095206057303,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-079",
+      "assetId": "desert-cactus-large",
+      "x": -2381.4128237778077,
+      "y": 2753.4365067945546,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-080",
+      "assetId": "desert-cactus-large",
+      "x": -2052.820013236,
+      "y": 2411.8300721644846,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-081",
+      "assetId": "desert-cactus-large",
+      "x": -1893.0693583085595,
+      "y": 1613.9780695443592,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-082",
+      "assetId": "desert-cactus-large",
+      "x": -1195.6213770399788,
+      "y": 1424.3410373923052,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-083",
+      "assetId": "desert-cactus-large",
+      "x": -2560.278389907224,
+      "y": 1500.9751805222447,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-084",
+      "assetId": "building-warehouse",
+      "x": -199.12530660462028,
+      "y": 3030.1930400124306,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-085",
+      "assetId": "desert-dry-grass",
+      "x": -710.2727555876086,
+      "y": 3437.7490478728073,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-086",
+      "assetId": "desert-dry-grass",
+      "x": -1098.5286082163707,
+      "y": 3264.9975048849774,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-087",
+      "assetId": "building-analytics",
+      "x": 2925.9408265605043,
+      "y": 413.1728016930673,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-088",
+      "assetId": "tree-poplar",
+      "x": -394.20329225302817,
+      "y": 2834.255322636003,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-089",
+      "assetId": "tree-poplar",
+      "x": -268.3127474469852,
+      "y": 2798.956245740657,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-090",
+      "assetId": "tree-poplar",
+      "x": -63.59354374370014,
+      "y": 2810.722604705772,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-091",
+      "assetId": "tree-poplar",
+      "x": 87.0044911644635,
+      "y": 2894.263753358091,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-092",
+      "assetId": "tree-poplar",
+      "x": 59.94390676690273,
+      "y": 3049.579691697614,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-093",
+      "assetId": "tree-poplar",
+      "x": 296.4298834586284,
+      "y": 3021.340430181337,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-094",
+      "assetId": "tree-poplar",
+      "x": 511.73801149139376,
+      "y": 2973.098358424364,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-095",
+      "assetId": "tree-poplar",
+      "x": 401.14257960571103,
+      "y": 2875.4375790139065,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-096",
+      "assetId": "tree-poplar",
+      "x": 191.717187311546,
+      "y": 2870.7310354278607,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-097",
+      "assetId": "tree-poplar",
+      "x": 288.1940534245882,
+      "y": 2693.0590150546186,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-098",
+      "assetId": "tree-poplar",
+      "x": 28.177133778462007,
+      "y": 2634.2272202290414,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-099",
+      "assetId": "tree-poplar",
+      "x": -153.2841141996944,
+      "y": 2583.3833841162295,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-100",
+      "assetId": "tree-poplar",
+      "x": -354.47367645981933,
+      "y": 2549.260943117395,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-101",
+      "assetId": "tree-spruce",
+      "x": 392.35237941494165,
+      "y": 2302.9245327685485,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-102",
+      "assetId": "tree-spruce",
+      "x": 119.41036079002117,
+      "y": 2447.391814838318,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-103",
+      "assetId": "tree-spruce",
+      "x": -280.71471253882146,
+      "y": 2294.4291482918184,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-104",
+      "assetId": "tree-spruce",
+      "x": -47.07040985674246,
+      "y": 1904.258132876699,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-105",
+      "assetId": "tree-spruce",
+      "x": -382.83327831146175,
+      "y": 1575.557209772045,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-106",
+      "assetId": "tree-spruce",
+      "x": 296.23381364230124,
+      "y": 1188.688081492968,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-107",
+      "assetId": "tree-spruce",
+      "x": 276.23251213106084,
+      "y": 815.6945022988109,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-108",
+      "assetId": "tree-spruce",
+      "x": 144.44751798525328,
+      "y": 959.9365740557839,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-109",
+      "assetId": "tree-spruce",
+      "x": 552.4592315864176,
+      "y": 1023.6832613360264,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-110",
+      "assetId": "tree-spruce",
+      "x": 613.6396832678591,
+      "y": 1433.152553322041,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-111",
+      "assetId": "tree-spruce",
+      "x": 1059.281382927457,
+      "y": 797.7282251871643,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-112",
+      "assetId": "tree-spruce",
+      "x": 1599.3165237309502,
+      "y": 755.369332912749,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-113",
+      "assetId": "tree-spruce",
+      "x": 1340.476151232544,
+      "y": 618.910481565068,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-114",
+      "assetId": "tree-spruce",
+      "x": 1544.018807788109,
+      "y": 278.8627074732341,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-115",
+      "assetId": "tree-spruce",
+      "x": 795.7348218381708,
+      "y": 318.86832795462635,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-116",
+      "assetId": "tree-spruce",
+      "x": 719.9308916544979,
+      "y": 728.0048201569415,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-117",
+      "assetId": "tree-spruce",
+      "x": 2627.4774527437844,
+      "y": 315.3384202650917,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-118",
+      "assetId": "tree-spruce",
+      "x": 3371.2468287547063,
+      "y": 336.5178664022994,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-119",
+      "assetId": "tree-spruce",
+      "x": 3804.5843049152604,
+      "y": 347.1075894709032,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-120",
+      "assetId": "tree-spruce",
+      "x": 4238.730202423951,
+      "y": 422.4122868476415,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-121",
+      "assetId": "tree-spruce",
+      "x": 4585.81161100136,
+      "y": 418.8823791581069,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-122",
+      "assetId": "tree-spruce",
+      "x": 4636.40313835332,
+      "y": 891.7824200848413,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-123",
+      "assetId": "tree-spruce",
+      "x": 4430.910528541768,
+      "y": 2194.1226589802704,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-124",
+      "assetId": "tree-spruce",
+      "x": 4414.516019106326,
+      "y": 3383.04138280995,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-125",
+      "assetId": "tree-spruce",
+      "x": 3392.7558756562,
+      "y": 3747.80818905166,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-126",
+      "assetId": "tree-spruce",
+      "x": 3992.794920993414,
+      "y": 3772.4018082000566,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-127",
+      "assetId": "tree-spruce",
+      "x": 2910.552113382276,
+      "y": 3567.4549819634162,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-128",
+      "assetId": "tree-spruce",
+      "x": 1860.2132208913904,
+      "y": 3649.4337124580725,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-129",
+      "assetId": "tree-spruce",
+      "x": 1011.3960378987317,
+      "y": 3670.748182386683,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-130",
+      "assetId": "tree-spruce",
+      "x": -190.88073009139384,
+      "y": 3713.3771222439045,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-131",
+      "assetId": "tree-spruce",
+      "x": 173.07737937544107,
+      "y": 3016.5579130393266,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-132",
+      "assetId": "tree-spruce",
+      "x": 876.4018341559463,
+      "y": 3232.981761545219,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-133",
+      "assetId": "tree-spruce",
+      "x": 414.0766680764534,
+      "y": 3159.2009041000283,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-134",
+      "assetId": "shrub-green",
+      "x": -28.575086680507866,
+      "y": 3228.0630377155394,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-135",
+      "assetId": "shrub-green",
+      "x": -422.0433131311404,
+      "y": 2916.543861835846,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-136",
+      "assetId": "shrub-green",
+      "x": -172.8467697124065,
+      "y": 2727.815792753769,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-137",
+      "assetId": "shrub-green",
+      "x": -17.098930075697808,
+      "y": 2671.4622002652795,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-138",
+      "assetId": "shrub-green",
+      "x": 345.21972844759284,
+      "y": 2343.6281690567293,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-139",
+      "assetId": "shrub-green",
+      "x": 81.26812653696015,
+      "y": 1898.2643272158139,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-140",
+      "assetId": "shrub-green",
+      "x": -167.9284168817735,
+      "y": 1704.7945232484253,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-141",
+      "assetId": "shrub-green",
+      "x": 422.0022397622763,
+      "y": 1449.5328416829284,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-142",
+      "assetId": "shrub-green",
+      "x": 981.9408265605043,
+      "y": 780.4375143091271,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-143",
+      "assetId": "shrub-green",
+      "x": 1647.6547058182257,
+      "y": 459.0808907700748,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-144",
+      "assetId": "shrub-green",
+      "x": 340.276056691138,
+      "y": 344.31066807755604,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-145",
+      "assetId": "shrub-green",
+      "x": 2615.791258633162,
+      "y": 647.6319709077841,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-146",
+      "assetId": "shrub-green",
+      "x": 3191.4856152222765,
+      "y": 944.3949752984395,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-147",
+      "assetId": "shrub-green",
+      "x": 3604.627252995441,
+      "y": 306.6004520500142,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-148",
+      "assetId": "tree-flowering",
+      "x": 2033.5484510220242,
+      "y": 2324.5787971444242,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-149",
+      "assetId": "street-lamp",
+      "x": -77.43273760835632,
+      "y": 3061.8792158695546,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-150",
+      "assetId": "street-lamp",
+      "x": 1724.3425548511373,
+      "y": 3444.486886221432,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-151",
+      "assetId": "street-lamp",
+      "x": 1112.1936982227833,
+      "y": 3523.186467496302,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-152",
+      "assetId": "street-lamp",
+      "x": 299.9292340460747,
+      "y": 3588.769451892027,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-153",
+      "assetId": "street-lamp",
+      "x": 2537.526083157466,
+      "y": 2234.554111188272,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-154",
+      "assetId": "street-lamp",
+      "x": 2570.315102028352,
+      "y": 1934.5119575778303,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-155",
+      "assetId": "street-lamp",
+      "x": 3299.6893774962004,
+      "y": 2150.9358060837226,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-156",
+      "assetId": "street-lamp",
+      "x": 3243.9480454156947,
+      "y": 1826.3000333248842,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-157",
+      "assetId": "street-lamp",
+      "x": 3244.0969020440484,
+      "y": 1351.6779263692802,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-158",
+      "assetId": "street-lamp",
+      "x": 3586.7421492448075,
+      "y": 1345.1196279297078,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-159",
+      "assetId": "street-lamp",
+      "x": 2695.886632213922,
+      "y": 1251.6638751657997,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-160",
+      "assetId": "street-lamp",
+      "x": 3042.7630945113897,
+      "y": 678.7838884957533,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-161",
+      "assetId": "street-bench",
+      "x": 2390.913373737719,
+      "y": 131.16596879144993,
+      "scale": 1,
+      "rotation": 0
     }
   ],
-  "roads": [],
-  "waters": []
+  "roads": [
+    {
+      "id": "road-001",
+      "material": "asphalt",
+      "width": 82,
+      "points": [
+        {
+          "x": -360.08797876721286,
+          "y": 1039.9905770138382
+        },
+        {
+          "x": 510.1837865176092,
+          "y": 2034.0385252980304
+        }
+      ]
+    },
+    {
+      "id": "road-002",
+      "material": "asphalt",
+      "width": 82,
+      "points": [
+        {
+          "x": -292.4735331568969,
+          "y": 2964.8383453237366
+        },
+        {
+          "x": -362.60796702748036,
+          "y": 3189.545239586102
+        },
+        {
+          "x": -37.91151392292704,
+          "y": 3457.115298649959
+        },
+        {
+          "x": 1259.5755126828676,
+          "y": 3362.296782573932
+        },
+        {
+          "x": 2138.8053350868204,
+          "y": 3232.4084043875937
+        }
+      ]
+    },
+    {
+      "id": "road-003",
+      "material": "gravel",
+      "width": 82,
+      "points": [
+        {
+          "x": 2176.7117453607584,
+          "y": 1073.9213694799962
+        },
+        {
+          "x": 2361.9697019812643,
+          "y": 1093.5962647987137
+        },
+        {
+          "x": 2853.804985044555,
+          "y": 1028.0132804029888
+        },
+        {
+          "x": 2914.4646699556943,
+          "y": 354.14811573691486
+        }
+      ]
+    }
+  ],
+  "waters": [
+    {
+      "id": "water-001",
+      "kind": "lake",
+      "width": 120,
+      "points": [
+        {
+          "x": 1445.6223337129654,
+          "y": 2300.6341431299397
+        },
+        {
+          "x": 359.8373945313392,
+          "y": 2465.5923834265895
+        },
+        {
+          "x": 1101.4440934221388,
+          "y": 3129.3219959587786
+        },
+        {
+          "x": 1730.056426632554,
+          "y": 2903.31621791455
+        }
+      ]
+    }
+  ]
 }

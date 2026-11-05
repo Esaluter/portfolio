@@ -2640,6 +2640,22 @@
       "y": 3185.466002116334,
       "scale": 1,
       "rotation": 0
+    },
+    {
+      "id": "object-367",
+      "assetId": "tree-spruce",
+      "x": 1307.1074507324279,
+      "y": 1724.382112981445,
+      "scale": 1,
+      "rotation": 0
+    },
+    {
+      "id": "object-368",
+      "assetId": "tree-spruce",
+      "x": 1246.6383996519335,
+      "y": 2160.4898943919707,
+      "scale": 1,
+      "rotation": 0
     }
   ],
   "roads": [
